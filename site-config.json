@@ -1,0 +1,31 @@
+{
+  "title": "Casa Bernat",
+  "titleTemplate": "%s · Casa Bernat",
+  "description": "Casa Bernat Isil",
+  "siteUrl": "https://casabernatisil.com",
+  "image": "/images/Logo.png",
+  "color": "#b7aa2e",
+  "author": {
+    "name": "Recreant",
+    "description": "Recreant · Disseny gràfic i comunicació",
+    "url": "https://recreant.cat/"
+  },
+  "organization": {
+    "name": "Casa Bernat",
+    "url": "https://casabernatisil.com",
+    "logo": "/images/Logo.png",
+    "email": "info@casabernatisil.com",
+    "phone": {
+      "number": 34600849334,
+      "title": "600 84 93 34"
+    },
+    "address": "Plaça de la Casalta 8"
+  },
+  "social": {
+    "instagram": {
+      "username": "casabernat_isil",
+      "title": "Instagram",
+      "baseUrl": "https://www.instagram.com/"
+    }
+  }
+}
