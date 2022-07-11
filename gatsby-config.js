@@ -1,6 +1,6 @@
-const config = require("./site-config.json");
+const config = require("./site-config.json")
 
-console.log(config);
+console.log(config)
 
 module.exports = {
   siteMetadata: config,
@@ -145,4 +145,4 @@ module.exports = {
       },
     },
   ],
-};
+}
