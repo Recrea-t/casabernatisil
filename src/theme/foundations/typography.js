@@ -1,6 +1,6 @@
 export default {
   fonts: {
-    body: "Montserrat, 'Playfair Display', sans-serif",
-    heading: "Montserrat, 'Playfair Display', sans-serif",
+    body: "Halcom, sans-serif",
+    heading: "Halcom, sans-serif",
   },
-};
+}

@@ -139,10 +139,18 @@ module.exports = {
     },
     //"gatsby-plugin-netlify-cms",
     {
-      resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
+      resolve: "gatsby-plugin-web-font-loader",
       options: {
-        devMode: false,
+        typekit: {
+          id: process.env.TYPEKIT_ID,
+        },
       },
     },
+    //{
+    //resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
+    //options: {
+    //devMode: false,
+    //},
+    //},
   ],
 }
