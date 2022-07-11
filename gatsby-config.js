@@ -1,6 +1,6 @@
-const config = require("./site-config.json")
+const config = require("./site-config.json");
 
-console.log(config)
+console.log(config);
 
 module.exports = {
   siteMetadata: config,
@@ -137,7 +137,7 @@ module.exports = {
         ],
       },
     },
-    "gatsby-plugin-netlify-cms",
+    //"gatsby-plugin-netlify-cms",
     {
       resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
       options: {
@@ -145,4 +145,4 @@ module.exports = {
       },
     },
   ],
-}
+};
