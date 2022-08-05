@@ -6,7 +6,7 @@ import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons"
 //import { EASINGS } from "../../theme/utils"
 
 const ToggleMenu = props => {
-  const { show, toggleMenu, children } = props
+  const { isOpen, onOpen, onClose, children } = props
 
   return (
     <>
@@ -22,21 +22,21 @@ const ToggleMenu = props => {
           ease: EASINGS.easeInOutCubic,
           duration: 0.2,
         }}
-        isOpen={show}
+        isOpen={onOpen}
         onClick={toggleMenu}
       />
 			*/}
 
       <Box
         display={{ base: "block", md: "none" }}
-        onClick={toggleMenu}
+        onClick={isOpen ? onClose : onOpen}
         aria-label="Toggle navigation"
       >
-        {show ? <CloseIcon w={8} h={8} /> : <HamburgerIcon w={8} h={8} />}
+        {isOpen ? <CloseIcon w={8} h={8} /> : <HamburgerIcon w={8} h={8} />}
       </Box>
 
-      <Box display={show ? "block" : "none"} flexBasis="100%">
-        <Collapse in={show} unmountOnExit>
+      <Box display={isOpen ? "block" : "none"} flexBasis="100%">
+        <Collapse in={isOpen} unmountOnExit>
           <Flex align="center" justify="center" direction="column" pt={4}>
             {children}
           </Flex>

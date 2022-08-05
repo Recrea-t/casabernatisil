@@ -1,0 +1,39 @@
+{
+  "menuItems": [
+    {
+      "name": "Qui sommes nous",
+      "link": "/qui-sommes-nous",
+      "variant": "nav-sublink"
+    },
+    {
+      "name": "Histoire",
+      "link": "/histoire",
+      "variant": "nav-sublink"
+    },
+    {
+      "name": "Les espaces",
+      "link": "/espaces",
+      "variant": "nav-sublink"
+    },
+    {
+      "name": "Réservations",
+      "link": "/reservations",
+      "variant": "nav-link"
+    },
+    {
+      "name": "Activités",
+      "link": "/activites",
+      "variant": "nav-link"
+    },
+    {
+      "name": "El Rebost",
+      "link": "/rebost",
+      "variant": "nav-link"
+    },
+    {
+      "name": "Contact",
+      "link": "/contact",
+      "variant": "nav-link"
+    }
+  ]
+}

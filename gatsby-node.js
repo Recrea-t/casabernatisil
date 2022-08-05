@@ -47,73 +47,33 @@ exports.createPages = ({ actions, graphql }) => {
       return Promise.reject(result.errors)
     }
 
-    // Posts and Pages created by markdown
     const contentMarkdown = result.data.files.edges
-
-    // Total of posts (only posts, no pages) per locale
-    // It will be increase by the next loop
-    let postsTotal = {}
-    Object.keys(locales).forEach(item => {
-      postsTotal[item] = 0
-    })
 
     contentMarkdown.forEach(edge => {
       const id = edge.node.id
       // Getting Slug and Title
       const slug = edge.node.fields.slug
       const title = edge.node.frontmatter.title
+      const templateKey = edge.node.frontmatter.templateKey
 
       // Use the fields created in exports.onCreateNode
       const locale = edge.node.fields.locale
       const isDefault = edge.node.fields.isDefault
 
-      const isPage = edge.node.frontmatter.templateKey !== "post-page"
-
-      // Count posts
-      postsTotal[locale] = isPage
-        ? postsTotal[locale] + 0
-        : postsTotal[locale] + 1
-
       createPage({
-        path: localizedSlug({ isDefault, locale, slug, isPage }),
+        path: localizedSlug({ isDefault, locale, slug }),
         tags: edge.node.frontmatter.tags,
-        component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
-        ),
+        component: path.resolve(`src/templates/${String(templateKey)}.js`),
         // additional data can be passed via context
         matchPath: !isDefault && slug === "404" ? `/${locale}/*` : null,
         context: {
           id,
           locale,
           title,
+          templateKey,
         },
       })
     })
-
-    // Tag pages
-    //let tags = []
-
-    // Iterate through each post, putting all found tags into `tags`
-    //contentMarkdown.forEach(edge => {
-    //if (_.get(edge, `node.frontmatter.tags`)) {
-    //tags = tags.concat(edge.node.frontmatter.tags)
-    //}
-    //})
-
-    // Eliminate duplicate tags
-    //tags = _.uniq(tags)
-
-    // Make tag pages
-    //tags.forEach(tag => {
-    //const tagPath = `/tags/${_.kebabCase(tag)}/`
-    //createPage({
-    //path: tagPath,
-    //component: path.resolve(`src/templates/tags-page.js`),
-    //context: {
-    //tag,
-    //},
-    //})
-    //})
   })
 }
 
@@ -186,5 +146,10 @@ exports.onCreateNode = ({ node, actions }) => {
     createNodeField({ node, name: `slug`, value: slug })
     createNodeField({ node, name: `locale`, value: lang })
     createNodeField({ node, name: `isDefault`, value: isDefault })
+    createNodeField({
+      node,
+      name: `templateKey`,
+      value: node.frontmatter.templateKey,
+    })
   }
 }

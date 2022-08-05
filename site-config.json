@@ -15,17 +15,28 @@
     "url": "https://casabernatisil.com",
     "logo": "/images/Logo.png",
     "email": "info@casabernatisil.com",
-    "phone": {
-      "number": 34600849334,
-      "title": "600 84 93 34"
-    },
-    "address": "Plaça de la Casalta 8"
+    "phones": [
+      {
+        "number": 34600849334,
+        "title": "600 84 93 34"
+      },
+      {
+        "number": 34608238496,
+        "title": "608 23 84 96"
+      }
+    ],
+    "address": "Plaça de la Casalta 8<br/>25586 Isil (Lleida)"
   },
   "social": {
     "instagram": {
       "username": "casabernat_isil",
       "title": "Instagram",
       "baseUrl": "https://www.instagram.com/"
+    },
+    "whatsapp": {
+      "username": "34600849334",
+      "title": "WhatsApp",
+      "baseUrl": "https://wa.me/"
     }
   }
 }

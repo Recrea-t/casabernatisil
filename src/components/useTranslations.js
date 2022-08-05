@@ -32,11 +32,10 @@ const query = graphql`
           name
           translations: childTranslationsJson {
             home
-
-            latestPosts
-            category
-            allPosts
-            toRead
+            menuTitle
+            spaces
+            activities
+            rebost
 
             next
             prev
@@ -57,6 +56,7 @@ const query = graphql`
             legalNote
             privacyPolicy
 
+            reservation
             submit
             submitting
             errorConditions

@@ -41,6 +41,10 @@ const query = graphql`
                 title
                 link
               }
+              fr {
+                title
+                link
+              }
             }
           }
         }

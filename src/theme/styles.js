@@ -4,7 +4,7 @@ const styles = {
       //scrollBehavior: "smooth",
     },
     body: {
-      color: "dimGray.500",
+      color: "staleGrey.500",
     },
     ".markdown": {
       li: {
@@ -12,8 +12,44 @@ const styles = {
       },
     },
     ".is-active": {
-      color: "#63656A !important",
-      textDecoration: "none",
+      textDecoration: "underline",
+    },
+    ".scrollable": {
+      "overflow-x": "scroll",
+      "overflow-y": "hidden",
+      "-webkit-overflow-scrolling": "touch",
+
+      "&::-webkit-scrollbar": {
+        display: "none",
+      },
+    },
+    ".is-slider": {
+      position: "relative",
+      width: "100%",
+      height: "100%",
+      margin: 0,
+      padding: 0,
+
+      ".slick-slide": {
+        padding: "0 1rem",
+        overflow: "hidden",
+      },
+      ".slick-list": {
+        height: "100%",
+        margin: "0 -2rem",
+
+        ".slick-track": {
+          height: "100%",
+
+          ".slick-slide": {
+            height: "100%",
+
+            "> div": {
+              height: "100%",
+            },
+          },
+        },
+      },
     },
   },
 }

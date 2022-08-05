@@ -12,6 +12,7 @@ import Container from "./components/container"
 import Heading from "./components/heading"
 import Button from "./components/button"
 import Link from "./components/link"
+import Menu from "./components/menu"
 
 const overrides = {
   styles,
@@ -24,6 +25,7 @@ const overrides = {
     Button,
     CloseButton: { ...Button },
     Link,
+    Menu,
     FormLabel,
   },
 }

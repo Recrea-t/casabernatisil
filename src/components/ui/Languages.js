@@ -5,7 +5,7 @@ import locales from "../../../data/i18n"
 import { useLocale } from "../../hooks/locale"
 import useLanguageMapping from "../useLanguageMapping"
 
-import { HStack, Link } from "@chakra-ui/react"
+import { HStack, Link, StackDivider } from "@chakra-ui/react"
 
 const Languages = () => {
   // Grab the locale (passed through context) from the Locale Provider
@@ -54,7 +54,7 @@ const Languages = () => {
   }
 
   return (
-    <HStack spacing={4}>
+    <HStack spacing={1} divider={<StackDivider />}>
       <Link
         to="/"
         title="Català"
@@ -93,6 +93,19 @@ const Languages = () => {
         className={locale === "en" ? "is-active" : ""}
       >
         ENG
+      </Link>
+      <Link
+        to="/"
+        title="Français"
+        as={GatsbyLink}
+        variant="nav-link"
+        onClick={e => {
+          e.preventDefault()
+          handleClickLanguage("fr")
+        }}
+        className={locale === "fr" ? "is-active" : ""}
+      >
+        FR
       </Link>
     </HStack>
   )

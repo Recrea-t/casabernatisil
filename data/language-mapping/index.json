@@ -12,6 +12,10 @@
       "en": {
         "title": "Home",
         "link": "/"
+      },
+      "fr": {
+        "title": "Home",
+        "link": "/"
       }
     },
     {
@@ -24,6 +28,10 @@
         "link": "/404"
       },
       "en": {
+        "title": "404",
+        "link": "/404"
+      },
+      "fr": {
         "title": "404",
         "link": "/404"
       }
@@ -38,22 +46,102 @@
         "link": "/quienes-somos"
       },
       "en": {
-        "title": "About us",
-        "link": "/about"
+        "title": "About-us",
+        "link": "/about-us"
+      },
+      "fr": {
+        "title": "Qui sommes nous?",
+        "link": "/qui-sommes-nous"
       }
     },
     {
       "ca": {
-        "title": "Blog",
-        "link": "/blog"
+        "title": "La nostra història",
+        "link": "/historia"
       },
       "es": {
-        "title": "Blog",
-        "link": "/blog"
+        "title": "Nuestra historia",
+        "link": "/historia"
       },
       "en": {
-        "title": "Blog",
-        "link": "/blog"
+        "title": "Our history",
+        "link": "/history"
+      },
+      "fr": {
+        "title": "L'histoire",
+        "link": "/histoire"
+      }
+    },
+    {
+      "ca": {
+        "title": "Els espais",
+        "link": "/espais"
+      },
+      "es": {
+        "title": "Los espacios",
+        "link": "/espacios"
+      },
+      "en": {
+        "title": "The spaces",
+        "link": "/spaces"
+      },
+      "fr": {
+        "title": "Les espaces",
+        "link": "/espaces"
+      }
+    },
+    {
+      "ca": {
+        "title": "Reserves",
+        "link": "/reserves"
+      },
+      "es": {
+        "title": "Reservas",
+        "link": "/reservas"
+      },
+      "en": {
+        "title": "Reservations",
+        "link": "/reservations"
+      },
+      "fr": {
+        "title": "Réservations",
+        "link": "/reservations"
+      }
+    },
+    {
+      "ca": {
+        "title": "Activitats",
+        "link": "/activitats"
+      },
+      "es": {
+        "title": "Actividades",
+        "link": "/actividades"
+      },
+      "en": {
+        "title": "Activities",
+        "link": "/activities"
+      },
+      "fr": {
+        "title": "Activités",
+        "link": "/activites"
+      }
+    },
+    {
+      "ca": {
+        "title": "El Rebost",
+        "link": "/rebost"
+      },
+      "es": {
+        "title": "El Rebost",
+        "link": "/rebost"
+      },
+      "en": {
+        "title": "El Rebost",
+        "link": "/rebost"
+      },
+      "fr": {
+        "title": "El Rebost",
+        "link": "/rebost"
       }
     },
     {
@@ -68,6 +156,10 @@
       "en": {
         "title": "Contact us",
         "link": "/contact"
+      },
+      "fr": {
+        "title": "Contactez-nous",
+        "link": "/contact"
       }
     },
     {
@@ -80,6 +172,10 @@
         "link": "/aviso-legal"
       },
       "en": {
+        "title": "Legal Note",
+        "link": "/legal-note"
+      },
+      "fr": {
         "title": "Legal Note",
         "link": "/legal-note"
       }
@@ -96,16 +192,10 @@
       "en": {
         "title": "Privacy Policy",
         "link": "/privacy-policy"
-      }
-    },
-    {
-      "ca": {
-        "title": "Desenvolupament web modern",
-        "link": "/blog/desenvolupament-web-modern"
       },
-      "en": {
-        "title": "Modern Web Development",
-        "link": "/blog/modern-web-development"
+      "fr": {
+        "title": "Privacy Policy",
+        "link": "/privacy-policy"
       }
     }
   ]
