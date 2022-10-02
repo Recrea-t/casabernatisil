@@ -7,14 +7,20 @@ import { Link as GatsbyLink } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { Flex, Box, Link, useDisclosure, VStack, Text } from "@chakra-ui/react"
 import { Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react"
+import {
+  Drawer,
+  DrawerBody,
+  DrawerOverlay,
+  DrawerContent,
+  DrawerHeader,
+  DrawerCloseButton,
+} from "@chakra-ui/react"
+import { HamburgerIcon } from "@chakra-ui/icons"
 
 import NavLink from "../ui/NavLink"
-import ToggleMenu from "../ui/ToggleMenu"
 import Languages from "../ui/Languages"
 import SocialLink from "../ui/SocialLink"
 import LocalizedLink from "../ui/LocalizedLink"
-
-import { EASINGS } from "../../theme/utils"
 
 import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram"
 import { FaWhatsapp } from "@react-icons/all-files/fa/FaWhatsapp"
@@ -24,12 +30,13 @@ const Header = () => {
   const { social } = useSiteMetadata()
   const { home, menuTitle } = useTranslations()
   const { isOpen, onOpen, onClose } = useDisclosure()
+  const btnRef = React.useRef()
 
   return (
     <Box
       as="nav"
       w="full"
-      h={isOpen ? "auto" : "135px"}
+      h="135px"
       pos="fixed"
       top="0"
       right="0"
@@ -79,64 +86,96 @@ const Header = () => {
           />
         </LocalizedLink>
 
-        <ToggleMenu isOpen={isOpen} onOpen={onOpen} onClose={onClose}>
-          <VStack spacing={8} textAlign="center">
-            <Languages />
+        <Box
+          ref={btnRef}
+          onClick={onOpen}
+          display={{ base: "block", md: "none" }}
+          aria-label="Toggle navigation"
+        >
+          <HamburgerIcon w={8} h={8} />
+        </Box>
 
-            <Box>
-              <Text textTransform="uppercase" fontWeight="bold">
-                {menuTitle}
-              </Text>
-              {menuItems.map((menu, index) => {
-                return menu.variant !== "nav-sublink" ? (
-                  <Box key={index}></Box>
-                ) : (
-                  <NavLink
-                    key={index}
-                    to={menu.link}
-                    onClick={onClose}
-                    variant="nav-sublink-base"
-                  >
-                    {menu.name}
-                  </NavLink>
-                )
-              })}
-              {menuItems.map((menu, index, arr) => {
-                return menu.variant === "nav-sublink" ? (
-                  <Box key={index}></Box>
-                ) : (
-                  <NavLink
-                    key={index}
-                    to={menu.link}
-                    isLast={index + 1 === arr.length}
-                    onClick={onClose}
-                    variant="nav-link-base"
-                  >
-                    {menu.name}
-                  </NavLink>
-                )
-              })}
-            </Box>
+        <Drawer
+          isOpen={isOpen}
+          placement="right"
+          onClose={onClose}
+          finalFocusRef={btnRef}
+          size="full"
+          variant="sickGreen"
+        >
+          <DrawerOverlay />
+          <DrawerContent>
+            <DrawerCloseButton size="lg" />
+            <DrawerHeader>
+              <StaticImage
+                src="../../images/Logo.png"
+                alt="Casa Bernat Isil"
+                loading="eager"
+                layout="fixed"
+                placeholder="tracedSVG"
+              />
+            </DrawerHeader>
 
-            <Flex
-              direction="row"
-              alignSelf="right"
-              justify="space-evenly"
-              w="full"
-            >
-              <SocialLink
-                color="white"
-                item={social.instagram}
-                icon={FaInstagram}
-              />
-              <SocialLink
-                color="white"
-                item={social.whatsapp}
-                icon={FaWhatsapp}
-              />
-            </Flex>
-          </VStack>
-        </ToggleMenu>
+            <DrawerBody>
+              <VStack spacing={8} textAlign="center">
+                <Languages />
+
+                <Box>
+                  <Text textTransform="uppercase" fontWeight="bold">
+                    {menuTitle}
+                  </Text>
+                  {menuItems.map((menu, index) => {
+                    return menu.variant !== "nav-sublink" ? (
+                      <Box key={index}></Box>
+                    ) : (
+                      <NavLink
+                        key={index}
+                        to={menu.link}
+                        onClick={onClose}
+                        variant="nav-sublink-base"
+                      >
+                        {menu.name}
+                      </NavLink>
+                    )
+                  })}
+                  {menuItems.map((menu, index, arr) => {
+                    return menu.variant === "nav-sublink" ? (
+                      <Box key={index}></Box>
+                    ) : (
+                      <NavLink
+                        key={index}
+                        to={menu.link}
+                        isLast={index + 1 === arr.length}
+                        onClick={onClose}
+                        variant="nav-link-base"
+                      >
+                        {menu.name}
+                      </NavLink>
+                    )
+                  })}
+                </Box>
+
+                <Flex
+                  direction="row"
+                  alignSelf="right"
+                  justify="space-evenly"
+                  w="full"
+                >
+                  <SocialLink
+                    color="white"
+                    item={social.instagram}
+                    icon={FaInstagram}
+                  />
+                  <SocialLink
+                    color="white"
+                    item={social.whatsapp}
+                    icon={FaWhatsapp}
+                  />
+                </Flex>
+              </VStack>
+            </DrawerBody>
+          </DrawerContent>
+        </Drawer>
 
         <Flex
           display={{ base: "none", lg: "inherit" }}
