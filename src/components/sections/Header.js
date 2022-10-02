@@ -37,7 +37,7 @@ const Header = () => {
       as="nav"
       w="full"
       h="135px"
-      pos="fixed"
+      pos={{ base: "fixed", lg: "inherit" }}
       top="0"
       right="0"
       left="0"
