@@ -15,6 +15,7 @@ import {
 
 import SEO from "../components/SEO/seo"
 import Hero from "../components/sections/Hero"
+import WhyCard from "../components/ui/WhyCard"
 import ServiceCard from "../components/ui/ServiceCard"
 import Testimonial from "../components/ui/Testimonial"
 
@@ -67,10 +68,23 @@ const IndexPage = props => {
         </Container>
       </Box>
 
+      <Box bg="sickGreen.500" color="white">
+        <Container mb={4} variant="is-section">
+          <Heading as="h2" variant="in-section">
+            {frontmatter.whyTitle}
+          </Heading>
+          <SimpleGrid columns="2" spacing={16}>
+            {frontmatter.why.map((item, index) => (
+              <WhyCard key={index} reason={item} />
+            ))}
+          </SimpleGrid>
+        </Container>
+      </Box>
+
       <Box>
         <Container mb={4} variant="is-section">
           <Heading as="h2" variant="in-section">
-            Lorem ipsum dolor sit amet
+            {frontmatter.servicesTitle}
           </Heading>
           <SimpleGrid columns="2" spacing={16}>
             {frontmatter.services.map((item, index) => (
@@ -117,6 +131,21 @@ export const query = graphql`
       frontmatter {
         title
         description
+        whyTitle
+        why {
+          name
+          image {
+            childImageSharp {
+              gatsbyImageData(
+                layout: CONSTRAINED
+                height: 78
+                placeholder: TRACED_SVG
+                formats: [AVIF, WEBP, AUTO]
+              )
+            }
+          }
+        }
+        servicesTitle
         services {
           name
           image {
