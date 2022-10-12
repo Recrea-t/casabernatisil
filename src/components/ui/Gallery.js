@@ -1,14 +1,25 @@
 import React from "react"
 
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import { Box, Image } from "@chakra-ui/react"
+import {
+  Box,
+  Image,
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalCloseButton,
+  useDisclosure,
+} from "@chakra-ui/react"
 
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
 const Gallery = props => {
-  const { images, title } = props
+  const { title } = props
+  const { gallery, images } = props.images
+  const [currentImage, setCurrentImage] = React.useState(images[1])
+  const { isOpen, onOpen, onClose } = useDisclosure()
 
   const settings = {
     className: "is-slider",
@@ -23,18 +34,33 @@ const Gallery = props => {
     rows: 1,
   }
 
+  const openModal = index => {
+    onOpen()
+    setCurrentImage(images[index])
+    console.log(currentImage)
+  }
+
   return (
-    <Box h={500} mt={8} ms={{ base: 0, lg: 8 }}>
+    <Box h={500} my={8} ms={{ base: 0, lg: 8 }}>
+      <Modal isOpen={isOpen} onClose={onClose}>
+        <ModalOverlay />
+        <ModalContent>
+          <ModalCloseButton zIndex="2" size="lg" color="white" />
+          <Image as={GatsbyImage} image={getImage(currentImage)} alt={title} />
+        </ModalContent>
+      </Modal>
       <Slider {...settings}>
-        {images.map((image, index) => (
-          <Image
-            mr={8}
-            key={index}
-            as={GatsbyImage}
-            loading={index === 0 ? "eager" : "lazy"}
-            image={getImage(image)}
-            alt={title}
-          />
+        {gallery.map((image, index) => (
+          <Box onClick={() => openModal(index)}>
+            <Image
+              mr={8}
+              key={index}
+              as={GatsbyImage}
+              loading={index === 0 ? "eager" : "lazy"}
+              image={getImage(image)}
+              alt={title}
+            />
+          </Box>
         ))}
       </Slider>
     </Box>

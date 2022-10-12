@@ -7,7 +7,7 @@ export default {
   },
   variants: {
     "in-hero": {
-      fontSize: "4xl",
+      fontSize: "5xl",
       fontWeight: "semibold",
       color: "staleGrey.500",
       textAlign: "right",

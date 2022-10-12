@@ -9,7 +9,7 @@ module.exports = {
     siteLanguage: `ca`,
     ogLanguage: `ca_ES`,
     defaultTitle: "Casa Bernat",
-    defaultDescription: "Turisme rural i sostenible",
+    defaultDescription: "Turisme rural i sostenible al Pallars Sobirà",
   },
   es: {
     path: `es`,

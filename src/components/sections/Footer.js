@@ -43,7 +43,7 @@ const Footer = props => {
         justify="center"
         w="full"
       >
-        <LocalizedLink to="/" title={home} as={GatsbyLink} ali>
+        <LocalizedLink to="/" title={home} as={GatsbyLink}>
           <StaticImage
             src="../../images/LogoFooter.png"
             alt="Casa Bernat Isil"

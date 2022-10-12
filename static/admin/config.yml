@@ -1,6 +1,6 @@
 backend:
   name: git-gateway # Prod
-  repo: recrea-t/gatsby-recreat-i18n-starter
+  repo: recrea-t/casabernatisil
   branch: main
 
 local_backend: true
@@ -8,36 +8,158 @@ local_backend: true
 media_folder: static/images
 public_folder: /images
 
-site_url: https://recreat-i18n.netlify.app
-display_url: https://recreat-18n.netlify.app
-logo_url: https://recreat-i18n.netlify.app/images/logo.svg
+site_url: https://casabernatisil.netlify.app
+display_url: https://casabernatisil.com
+logo_url: https://casabernatisil.netlify.app/images/logo.svg
 
 show_preview_links: false
 
 locale: "ca"
-i18n:
-  # Required and can be one of multiple_folders, multiple_files or single_file
-  # multiple_folders - persists files in `<folder>/<locale>/<slug>.<extension>`
-  # multiple_files - persists files in `<folder>/<slug>.<locale>.<extension>`
-  # single_file - persists a single file in `<folder>/<slug>.<extension>`
-  structure: multiple_files
-  locales: [ca, es, en]
-  default_locale: ca
 
 collections:
     #Pages
-    - name: 'seo' # Used in routes, e.g., /admin/collections/blog
-      label: 'SEO' # Used in the UI
-      description: 'Modifica els camps importants per al SEO de cadascuna de les pàgines del lloc web.'
-      summary: '{{name}}'
-      folder: 'src/pages'
-      extension: 'md'
+    - name: 'pages-ca'
+      label: 'Pàgines (Català)'
       format: frontmatter
       create: false
       delete: false
       editor:
         preview: false
-      i18n: true
-      fields: # The fields for each document, usually in front matter
-        - { label: 'Títol (SEO)', name: 'title', widget: 'string', i18n: true}
-        - { label: 'Descripció (SEO)', name: 'description', widget: 'text', i18n: true }
+      files:
+        - name: 'inici-ca'
+          label: Inici
+          file: 'src/pages/index.ca.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Imatge Principal
+              name: hero
+              widget: object
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: markdown
+                - label: Imatge
+                  name: image
+                  widget: image
+                  allow_multiple: false
+            - label: Títol Principal
+              name: mainTitle
+              widget: string
+            - label: Descripció Principal
+              name: mainDescription
+              widget: markdown
+            - label: Imatges
+              name: images
+              widget: list
+              minimize_collapsed: true
+              label_singular: imatge
+              field: { label: Imatge, name: image, widget: image }
+            - label: Títol Raons
+              name: whyTitle
+              widget: string
+            - label: Raons
+              name: why
+              widget: list
+              fields:
+                - label: Nom
+                  name: name
+                  widget: string
+                - label: Imatge
+                  name: image
+                  widget: image
+                  allow_multiple: false
+            - label: Títol Serveis
+              name: servicesTitle
+              widget: string
+            - label: Raons
+              name: services
+              widget: list
+              fields:
+                - label: Nom
+                  name: name
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+                - label: Imatge
+                  name: image
+                  widget: image
+                  allow_multiple: false
+        - name: 'casa-ca'
+          label: Casa Bernat
+          file: 'src/pages/casa-bernat.ca.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Imatge Principal
+              name: hero
+              widget: object
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: markdown
+                  required: false
+                - label: Imatge
+                  name: image
+                  widget: image
+                  allow_multiple: false
+            - label: Qui Som
+              name: who
+              widget: object
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+                - label: Imatge
+                  name: image
+                  widget: image
+                  allow_multiple: false
+            - label: Història
+              name: history
+              widget: object
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+                - label: Imatges
+                  name: images
+                  widget: list
+                  minimize_collapsed: true
+                  label_singular: imatge
+                  field: { label: Imatge, name: image, widget: image }
+            - label: Els Espais
+              name: spaces
+              widget: object
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+                - label: Imatges
+                  name: images
+                  widget: list
+                  minimize_collapsed: true
+                  label_singular: imatge
+                  field: { label: Imatge, name: image, widget: image }

@@ -37,11 +37,16 @@ const query = graphql`
             activities
             rebost
 
+            whoId
+            historyId
+            spacesId
+
             next
             prev
             of
 
             moreButton
+            bookButton
 
             callUs
             writeUs

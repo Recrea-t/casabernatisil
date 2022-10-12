@@ -19,7 +19,6 @@ const GeneralPage = ({ data }) => {
         <ReactMarkdown
           components={ChakraUIRenderer()}
           children={rawMarkdownBody}
-          escapeHtml={false}
         />
       </Container>
     </>

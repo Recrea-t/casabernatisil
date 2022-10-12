@@ -3,6 +3,9 @@ import React from "react"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { Box, Container, Heading, Image } from "@chakra-ui/react"
 
+import ReactMarkdown from "react-markdown"
+import ChakraUIRenderer from "../../utils/ChakraUIRenderer"
+
 const Hero = props => {
   const { frontmatter } = props.data.default
   const { hero } = props.data.images.frontmatter
@@ -13,7 +16,7 @@ const Hero = props => {
   }
 
   return (
-    <Box pos="relative" w="full" h="calc(50vh - 135px)">
+    <Box pos="relative" w="full" h="calc(75vh - 135px)">
       <Image
         pos="absolute"
         left={0}
@@ -21,7 +24,7 @@ const Hero = props => {
         zIndex={-10}
         as={GatsbyImage}
         loading="eager"
-        image={getImage(hero)}
+        image={getImage(hero.image)}
         alt={frontmatter.description}
         style={{
           width: "100%",
@@ -37,16 +40,21 @@ const Hero = props => {
       >
         {" "}
         <Container textAlign="right" pos="relative" h="full">
-          <Heading
-            as="h1"
-            variant="in-hero"
-            maxW={250}
-            pos="absolute"
-            top="30%"
-            right="0"
-          >
-            {frontmatter.description}
-          </Heading>
+          {frontmatter.hero && (
+            <Heading
+              as="h1"
+              variant="in-hero"
+              pos="absolute"
+              top="30%"
+              right="0"
+              color="staleGrey.500"
+            >
+              <ReactMarkdown
+                components={ChakraUIRenderer()}
+                children={frontmatter.hero.title}
+              />
+            </Heading>
+          )}
         </Container>
       </Box>
     </Box>

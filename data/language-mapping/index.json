@@ -38,56 +38,74 @@
     },
     {
       "ca": {
+        "title": "Casa Bermat",
+        "link": "/casa-bernat"
+      },
+      "es": {
+        "title": "Casa Bermat",
+        "link": "/casa-bernat"
+      },
+      "en": {
+        "title": "Casa Bermat",
+        "link": "/casa-bernat"
+      },
+      "fr": {
+        "title": "Casa Bermat",
+        "link": "/casa-bernat"
+      }
+    },
+    {
+      "ca": {
         "title": "Qui som?",
-        "link": "/qui-som"
+        "link": "/casa-bernat#qui-som"
       },
       "es": {
         "title": "Quiénes somos?",
-        "link": "/quienes-somos"
+        "link": "/casa-bernat#quienes-somos"
       },
       "en": {
         "title": "About-us",
-        "link": "/about-us"
+        "link": "/casa-bernat#about-us"
       },
       "fr": {
         "title": "Qui sommes nous?",
-        "link": "/qui-sommes-nous"
+        "link": "/casa-bernat#qui-sommes-nous"
       }
     },
     {
       "ca": {
         "title": "La nostra història",
-        "link": "/historia"
+        "link": "/casa-bernat#historia"
       },
       "es": {
         "title": "Nuestra historia",
-        "link": "/historia"
+        "link": "/casa-bernat#historia"
       },
       "en": {
         "title": "Our history",
-        "link": "/history"
+        "link": "/casa-bernat#history"
       },
       "fr": {
         "title": "L'histoire",
-        "link": "/histoire"
+        "link": "/casa-bernat#histoire"
       }
     },
     {
       "ca": {
         "title": "Els espais",
-        "link": "/espais"
+        "link": "/casa-bernat#espais"
       },
       "es": {
         "title": "Los espacios",
-        "link": "/espacios"
+        "link": "/casa-bernat#espacios"
       },
       "en": {
         "title": "The spaces",
-        "link": "/spaces"
+        "link": "/casa-bernat#spaces"
       },
       "fr": {
         "title": "Les espaces",
-        "link": "/espaces"
+        "link": "/casa-bernat#espaces"
       }
     },
     {

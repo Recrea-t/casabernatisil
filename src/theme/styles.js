@@ -15,8 +15,8 @@ const styles = {
       textDecoration: "underline",
     },
     ".scrollable": {
-      "overflow-x": "scroll",
-      "overflow-y": "hidden",
+      overflowX: "scroll",
+      overflowY: "hidden",
       "-webkit-overflow-scrolling": "touch",
 
       "&::-webkit-scrollbar": {

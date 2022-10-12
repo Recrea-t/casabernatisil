@@ -5,7 +5,7 @@ import useTranslations from "../useTranslations"
 
 import { Link as GatsbyLink } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import { Flex, Box, Link, useDisclosure, VStack, Text } from "@chakra-ui/react"
+import { Flex, Box, Link, useDisclosure, VStack } from "@chakra-ui/react"
 import { Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react"
 import {
   Drawer,
@@ -30,6 +30,7 @@ const Header = () => {
   const { social } = useSiteMetadata()
   const { home, menuTitle } = useTranslations()
   const { isOpen, onOpen, onClose } = useDisclosure()
+  const { isMenuOpen, onMenuOpen, onMenuClose } = useDisclosure()
   const btnRef = React.useRef()
 
   return (
@@ -121,9 +122,13 @@ const Header = () => {
                 <Languages />
 
                 <Box>
-                  <Text textTransform="uppercase" fontWeight="bold">
+                  <NavLink
+                    to="/casa-bernat"
+                    onClick={onClose}
+                    variant="nav-link-base"
+                  >
                     {menuTitle}
-                  </Text>
+                  </NavLink>
                   {menuItems.map((menu, index) => {
                     return menu.variant !== "nav-sublink" ? (
                       <Box key={index}></Box>
@@ -185,20 +190,25 @@ const Header = () => {
         >
           <Languages />
           <Flex mt={8} align="center" direction="row" justify="flex-end">
-            <Menu matchWidth={true} offset={8}>
-              <MenuButton as={Link} variant="nav-link-lg">
-                {menuTitle}
-              </MenuButton>
+            <Menu matchWidth={true} offset={8} isOpen={isMenuOpen}>
+              <Box
+                onClick={onMenuOpen}
+                onMouseOver={onMenuOpen}
+                onMouseOut={onMenuClose}
+              >
+                <NavLink to="/casa-bernat" variant="nav-link-lg">
+                  {menuTitle}
+                </NavLink>
+              </Box>
               <MenuList>
                 {menuItems.map((menu, index) => {
                   return menu.variant !== "nav-sublink" ? (
                     <Box key={index}></Box>
                   ) : (
-                    <MenuItem>
+                    <MenuItem key={index}>
                       <NavLink
-                        key={index}
                         to={menu.link}
-                        onClick={onClose}
+                        onClick={onMenuClose}
                         variant="nav-sublink-lg"
                       >
                         {menu.name}
@@ -216,7 +226,7 @@ const Header = () => {
                   key={index}
                   to={menu.link}
                   isLast={index + 1 === arr.length}
-                  onClick={onClose}
+                  onClick={onMenuClose}
                   variant="nav-link-lg"
                 >
                   {menu.name}

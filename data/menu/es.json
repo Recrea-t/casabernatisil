@@ -2,17 +2,17 @@
   "menuItems": [
     {
       "name": "Quiénes somos",
-      "link": "/quienes-somos",
+      "link": "/casa-bernat#quienes-somos",
       "variant": "nav-sublink"
     },
     {
       "name": "Historia",
-      "link": "/historia",
+      "link": "/casa-bernat#historia",
       "variant": "nav-sublink"
     },
     {
       "name": "Los espacios",
-      "link": "/espacios",
+      "link": "/casa-bernat#espacios",
       "variant": "nav-sublink"
     },
     {

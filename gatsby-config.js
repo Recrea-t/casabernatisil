@@ -139,7 +139,7 @@ module.exports = {
         ],
       },
     },
-    //"gatsby-plugin-netlify-cms",
+    "gatsby-plugin-netlify-cms",
     {
       resolve: "gatsby-plugin-web-font-loader",
       options: {

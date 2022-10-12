@@ -2,17 +2,17 @@
   "menuItems": [
     {
       "name": "About us",
-      "link": "/about-us",
+      "link": "/casa-bernat#about-us",
       "variant": "nav-sublink"
     },
     {
       "name": "History",
-      "link": "/history",
+      "link": "/casa-bernat#history",
       "variant": "nav-sublink"
     },
     {
       "name": "The spaces",
-      "link": "/spaces",
+      "link": "/casa-bernat#spaces",
       "variant": "nav-sublink"
     },
     {
