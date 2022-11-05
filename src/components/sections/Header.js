@@ -30,7 +30,7 @@ const Header = () => {
   const { social } = useSiteMetadata()
   const { home, menuTitle } = useTranslations()
   const { isOpen, onOpen, onClose } = useDisclosure()
-  const { isMenuOpen, onMenuOpen, onMenuClose } = useDisclosure()
+  const { isMenuOpen, onMenuClose } = useDisclosure()
   const btnRef = React.useRef()
 
   return (
@@ -191,15 +191,9 @@ const Header = () => {
           <Languages />
           <Flex mt={8} align="center" direction="row" justify="flex-end">
             <Menu matchWidth={true} offset={8} isOpen={isMenuOpen}>
-              <Box
-                onClick={onMenuOpen}
-                onMouseOver={onMenuOpen}
-                onMouseOut={onMenuClose}
-              >
-                <NavLink to="/casa-bernat" variant="nav-link-lg">
-                  {menuTitle}
-                </NavLink>
-              </Box>
+              <MenuButton as={Link} variant="nav-link-lg">
+                {menuTitle}
+              </MenuButton>
               <MenuList>
                 {menuItems.map((menu, index) => {
                   return menu.variant !== "nav-sublink" ? (
