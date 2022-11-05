@@ -3,7 +3,7 @@ templateKey: casa-page
 title: Casa Bernat
 description: Turisme rural i sostenible al Pallars Sobirà
 hero:
-  image: /images/02.jpg
+  image: /images/DSC01567.jpg
 who:
   title: Qui som
   description: >-
@@ -17,7 +17,7 @@ who:
 
     voluntari.\
 
-    La Núria és geòloga, professora d’esquí i guia de la Casa de l’Os Bru del Pirineu.
+    La Núria és geòloga, professora d’esquí i guia de la Casa de l’Os Bru del Pirineu.¸
 
 
     Ambdós som nascuts al Vallès Occidental i vam decidir deixar la ciutat per començar el\
@@ -32,7 +32,7 @@ who:
     amb raquetes, descens de barrancs, excursions, vies ferrades, acompanyaments i sortides\
 
     interpretatives.
-  image: /images/01.jpg
+  image: /images/DSC01333.jpg
 history:
   title: Una mica d'història de la casa
   description: >-
@@ -50,8 +50,12 @@ history:
 
     Vàrem fer el projecte i les reformes per transformar-la en la casa de turisme rural que és ara.
   images:
-    - /images/02.jpg
-    - /images/01.jpg
+    - /images/DSC01333.jpg
+    - /images/DSC01384.jpg
+    - /images/DSC01506.jpg
+    - /images/DSC01530.jpg
+    - /images/DSC01565.jpg
+    - /images/DSC01574.jpg
 spaces:
   title: Els Espais
   description: Casa Bernat és una casa típica del Pirineu de Lleida i funciona en
@@ -59,6 +63,10 @@ spaces:
     espais. Disposa de set habitacions, i diversos espais tant interiors com
     exteriors.
   images:
-    - /images/02.jpg
-    - /images/01.jpg
+    - /images/DSC01333.jpg
+    - /images/DSC01384.jpg
+    - /images/DSC01506.jpg
+    - /images/DSC01530.jpg
+    - /images/DSC01565.jpg
+    - /images/DSC01574.jpg
 ---

@@ -11,13 +11,12 @@ hero:
     rural i sostenible
 
     al Pallars Sobirà
-  image: /images/02.jpg
+  image: /images/DSC01567.jpg
 mainTitle: Casa Bernat d'Isil
 images:
-  - /images/01.jpg
-  - /images/02.jpg
-  - /images/01.jpg
-  - /images/02.jpg
+  - /images/DSC01333.jpg
+  - /images/DSC01384.jpg
+  - /images/DSC01506.jpg
 whyTitle: Per què escollir Casa Bernat
 why:
   - name: Capacitat per a quinze persones
