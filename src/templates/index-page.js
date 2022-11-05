@@ -1,106 +1,98 @@
 import React from "react"
 import { graphql } from "gatsby"
 import PropTypes from "prop-types"
+
+import useTranslations from "../components/useTranslations"
+
 import {
+  Box,
   Container,
-  Image,
-  Flex,
+  Heading,
   Text,
-  Link,
-  Icon,
+  SimpleGrid,
   HStack,
 } from "@chakra-ui/react"
 
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
-
 import SEO from "../components/SEO/seo"
-//import Hero from "../components/sections/Hero"
+import Hero from "../components/sections/Hero"
+import WhyCard from "../components/ui/WhyCard"
+import ServiceCard from "../components/ui/ServiceCard"
+import Testimonial from "../components/ui/Testimonial"
 
-import SocialLink from "../components/ui/SocialLink"
-
-import { FaPhoneAlt } from "@react-icons/all-files/fa/FaPhoneAlt"
-import { FaEnvelope } from "@react-icons/all-files/fa/FaEnvelope"
-import { FaMapMarkerAlt } from "@react-icons/all-files/fa/FaMapMarkerAlt"
-import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram"
-
-import useSiteMetadata from "../components/siteMetadata"
+import { MotionText } from "../theme/utils"
+import LocalizedLink from "../components/ui/LocalizedLink"
+import Gallery from "../components/ui/Gallery"
 
 const IndexPage = props => {
-  const { frontmatter } = props.data.markdownRemark
-  const { organization, social } = useSiteMetadata()
+  const { frontmatter } = props.data.default
+  const { spaces } = useTranslations()
 
   return (
     <>
       <SEO title={frontmatter.title} description={frontmatter.description} />
-      <Container my={8} align="center" justify="center">
-        <Image
-          as={GatsbyImage}
-          image={getImage(frontmatter.logo)}
-          alt="Casa Bernat Isil"
-          loading="eager"
-          style={{
-            width: "100%",
-            height: "100%",
-          }}
-        />
+      <Hero {...props} />
 
-        <HStack
-          justify="space-around"
-          alignItems="center"
-          textAlign="center"
-          mb={{ base: 0, lg: 4 }}
-          px={{ base: 0, lg: 4 }}
-        >
-          <SocialLink item={social.instagram} icon={FaInstagram} />
-        </HStack>
+      <Box
+        bgGradient={{
+          base: "linear(to-b, sickGreen.500 70%, white 30%)",
+          md: "linear(to-b, sickGreen.500 50%, white 50%)",
+        }}
+        color="white"
+      >
+        <Container variant="is-section">
+          <Heading as="h2" variant="in-section">
+            {frontmatter.mainTitle}
+          </Heading>
+          <Text mb={4}>{frontmatter.mainDescription}</Text>
+          <MotionText display="block" whileTap={{ scale: 0.95 }}>
+            <LocalizedLink to="/espais" variant="button" colorScheme="white">
+              {spaces}
+            </LocalizedLink>
+          </MotionText>
+        </Container>
+        <Gallery images={props.data.images.frontmatter} title="Imatge" />
+      </Box>
 
-        <Flex
-          w="full"
-          direction={{ base: "column", lg: "row" }}
-          justify="space-around"
-          alignItems="center"
-          textAlign="center"
-          mb={{ base: 0, lg: 4 }}
-          px={{ base: 0, lg: 4 }}
-        >
-          <HStack>
-            <Icon as={FaEnvelope} h={4} w={4} />
-            <Text>
-              <Link
-                href={`mailto:${organization.email}`}
-                title="Escriu-nos"
-                isExternal
-              >
-                {organization.email}
-              </Link>
-            </Text>
+      <Box bg="sickGreen.500" color="white">
+        <Container mb={4} variant="is-section">
+          <Heading as="h2" variant="in-section">
+            {frontmatter.whyTitle}
+          </Heading>
+          <SimpleGrid columns="2" spacing={16}>
+            {frontmatter.why.map((item, index) => (
+              <WhyCard key={index} reason={item} />
+            ))}
+          </SimpleGrid>
+        </Container>
+      </Box>
+
+      <Box>
+        <Container mb={4} variant="is-section">
+          <Heading as="h2" variant="in-section">
+            {frontmatter.servicesTitle}
+          </Heading>
+          <SimpleGrid columns="2" spacing={4}>
+            {frontmatter.services.map((item, index) => (
+              <ServiceCard key={index} service={item} />
+            ))}
+          </SimpleGrid>
+        </Container>
+      </Box>
+
+      <Box bg="lightGrey.500" color="white">
+        <Container mb={4} variant="is-section">
+          <Heading as="h2" variant="in-section">
+            Lorem ipsum dolor sit amet
+          </Heading>
+          <HStack spacing={16} className="scrollable">
+            <Testimonial {...props} />
+            <Testimonial {...props} />
+            <Testimonial {...props} />
+            <Testimonial {...props} />
+            <Testimonial {...props} />
           </HStack>
-          <HStack>
-            <Icon as={FaPhoneAlt} h={4} w={4} />
-            <Text>
-              <Link
-                href={`tel:${organization.phone.number}`}
-                title="Truca'ns"
-                isExternal
-              >
-                {organization.phone.title}
-              </Link>
-            </Text>
-          </HStack>
-          <HStack>
-            <Icon as={FaMapMarkerAlt} h={4} w={4} />
-            <Text>
-              <Link
-                href="https://www.google.com/maps/place/Plaça+de+la+Casalta,+8,+25586+Isil,+Lleida/@42.6790139,1.084696,17z/data=!3m1!4b1!4m5!3m4!1s0x12a8afb9e6612663:0xc5d6dd67b088c96f!8m2!3d42.67901!4d1.08689?hl=ca"
-                title="On som?"
-                isExternal
-              >
-                {organization.address}
-              </Link>
-            </Text>
-          </HStack>
-        </Flex>
-      </Container>
+        </Container>
+      </Box>
     </>
   )
 }
@@ -118,13 +110,75 @@ export default IndexPage
 
 export const query = graphql`
   query IndexPageTemplateQuery($id: String) {
-    markdownRemark(id: { eq: $id }) {
+    default: markdownRemark(id: { eq: $id }) {
       id
       html
       frontmatter {
         title
         description
-        logo {
+        mainTitle
+        hero {
+          title
+        }
+        mainDescription
+        whyTitle
+        why {
+          name
+          image {
+            childImageSharp {
+              gatsbyImageData(
+                layout: CONSTRAINED
+                height: 78
+                placeholder: TRACED_SVG
+                formats: [AVIF, WEBP, AUTO]
+              )
+            }
+          }
+        }
+        servicesTitle
+        services {
+          name
+          image {
+            childImageSharp {
+              gatsbyImageData(
+                layout: CONSTRAINED
+                height: 78
+                placeholder: TRACED_SVG
+                formats: [AVIF, WEBP, AUTO]
+              )
+            }
+          }
+          description
+        }
+      }
+    }
+    images: markdownRemark(
+      fields: { locale: { eq: "ca" }, templateKey: { eq: "index-page" } }
+    ) {
+      frontmatter {
+        hero {
+          image {
+            childImageSharp {
+              gatsbyImageData(
+                layout: FULL_WIDTH
+                placeholder: BLURRED
+                formats: [AVIF, WEBP, AUTO]
+              )
+            }
+          }
+        }
+        gallery: images {
+          childImageSharp {
+            gatsbyImageData(
+              layout: CONSTRAINED
+              height: 500
+              aspectRatio: 0.667
+              placeholder: BLURRED
+              formats: [AVIF, WEBP, AUTO]
+            )
+          }
+        }
+        images {
           childImageSharp {
             gatsbyImageData(
               layout: FULL_WIDTH

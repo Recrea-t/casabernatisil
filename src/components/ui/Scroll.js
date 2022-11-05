@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { Box, IconButton } from "@chakra-ui/react"
 import { TriangleUpIcon } from "@chakra-ui/icons"
+import { useBreakpointValue } from "@chakra-ui/react"
 
 const Scroll = ({ showBelow }) => {
   const [show, setShow] = useState(showBelow ? false : true)
@@ -17,6 +18,11 @@ const Scroll = ({ showBelow }) => {
     window[`scrollTo`]({ top: 0, behavior: `smooth` })
   }
 
+  const breakpoint = useBreakpointValue(
+    { base: false, lg: true },
+    { ssr: false }
+  )
+
   useEffect(() => {
     if (showBelow) {
       window.addEventListener(`scroll`, handleScroll)
@@ -26,12 +32,12 @@ const Scroll = ({ showBelow }) => {
 
   return (
     <Box>
-      {show && (
+      {breakpoint && show && (
         <IconButton
           zIndex="2"
           pos="fixed"
           bottom="2vh"
-          colorScheme="nero"
+          colorScheme="staleGrey"
           right={["5%", "5%", "6.5%"]}
           onClick={handleClick}
           aria-label="to top"

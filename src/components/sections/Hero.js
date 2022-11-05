@@ -1,37 +1,62 @@
 import React from "react"
-import useTranslations from "../useTranslations"
 
-import { Flex, Box, Container, Text } from "@chakra-ui/react"
-import { MotionButton } from "../../theme/utils"
-import LocalizedLink from "../ui/LocalizedLink"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import { Box, Container, Heading, Image } from "@chakra-ui/react"
+
+import ReactMarkdown from "react-markdown"
+import ChakraUIRenderer from "../../utils/ChakraUIRenderer"
 
 const Hero = props => {
-  const { frontmatter } = props.data.markdownRemark
-  const { moreButton } = useTranslations()
+  const { frontmatter } = props.data.default
+  const { hero } = props.data.images.frontmatter
+  const { isEmpty } = props
+
+  if (isEmpty) {
+    return <Box pos="relative" w="full" h="150px"></Box>
+  }
+
   return (
-    <Box w="full" mb={8} py={4} bg="mangoTango.500" color="white">
-      <Container>
-        <Flex direction="column">
-          <Text
-            as="h1"
-            fontFamily="Playfair Display"
-            fontSize={{ base: "2xl", md: "6xl" }}
-          >
-            “{frontmatter.description}”
-          </Text>
-          <MotionButton
-            as={LocalizedLink}
-            to="/qui-som"
-            title="Qui som?"
-            variant="custom-link"
-            colorScheme="white"
-            alignSelf="flex-end"
-            whileTap={{ scale: 0.95 }}
-          >
-            {moreButton}
-          </MotionButton>
-        </Flex>
-      </Container>
+    <Box pos="relative" w="full" h="calc(75vh - 135px)">
+      <Image
+        pos="absolute"
+        left={0}
+        top={0}
+        zIndex={-10}
+        as={GatsbyImage}
+        loading="eager"
+        image={getImage(hero.image)}
+        alt={frontmatter.description}
+        style={{
+          width: "100%",
+          height: "100%",
+        }}
+      />
+      <Box
+        pos="absolute"
+        bottom="calc(50% - 1.37rem)"
+        w="full"
+        top="0"
+        h="full"
+      >
+        {" "}
+        <Container textAlign="right" pos="relative" h="full">
+          {frontmatter.hero && (
+            <Heading
+              as="h1"
+              variant="in-hero"
+              pos="absolute"
+              top="30%"
+              right="0"
+              color="staleGrey.500"
+            >
+              <ReactMarkdown
+                components={ChakraUIRenderer()}
+                children={frontmatter.hero.title}
+              />
+            </Heading>
+          )}
+        </Container>
+      </Box>
     </Box>
   )
 }

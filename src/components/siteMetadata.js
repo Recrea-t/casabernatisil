@@ -22,7 +22,7 @@ const useSiteMetadata = () => {
               url
               logo
               email
-              phone {
+              phones {
                 number
                 title
               }
@@ -30,6 +30,11 @@ const useSiteMetadata = () => {
             }
             social {
               instagram {
+                username
+                title
+                baseUrl
+              }
+              whatsapp {
                 username
                 title
                 baseUrl

@@ -11,7 +11,9 @@ import FormLabel from "./components/form-label"
 import Container from "./components/container"
 import Heading from "./components/heading"
 import Button from "./components/button"
+import Drawer from "./components/drawer"
 import Link from "./components/link"
+import Menu from "./components/menu"
 
 const overrides = {
   styles,
@@ -22,8 +24,10 @@ const overrides = {
     Container,
     Heading,
     Button,
+    Drawer,
     CloseButton: { ...Button },
     Link,
+    Menu,
     FormLabel,
   },
 }

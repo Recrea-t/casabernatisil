@@ -3,13 +3,20 @@ export default {
     mb: "2rem",
     textAlign: "center",
     fontSize: "2xl",
-    fontWeight: "semibold",
-    textTransform: "uppercase",
+    fontWeight: "normal",
   },
   variants: {
-    "in-index": {
-      fontSize: "4xl",
+    "in-hero": {
+      fontSize: "5xl",
+      fontWeight: "semibold",
+      color: "staleGrey.500",
+      textAlign: "right",
+      mb: "0",
+    },
+    "in-section": {
+      fontSize: "2xl",
       fontWeight: "normal",
+      fontStyle: "italic",
     },
     "no-margin": {
       mb: "0",

@@ -1,30 +1,28 @@
 {
   "home": "Inicio",
-
-  "latestPosts": "Últimos posts",
-  "category": "Categoria",
-  "allPosts": "Todos los Posts",
-  "toRead": "de lectura",
-
+  "menuTitle": "Casa Bernat",
+  "spaces": "Los espacios",
+  "activities": "Actividades en el aire libre",
+  "rebost": "El rebost",
+  "whoId": "quienes-som",
+  "historyId": "historia",
+  "spacesId": "espacios",
   "next": "Siguiente",
   "prev": "Anterior",
   "of": "de",
-
-  "moreButton": "Saber más",
-
+  "moreButton": "Saber Más",
+  "bookButton": "Reserva",
   "callUs": "Llámanos",
   "writeUs": "Envíanos un correo",
-
   "name": "Nombre y apellidos",
   "email": "Correo electrónico",
   "message": "Mensaje",
   "conditionsPart1": "He leído y accepto la ",
   "conditionsPart2": " y accepto el tractamiento de mis datos personales para el envío de información que responda a la consulta que he planteado.",
-
   "followUs": "Siguenos",
   "legalNote": "Aviso legal",
   "privacyPolicy": "Protección de datos",
-
+  "reservation": "Reserva",
   "submit": "Enviar",
   "submitting": "Enviando",
   "errorConditions": "Debes acceptar la política de privacidad.",

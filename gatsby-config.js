@@ -23,15 +23,15 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: `Recrea't`,
-        short_name: `Recrea't`,
-        description: `Disseny gràfic i comunicació`,
+        name: `Casa Bernat Isil`,
+        short_name: `Casa Bernat`,
+        description: `Turisme rural i sostenible`,
         lang: `ca`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#E8864B`,
+        theme_color: `#B7AA2E`,
         display: `minimal-ui`,
-        icon: "static/images/icon.png",
+        icon: "static/images/Logo.svg",
         icon_options: {
           purpose: `any maskable`,
         },
@@ -39,15 +39,17 @@ module.exports = {
           {
             start_url: `/es/`,
             lang: `es`,
-            name: `Recrea't`,
-            short_name: `Recrea't`,
+            description: `Turismo rural y sostenible`,
           },
           {
             start_url: `/en/`,
             lang: `en`,
-            name: `Recrea't`,
-            short_name: `Recrea't`,
-            description: `Graphic Design and Communication`,
+            description: `Rural and sustainable tourism`,
+          },
+          {
+            start_url: `/fr/`,
+            lang: `fr`,
+            description: `Rural and sustainable tourism`,
           },
         ],
         //cache_busting_mode: "none",
@@ -137,7 +139,7 @@ module.exports = {
         ],
       },
     },
-    //"gatsby-plugin-netlify-cms",
+    "gatsby-plugin-netlify-cms",
     {
       resolve: "gatsby-plugin-web-font-loader",
       options: {

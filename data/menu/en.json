@@ -1,7 +1,39 @@
 {
   "menuItems": [
-    { "name": "About", "link": "/about" },
-    { "name": "Blog", "link": "/blog" },
-    { "name": "Contact", "link": "/contact" }
+    {
+      "name": "About us",
+      "link": "/casa-bernat#about-us",
+      "variant": "nav-sublink"
+    },
+    {
+      "name": "History",
+      "link": "/casa-bernat#history",
+      "variant": "nav-sublink"
+    },
+    {
+      "name": "The spaces",
+      "link": "/casa-bernat#spaces",
+      "variant": "nav-sublink"
+    },
+    {
+      "name": "Reservations",
+      "link": "/reservations",
+      "variant": "nav-link"
+    },
+    {
+      "name": "Activities",
+      "link": "/activities",
+      "variant": "nav-link"
+    },
+    {
+      "name": "El Rebost",
+      "link": "/rebost",
+      "variant": "nav-link"
+    },
+    {
+      "name": "Contact",
+      "link": "/contact",
+      "variant": "nav-link"
+    }
   ]
 }

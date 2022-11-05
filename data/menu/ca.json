@@ -1,7 +1,39 @@
 {
   "menuItems": [
-    { "name": "Qui som", "link": "/qui-som" },
-    { "name": "Blog", "link": "/blog" },
-    { "name": "Contacta", "link": "/contacte" }
+    {
+      "name": "Qui som",
+      "link": "/casa-bernat#qui-som",
+      "variant": "nav-sublink"
+    },
+    {
+      "name": "Història",
+      "link": "/casa-bernat#historia",
+      "variant": "nav-sublink"
+    },
+    {
+      "name": "Els espais",
+      "link": "/casa-bernat#espais",
+      "variant": "nav-sublink"
+    },
+    {
+      "name": "Reserves",
+      "link": "/reserves",
+      "variant": "nav-link"
+    },
+    {
+      "name": "Activitats",
+      "link": "/activitats",
+      "variant": "nav-link"
+    },
+    {
+      "name": "El Rebost",
+      "link": "/rebost",
+      "variant": "nav-link"
+    },
+    {
+      "name": "Contacte",
+      "link": "/contacte",
+      "variant": "nav-link"
+    }
   ]
 }

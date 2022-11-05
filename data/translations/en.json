@@ -1,30 +1,28 @@
 {
   "home": "Home",
-
-  "latestPosts": "Latest Posts",
-  "category": "Category",
-  "allPosts": "All Posts",
-  "toRead": "to read",
-
+  "menuTitle": "Casa Bernat",
+  "spaces": "The spaces",
+  "activities": "Outdoor activities",
+  "rebost": "El rebost",
+  "whoId": "about-us",
+  "historyId": "history",
+  "spacesId": "spaces",
   "next": "Next",
   "prev": "Prev",
   "of": "of",
-
   "moreButton": "More",
-
+  "bookButton": "Book",
   "callUs": "Call us",
   "writeUs": "Write us",
-
   "name": "Name",
   "email": "Email",
   "message": "Message",
   "conditionsPart1": "I have read and I accept the ",
   "conditionsPart2": " , then I accept the use of my personal data in order to give an answer to the message I amb about to send.",
-
   "followUs": "Follow us",
   "legalNote": "Legal Note",
   "privacyPolicy": "Privacy Policy",
-
+  "reservation": "Book",
   "submit": "Send",
   "submitting": "Sending",
   "errorConditions": "You must accept the conditions.",

@@ -12,6 +12,10 @@
       "en": {
         "title": "Home",
         "link": "/"
+      },
+      "fr": {
+        "title": "Home",
+        "link": "/"
       }
     },
     {
@@ -26,34 +30,136 @@
       "en": {
         "title": "404",
         "link": "/404"
+      },
+      "fr": {
+        "title": "404",
+        "link": "/404"
+      }
+    },
+    {
+      "ca": {
+        "title": "Casa Bermat",
+        "link": "/casa-bernat"
+      },
+      "es": {
+        "title": "Casa Bermat",
+        "link": "/casa-bernat"
+      },
+      "en": {
+        "title": "Casa Bermat",
+        "link": "/casa-bernat"
+      },
+      "fr": {
+        "title": "Casa Bermat",
+        "link": "/casa-bernat"
       }
     },
     {
       "ca": {
         "title": "Qui som?",
-        "link": "/qui-som"
+        "link": "/casa-bernat#qui-som"
       },
       "es": {
         "title": "Quiénes somos?",
-        "link": "/quienes-somos"
+        "link": "/casa-bernat#quienes-somos"
       },
       "en": {
-        "title": "About us",
-        "link": "/about"
+        "title": "About-us",
+        "link": "/casa-bernat#about-us"
+      },
+      "fr": {
+        "title": "Qui sommes nous?",
+        "link": "/casa-bernat#qui-sommes-nous"
       }
     },
     {
       "ca": {
-        "title": "Blog",
-        "link": "/blog"
+        "title": "La nostra història",
+        "link": "/casa-bernat#historia"
       },
       "es": {
-        "title": "Blog",
-        "link": "/blog"
+        "title": "Nuestra historia",
+        "link": "/casa-bernat#historia"
       },
       "en": {
-        "title": "Blog",
-        "link": "/blog"
+        "title": "Our history",
+        "link": "/casa-bernat#history"
+      },
+      "fr": {
+        "title": "L'histoire",
+        "link": "/casa-bernat#histoire"
+      }
+    },
+    {
+      "ca": {
+        "title": "Els espais",
+        "link": "/casa-bernat#espais"
+      },
+      "es": {
+        "title": "Los espacios",
+        "link": "/casa-bernat#espacios"
+      },
+      "en": {
+        "title": "The spaces",
+        "link": "/casa-bernat#spaces"
+      },
+      "fr": {
+        "title": "Les espaces",
+        "link": "/casa-bernat#espaces"
+      }
+    },
+    {
+      "ca": {
+        "title": "Reserves",
+        "link": "/reserves"
+      },
+      "es": {
+        "title": "Reservas",
+        "link": "/reservas"
+      },
+      "en": {
+        "title": "Reservations",
+        "link": "/reservations"
+      },
+      "fr": {
+        "title": "Réservations",
+        "link": "/reservations"
+      }
+    },
+    {
+      "ca": {
+        "title": "Activitats",
+        "link": "/activitats"
+      },
+      "es": {
+        "title": "Actividades",
+        "link": "/actividades"
+      },
+      "en": {
+        "title": "Activities",
+        "link": "/activities"
+      },
+      "fr": {
+        "title": "Activités",
+        "link": "/activites"
+      }
+    },
+    {
+      "ca": {
+        "title": "El Rebost",
+        "link": "/rebost"
+      },
+      "es": {
+        "title": "El Rebost",
+        "link": "/rebost"
+      },
+      "en": {
+        "title": "El Rebost",
+        "link": "/rebost"
+      },
+      "fr": {
+        "title": "El Rebost",
+        "link": "/rebost"
       }
     },
     {
@@ -68,6 +174,10 @@
       "en": {
         "title": "Contact us",
         "link": "/contact"
+      },
+      "fr": {
+        "title": "Contactez-nous",
+        "link": "/contact"
       }
     },
     {
@@ -80,6 +190,10 @@
         "link": "/aviso-legal"
       },
       "en": {
+        "title": "Legal Note",
+        "link": "/legal-note"
+      },
+      "fr": {
         "title": "Legal Note",
         "link": "/legal-note"
       }
@@ -96,16 +210,10 @@
       "en": {
         "title": "Privacy Policy",
         "link": "/privacy-policy"
-      }
-    },
-    {
-      "ca": {
-        "title": "Desenvolupament web modern",
-        "link": "/blog/desenvolupament-web-modern"
       },
-      "en": {
-        "title": "Modern Web Development",
-        "link": "/blog/modern-web-development"
+      "fr": {
+        "title": "Privacy Policy",
+        "link": "/privacy-policy"
       }
     }
   ]
