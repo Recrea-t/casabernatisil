@@ -9,8 +9,8 @@ media_folder: static/images
 public_folder: /images
 
 site_url: https://casabernatisil.netlify.app
-display_url: https://casabernatisil.com
-logo_url: https://casabernatisil.netlify.app/images/logo.svg
+display_url: https://casabernatisil.netlify.app
+logo_url: https://casabernatisil.netlify.app/images/Logo.png
 
 show_preview_links: false
 
@@ -39,6 +39,7 @@ collections:
             - label: Imatge Principal
               name: hero
               widget: object
+              collapsed: true
               summary: '{{fields.title}}'
               fields:
                 - label: Títol
@@ -57,9 +58,11 @@ collections:
             - label: Imatges
               name: images
               widget: list
+              allow_add: false
+              min: 3
+              max: 3
               minimize_collapsed: true
-              label_singular: imatge
-              field: { label: Imatge, name: image, widget: image }
+              field: { label: Imatge, name: image, widget: image, allow_multiple: false }
             - label: Títol Raons
               name: whyTitle
               widget: string
@@ -80,10 +83,15 @@ collections:
             - label: Raons
               name: services
               widget: list
+              allow_add: false
+              min: 2
               fields:
                 - label: Nom
                   name: name
                   widget: string
+                - label: link
+                  name: link
+                  widget: hidden
                 - label: Descripció
                   name: description
                   widget: markdown
@@ -162,4 +170,4 @@ collections:
                   widget: list
                   minimize_collapsed: true
                   label_singular: imatge
-                  field: { label: Imatge, name: image, widget: image }
+                  field: { label: Imatge, name: image, widget: image, allow_multiple: false }

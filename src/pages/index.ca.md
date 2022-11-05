@@ -14,9 +14,9 @@ hero:
   image: /images/DSC01567.jpg
 mainTitle: Casa Bernat d'Isil
 images:
-  - /images/DSC01333.jpg
-  - /images/DSC01454.jpg
   - /images/DSC01530.jpg
+  - /images/DSC01454.jpg
+  - /images/DSC01333.jpg
 whyTitle: Per què escollir Casa Bernat
 why:
   - name: Capacitat per a quinze persones
@@ -34,12 +34,14 @@ why:
 servicesTitle: Serveis complementaris
 services:
   - name: Activitats
+    link: activitats
     image: /images/Activities.png
     description: Amb l’allotjament a Casa Bernat, disposeu d’un 20% de descompte a
       SnowCanyonPallars, la nostra secció d’activitats esportives. Oferim
       classes d’esquí, sortides amb raquetes, descens de barrancs, excursions,
       vies ferrades, acompanyaments i sortides interpretatives.
   - name: El Rebost
+    link: rebost
     image: /images/Rebost.png
     description: Teniu a la vostra disposició el servei de trobar-vos al rebost i a
       la nevera els àpats que vulgueu fer al llarg de la vostra estada, a més,

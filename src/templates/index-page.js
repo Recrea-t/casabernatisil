@@ -138,6 +138,7 @@ export const query = graphql`
         servicesTitle
         services {
           name
+          link
           image {
             childImageSharp {
               gatsbyImageData(
