@@ -21,7 +21,7 @@ import Testimonial from "../components/ui/Testimonial"
 
 import { MotionText } from "../theme/utils"
 import LocalizedLink from "../components/ui/LocalizedLink"
-import Gallery from "../components/ui/Gallery"
+import Spaces from "../components/ui/Spaces"
 
 const IndexPage = props => {
   const { frontmatter } = props.data.default
@@ -54,7 +54,10 @@ const IndexPage = props => {
             </LocalizedLink>
           </MotionText>
         </Container>
-        <Gallery images={props.data.images.frontmatter} title="Imatge" />
+        <Spaces
+          links={frontmatter.images}
+          images={props.data.images.frontmatter}
+        />
       </Box>
 
       <Box bg="sickGreen.500" color="white">
@@ -126,6 +129,10 @@ export const query = graphql`
         }
         mainDescription
         whyTitle
+        images {
+          title
+          link
+        }
         why {
           name
           image {
@@ -173,23 +180,27 @@ export const query = graphql`
           }
         }
         gallery: images {
-          childImageSharp {
-            gatsbyImageData(
-              layout: CONSTRAINED
-              height: 700
-              aspectRatio: 0.667
-              placeholder: BLURRED
-              formats: [AVIF, WEBP, AUTO]
-            )
+          image {
+            childImageSharp {
+              gatsbyImageData(
+                layout: CONSTRAINED
+                height: 700
+                aspectRatio: 0.667
+                placeholder: BLURRED
+                formats: [AVIF, WEBP, AUTO]
+              )
+            }
           }
         }
         images {
-          childImageSharp {
-            gatsbyImageData(
-              layout: FULL_WIDTH
-              placeholder: BLURRED
-              formats: [AVIF, WEBP, AUTO]
-            )
+          image {
+            childImageSharp {
+              gatsbyImageData(
+                layout: FULL_WIDTH
+                placeholder: BLURRED
+                formats: [AVIF, WEBP, AUTO]
+              )
+            }
           }
         }
       }

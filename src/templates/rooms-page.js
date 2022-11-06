@@ -2,49 +2,23 @@ import React from "react"
 import { graphql } from "gatsby"
 import PropTypes from "prop-types"
 
-import useTranslations from "../components/useTranslations"
-
-import { Box, Container, Heading } from "@chakra-ui/react"
-
 import SEO from "../components/SEO/seo"
 import Hero from "../components/sections/Hero"
+import Section from "../components/sections/Section"
 
-import ReactMarkdown from "react-markdown"
-import ChakraUIRenderer from "../utils/ChakraUIRenderer"
-
-import { MotionText } from "../theme/utils"
-import LocalizedLink from "../components/ui/LocalizedLink"
-import Gallery from "../components/ui/Gallery"
-
-const SectionPage = props => {
+const RoomsPage = props => {
   const { frontmatter } = props.data.default
-  const { spaces } = useTranslations()
 
   return (
     <>
       <SEO title={frontmatter.title} description={frontmatter.description} />
       <Hero {...props} />
-
-      <Box>
-        <Container variant="is-section">
-          <Heading as="h2" variant="in-section">
-            {frontmatter.section.title}
-          </Heading>
-          <ReactMarkdown
-            components={ChakraUIRenderer()}
-            children={frontmatter.section.description}
-          />
-        </Container>
-        <Gallery
-          images={props.data.images.frontmatter.section}
-          title="Imatge"
-        />
-      </Box>
+      <Section {...props} />
     </>
   )
 }
 
-SectionPage.propTypes = {
+RoomsPage.propTypes = {
   data: PropTypes.shape({
     html: PropTypes.object,
     markdownRemark: PropTypes.shape({
@@ -53,10 +27,10 @@ SectionPage.propTypes = {
   }),
 }
 
-export default SectionPage
+export default RoomsPage
 
 export const query = graphql`
-  query SectionPageTemplateQuery($id: String) {
+  query RoomsPageTemplateQuery($id: String) {
     default: markdownRemark(id: { eq: $id }) {
       id
       html
@@ -71,7 +45,7 @@ export const query = graphql`
       }
     }
     images: markdownRemark(
-      fields: { locale: { eq: "ca" }, templateKey: { eq: "section-page" } }
+      fields: { locale: { eq: "ca" }, templateKey: { eq: "rooms-page" } }
     ) {
       frontmatter {
         hero {

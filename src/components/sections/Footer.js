@@ -23,7 +23,8 @@ import { FaWhatsapp } from "@react-icons/all-files/fa/FaWhatsapp"
 const Footer = props => {
   const { organization, author, social } = useSiteMetadata()
   const { home } = useTranslations()
-  const { legalNote, privacyPolicy, callUs, writeUs } = useTranslations()
+  const { legalNote, privacyPolicy, bookingConditions, callUs, writeUs } =
+    useTranslations()
 
   return (
     <Flex
@@ -102,6 +103,9 @@ const Footer = props => {
           <LocalizedLink to="/avis-legal">{legalNote}</LocalizedLink>
           <LocalizedLink to="/proteccio-de-dades">
             {privacyPolicy}
+          </LocalizedLink>
+          <LocalizedLink to="/condicions-de-reserva">
+            {bookingConditions}
           </LocalizedLink>
           <Text>
             DISSENY:{" "}

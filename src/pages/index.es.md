@@ -1,12 +1,19 @@
 ---
+mainDescription: Ven a d’una casa amb encant, confortable i sostenible al bell
+  mig d’un poble de les Valls d’Àneu, al nord del Pallars Sobirà.
 templateKey: index-page
 title: Inicio
-description: Turismo rural y sostenible
+description: Turisme rural y sostenible en el Pallars Sobirà
 hero:
-  title: Turisme rural y sostenible
+  title: |-
+    Turisme
+
+    rural y sostenible
+
+    en el Pallars Sobirà
+  image: /images/DSC01567.jpg
 mainTitle: Casa Bernat de Isil
-mainDescription: Vine a gaudir d’una casa amb encant, confortable i sostenible al bell mig d’un poble de les Valls d’Àneu, al nord del Pallars Sobirà.
-whyTitle: Por que escoger Casa Bernat
+whyTitle: Porque escoger Casa Bernat
 why:
   - name: Capacitat per a quinze persones
     image: /images/icona_pqCasaBernat_01.png
@@ -20,15 +27,29 @@ why:
     image: /images/icona_pqCasaBernat_04.png
   - name: Dins del Parc Natural de l'Alt Pirineu
     image: /images/icona_pqCasaBernat_05.png
-servicesTitle: Servicios complementarios
+images:
+  - title: Habitaciones
+    link: /habitacions
+    image: /images/DSC01530.jpg
+  - title: Zonas Comunes
+    link: /zones-comuns
+    image: /images/DSC01454.jpg
+  - title: Exteriores
+    link: /exteriors
+    image: /images/DSC01333.jpg
+servicesTitle: Serveis complementaris
 services:
- - name: Activitats
-   image: '/images/Activities.png'
-   description: Amb l’allotjament a Casa Bernat, disposeu d’un 20% de descompte a SnowCanyonPallars, la nostra secció d’activitats esportives. Oferim classes d’esquí, sortides amb raquetes, descens de barrancs, excursions, vies ferrades, acompanyaments i sortides interpretatives.
- - name: El Rebost
-   image: '/images/Rebost.png'
-   description: Teniu a la vostra disposició el servei de trobar-vos al rebost i a la nevera els àpats que vulgueu fer al llarg de la vostra estada, a més, d’un seguit de productes artesans de la comarca.
-
-
+  - name: Activitats
+    link: activitats
+    image: /images/Activities.png
+    description: Amb l’allotjament a Casa Bernat, disposeu d’un 20% de descompte a
+      SnowCanyonPallars, la nostra secció d’activitats esportives. Oferim
+      classes d’esquí, sortides amb raquetes, descens de barrancs, excursions,
+      vies ferrades, acompanyaments i sortides interpretatives.
+  - name: El Rebost
+    link: rebost
+    image: /images/Rebost.png
+    description: Teniu a la vostra disposició el servei de trobar-vos al rebost i a
+      la nevera els àpats que vulgueu fer al llarg de la vostra estada, a més,
+      d’un seguit de productes artesans de la comarca.
 ---
-

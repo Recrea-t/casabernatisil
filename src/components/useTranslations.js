@@ -36,6 +36,9 @@ const query = graphql`
             spaces
             activities
             rebost
+            rooms
+            areas
+            exteriors
 
             whoId
             historyId
@@ -60,6 +63,7 @@ const query = graphql`
             followUs
             legalNote
             privacyPolicy
+            bookingConditions
 
             reservation
             submit

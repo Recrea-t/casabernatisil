@@ -110,6 +110,60 @@
     },
     {
       "ca": {
+        "title": "Habitacions",
+        "link": "/habitacions"
+      },
+      "es": {
+        "title": "Habitaciones",
+        "link": "/habitaciones"
+      },
+      "en": {
+        "title": "Rooms",
+        "link": "/rooms"
+      },
+      "fr": {
+        "title": "Pièces",
+        "link": "/pieces"
+      }
+    },
+    {
+      "ca": {
+        "title": "Zones Comuns",
+        "link": "/zones-comuns"
+      },
+      "es": {
+        "title": "Zonas Comunes",
+        "link": "/zonas-comunes"
+      },
+      "en": {
+        "title": "Common Areas",
+        "link": "/common-areas"
+      },
+      "fr": {
+        "title": "Espaces Communs",
+        "link": "/espaces-communs"
+      }
+    },
+    {
+      "ca": {
+        "title": "Exteriors",
+        "link": "/exteriors"
+      },
+      "es": {
+        "title": "Exteriores",
+        "link": "/exteriores"
+      },
+      "en": {
+        "title": "Outdoor Areas",
+        "link": "/outdoor-areas"
+      },
+      "fr": {
+        "title": "Extérieurs",
+        "link": "/exterieurs"
+      }
+    },
+    {
+      "ca": {
         "title": "Reserves",
         "link": "/reserves"
       },
@@ -214,6 +268,24 @@
       "fr": {
         "title": "Privacy Policy",
         "link": "/privacy-policy"
+      }
+    },
+    {
+      "ca": {
+        "title": "Condicions de reserva",
+        "link": "/condicions-de-reserva"
+      },
+      "es": {
+        "title": "Condiciones de reserva",
+        "link": "/condiciones-de-reserva"
+      },
+      "en": {
+        "title": "Booking Conditions",
+        "link": "/booking-conditions"
+      },
+      "fr": {
+        "title": "Conditions de Réservation",
+        "link": "/conditions-de-reservation"
       }
     }
   ]

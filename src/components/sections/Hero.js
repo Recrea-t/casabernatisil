@@ -1,4 +1,5 @@
 import React from "react"
+import { useLocale } from "../../hooks/locale"
 
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { Box, Container, Heading, Image } from "@chakra-ui/react"
@@ -7,13 +8,39 @@ import ReactMarkdown from "react-markdown"
 import ChakraUIRenderer from "../../utils/ChakraUIRenderer"
 
 const Hero = props => {
+  const { locale } = useLocale()
   const { frontmatter } = props.data.default
-  const { hero } = props.data.images.frontmatter
   const { isEmpty } = props
 
   if (isEmpty) {
     return <Box pos="relative" w="full" h="150px"></Box>
   }
+
+  if (
+    !props.data ||
+    !props.data.images ||
+    !props.data.images.frontmatter ||
+    !props.data.images.frontmatter.hero
+  ) {
+    return (
+      <Box pos="relative" w="full" h="calc(75vh - 135px)">
+        <iframe
+          width="100%"
+          height="100%"
+          title="Google Map · Casa Bernat d'Isil"
+          alt="Google Map · Casa Bernat d'Isil"
+          src={`https://www.google.com/maps/embed/v1/place?key=${process.env.GATSBY_GOOGLE_API_KEY}&language=${locale}&q=casabernatisil&zoom=12`}
+          aria-hidden="false"
+          loading="lazy"
+          frameborder="0"
+          style={{ border: 0 }}
+          allowFullScreen
+        />
+      </Box>
+    )
+  }
+
+  const { hero } = props.data.images.frontmatter
 
   return (
     <Box pos="relative" w="full" h="calc(75vh - 135px)">

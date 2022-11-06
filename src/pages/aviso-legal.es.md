@@ -1,9 +1,9 @@
 ---
 templateKey: general-page
 title: Aviso legal
-description:
+description: Turismo rural y sostenible
 ---
-## Avís legal
+## Aviso legal
 
 Benvingut la pàgina WEB de *Càmping La Mola*
 
@@ -16,6 +16,7 @@ De conformitat amb el que disposa l'article 10 de la Llei 34/2002 de 11 de julio
 La societat es denomina *M. Carmen Araguàs Nat* amb CIF *40899865T* i que figura inscrita al Registre Mercantil.
 
 #### Normes d'utilització
+
 L'usuari es compromet a fer un ús adequat i lícit del lloc WEB així com dels continguts i serveis, de conformitat amb la legislació aplicable en cada moment, la moral i bons costums generalment acceptades i l'ordre públic.
 
 Queda prohibit realitzar, per la vostra banda, qualsevol acció que pugui provocar alteracions dels continguts d'aquesta pàgina WEB o un mal funcionament de la mateixa, incloent la introducció de virus o similars.

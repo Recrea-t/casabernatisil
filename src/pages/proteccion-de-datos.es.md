@@ -1,9 +1,9 @@
 ---
 templateKey: general-page
 title: Política de protección de datos
-description:
+description: Turismo rural y sostenible en los Pirineos
 ---
-## Política de protecció de dades personals
+## Política de protección de dades personals
 
 #### Abast de la política de protecció de dades personals
 
@@ -23,9 +23,10 @@ El Delegat de Protecció de Dades Personals és la persona encarregada de proteg
 
 Detallem, les dades personals que gestionem, així com les seves finalitats.
 
-- **Formulari de contacte**:
-  - Correu electrònic
-  - Contestar a la vostra pregunta, legitimada en la vostra petició prèvia.
+* **Formulari de contacte**:
+
+  * Correu electrònic
+  * Contestar a la vostra pregunta, legitimada en la vostra petició prèvia.
 
 El vostre consentiment pot ser revocat en qualsevol moment.
 
@@ -76,6 +77,7 @@ L'Usuari es compromet a fer un ús diligent i a no posar a la disposició de ter
 * **Supressió**: Podreu demanar la eliminació de les dades de caràcter personal
 * **Oposició**: Podreu demanar que no es tractin les vostres dades de caràcter personal
 * **Limitació del tractament**: Es pot sol·licitar la limitació quan:
+
   * Es comprova la impugnació a l'exactitud de les vostres dades
   * Quan no necessitem tractar les vostres dades, però les necessiteu per l’exercici o defensa de reclamacions
 * **Portabilitat**: Podrà rebre en format electrònic les dades que ens hagi facilitat

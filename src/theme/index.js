@@ -14,6 +14,8 @@ import Button from "./components/button"
 import Drawer from "./components/drawer"
 import Link from "./components/link"
 import Menu from "./components/menu"
+import Input from "./components/input"
+import Textarea from "./components/textarea"
 
 const overrides = {
   styles,
@@ -29,6 +31,8 @@ const overrides = {
     Link,
     Menu,
     FormLabel,
+    Input,
+    Textarea,
   },
 }
 

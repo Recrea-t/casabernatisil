@@ -14,9 +14,15 @@ hero:
   image: /images/DSC01567.jpg
 mainTitle: Casa Bernat d'Isil
 images:
-  - /images/DSC01530.jpg
-  - /images/DSC01454.jpg
-  - /images/DSC01333.jpg
+  - title: Habitacions
+    link: /habitacions
+    image: /images/DSC01530.jpg
+  - title: Zones Comuns
+    link: /zones-comuns
+    image: /images/DSC01454.jpg
+  - title: Exteriors
+    link: /exteriors
+    image: /images/DSC01333.jpg
 whyTitle: Per què escollir Casa Bernat
 why:
   - name: Capacitat per a quinze persones

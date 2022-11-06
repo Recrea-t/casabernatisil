@@ -5,7 +5,7 @@ description: Turisme rural i sostenible al Pallars Sobirà
 hero:
   image: /images/DSC01567.jpg
 section:
-  title: Activitats
+  title: Activities
   description: >-
     Els hostes gaudiran d'un 20% de descompte en les activitats que ofereixen la
     Núria i en Jaume en la seva empresa d'activitats fisicoesportives

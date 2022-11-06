@@ -227,7 +227,7 @@ collections:
                   name: image
                   widget: image
                   allow_multiple: false
-            - label: Seccio
+            - label: Secció
               name: section
               widget: object
               collapsed: true
@@ -245,3 +245,1166 @@ collections:
                   minimize_collapsed: true
                   label_singular: imatge
                   field: { label: Imatge, name: image, widget: image}
+        - name: 'rebost-ca'
+          label: Rebost
+          file: 'src/pages/rebost.ca.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Imatge Principal
+              name: hero
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Imatge
+                  name: image
+                  widget: image
+                  allow_multiple: false
+            - label: Secció
+              name: section
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+                - label: Imatges
+                  name: images
+                  widget: list
+                  minimize_collapsed: true
+                  label_singular: imatge
+                  field: { label: Imatge, name: image, widget: image}
+        - name: 'habitacions-ca'
+          label: Habitacions
+          file: 'src/pages/habitacions.ca.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Imatge Principal
+              name: hero
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Imatge
+                  name: image
+                  widget: image
+                  allow_multiple: false
+            - label: Secció
+              name: section
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+                - label: Imatges
+                  name: images
+                  widget: list
+                  minimize_collapsed: true
+                  label_singular: imatge
+                  field: { label: Imatge, name: image, widget: image}
+        - name: 'zones-ca'
+          label: Zones Comunes
+          file: 'src/pages/zones-comunes.ca.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Imatge Principal
+              name: hero
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Imatge
+                  name: image
+                  widget: image
+                  allow_multiple: false
+            - label: Secció
+              name: section
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+                - label: Imatges
+                  name: images
+                  widget: list
+                  minimize_collapsed: true
+                  label_singular: imatge
+                  field: { label: Imatge, name: image, widget: image}
+        - name: 'exteriors-ca'
+          label: Exteriors
+          file: 'src/pages/exteriors.ca.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Imatge Principal
+              name: hero
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Imatge
+                  name: image
+                  widget: image
+                  allow_multiple: false
+            - label: Secció
+              name: section
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+                - label: Imatges
+                  name: images
+                  widget: list
+                  minimize_collapsed: true
+                  label_singular: imatge
+                  field: { label: Imatge, name: image, widget: image}
+        - name: 'contact-ca'
+          label: 'Contacte'
+          file: 'src/pages/contacte.ca.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Text
+              name: summary
+              widget: markdown
+              required: false
+        - name: 'legal-notice-ca'
+          label: 'Avís legal'
+          file: 'src/pages/avis-legal.ca.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Cos
+              name: body
+              widget: markdown
+        - name: 'privacy-policy-ca'
+          label: 'Protecció de dades'
+          file: 'src/pages/proteccio-de-dades.ca.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Cos
+              name: body
+              widget: markdown
+        - name: 'conditions-ca'
+          label: 'Condicions de reseva'
+          file: 'src/pages/condicions-de-reserva.ca.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Cos
+              name: body
+              widget: markdown
+        - name: '404-ca'
+          label: '404'
+          file: 'src/pages/404.ca.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Cos
+              name: body
+              widget: markdown
+    - name: 'pages-es'
+      label: 'Paginas (Castellà)'
+      format: frontmatter
+      create: false
+      delete: false
+      editor:
+        preview: false
+      files:
+        - name: 'inicio-es'
+          label: Inici
+          file: 'src/pages/index.es.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Imatge Principal
+              name: hero
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: markdown
+            - label: Títol Principal
+              name: mainTitle
+              widget: string
+            - label: Descripció Principal
+              name: mainDescription
+              widget: markdown
+            - label: Títol Raons
+              name: whyTitle
+              widget: string
+            - label: Raons
+              name: why
+              widget: list
+              fields:
+                - label: Nom
+                  name: name
+                  widget: string
+                - label: Imatge
+                  name: image
+                  widget: image
+                  allow_multiple: false
+            - label: Títol Serveis
+              name: servicesTitle
+              widget: string
+            - label: Raons
+              name: services
+              widget: list
+              allow_add: false
+              min: 2
+              fields:
+                - label: Nom
+                  name: name
+                  widget: string
+                - label: link
+                  name: link
+                  widget: hidden
+                - label: Descripció
+                  name: description
+                  widget: markdown
+                - label: Imatge
+                  name: image
+                  widget: image
+                  allow_multiple: false
+        - name: 'casa-es'
+          label: Casa Bernat
+          file: 'src/pages/casa-bernat.es.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Qui Som
+              name: who
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+            - label: Història
+              name: history
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+            - label: Projecte
+              name: project
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+            - label: Sostenibilitat
+              name: sustainability
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+            - label: Els Espais
+              name: spaces
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+        - name: 'activities-es'
+          label: Actividades
+          file: 'src/pages/actividades.es.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Secció
+              name: section
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+        - name: 'rebost-es'
+          label: Rebost
+          file: 'src/pages/rebost.es.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Secció
+              name: section
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+        - name: 'rooms-es'
+          label: Habitaciones
+          file: 'src/pages/habitaciones.es.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Secció
+              name: section
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+        - name: 'areas-es'
+          label: Zonas Comunes
+          file: 'src/pages/zonas-comunes.es.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Secció
+              name: section
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+        - name: 'exteriors-es'
+          label: Exteriores
+          file: 'src/pages/exteriores.es.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Secció
+              name: section
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+        - name: 'contact-es'
+          label: 'Contacto'
+          file: 'src/pages/contacto.es.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Text
+              name: summary
+              widget: markdown
+              required: false
+        - name: 'legal-notice-es'
+          label: 'Aviso legal'
+          file: 'src/pages/aviso-legal.es.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Cos
+              name: body
+              widget: markdown
+        - name: 'privacy-policy-es'
+          label: 'Protección de datos'
+          file: 'src/pages/proteccion-de-datos.es.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Cos
+              name: body
+              widget: markdown
+        - name: 'conditions-es'
+          label: 'Condiciones de reseva'
+          file: 'src/pages/condiciones-de-reserva.es.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Cos
+              name: body
+              widget: markdown
+        - name: '404-es'
+          label: '404'
+          file: 'src/pages/404.es.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Cos
+              name: body
+              widget: markdown
+    - name: 'pages-en'
+      label: 'Pages (English)'
+      format: frontmatter
+      create: false
+      delete: false
+      editor:
+        preview: false
+      files:
+        - name: 'home-en'
+          label: Home
+          file: 'src/pages/index.en.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Imatge Principal
+              name: hero
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: markdown
+            - label: Títol Principal
+              name: mainTitle
+              widget: string
+            - label: Descripció Principal
+              name: mainDescription
+              widget: markdown
+            - label: Títol Raons
+              name: whyTitle
+              widget: string
+            - label: Raons
+              name: why
+              widget: list
+              fields:
+                - label: Nom
+                  name: name
+                  widget: string
+                - label: Imatge
+                  name: image
+                  widget: image
+                  allow_multiple: false
+            - label: Títol Serveis
+              name: servicesTitle
+              widget: string
+            - label: Raons
+              name: services
+              widget: list
+              allow_add: false
+              min: 2
+              fields:
+                - label: Nom
+                  name: name
+                  widget: string
+                - label: link
+                  name: link
+                  widget: hidden
+                - label: Descripció
+                  name: description
+                  widget: markdown
+                - label: Imatge
+                  name: image
+                  widget: image
+                  allow_multiple: false
+        - name: 'casa-en'
+          label: Casa Bernat
+          file: 'src/pages/casa-bernat.en.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Qui Som
+              name: who
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+            - label: Història
+              name: history
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+            - label: Projecte
+              name: project
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+            - label: Sostenibilitat
+              name: sustainability
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+            - label: Els Espais
+              name: spaces
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+        - name: 'activities-en'
+          label: Activities
+          file: 'src/pages/activities.en.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Secció
+              name: section
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+        - name: 'rebost-en'
+          label: Rebost
+          file: 'src/pages/rebost.en.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Secció
+              name: section
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+        - name: 'rooms-en'
+          label: Rooms
+          file: 'src/pages/rooms.en.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Secció
+              name: section
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+        - name: 'areas-en'
+          label: Common Areas
+          file: 'src/pages/common-areas.en.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Secció
+              name: section
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+        - name: 'exteriors-en'
+          label: Outdoor Areas
+          file: 'src/pages/outdoor-areas.en.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Secció
+              name: section
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+        - name: 'contact-en'
+          label: 'Contact'
+          file: 'src/pages/contact.en.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Text
+              name: summary
+              widget: markdown
+              required: false
+        - name: 'legal-notice-en'
+          label: 'Legal Note'
+          file: 'src/pages/legal-note.en.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Cos
+              name: body
+              widget: markdown
+        - name: 'privacy-policy-en'
+          label: 'Privacy Policy'
+          file: 'src/pages/privacy-policy.en.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Cos
+              name: body
+              widget: markdown
+        - name: 'conditions-en'
+          label: 'Booking Conditions'
+          file: 'src/pages/booking-conditions.en.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Cos
+              name: body
+              widget: markdown
+        - name: '404-en'
+          label: '404'
+          file: 'src/pages/404.en.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Cos
+              name: body
+              widget: markdown
+    - name: 'pages-fr'
+      label: 'Pages (Francès)'
+      format: frontmatter
+      create: false
+      delete: false
+      editor:
+        preview: false
+      files:
+        - name: 'home-fr'
+          label: Home
+          file: 'src/pages/index.fr.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Imatge Principal
+              name: hero
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: markdown
+            - label: Títol Principal
+              name: mainTitle
+              widget: string
+            - label: Descripció Principal
+              name: mainDescription
+              widget: markdown
+            - label: Títol Raons
+              name: whyTitle
+              widget: string
+            - label: Raons
+              name: why
+              widget: list
+              fields:
+                - label: Nom
+                  name: name
+                  widget: string
+                - label: Imatge
+                  name: image
+                  widget: image
+                  allow_multiple: false
+            - label: Títol Serveis
+              name: servicesTitle
+              widget: string
+            - label: Raons
+              name: services
+              widget: list
+              allow_add: false
+              min: 2
+              fields:
+                - label: Nom
+                  name: name
+                  widget: string
+                - label: link
+                  name: link
+                  widget: hidden
+                - label: Descripció
+                  name: description
+                  widget: markdown
+                - label: Imatge
+                  name: image
+                  widget: image
+                  allow_multiple: false
+        - name: 'casa-fr'
+          label: Casa Bernat
+          file: 'src/pages/casa-bernat.fr.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Qui Som
+              name: who
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+            - label: Història
+              name: history
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+            - label: Projecte
+              name: project
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+            - label: Sostenibilitat
+              name: sustainability
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+            - label: Els Espais
+              name: spaces
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+        - name: 'activities-fr'
+          label: Activités
+          file: 'src/pages/activites.fr.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Secció
+              name: section
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+        - name: 'rebost-fr'
+          label: Rebost
+          file: 'src/pages/rebost.fr.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Secció
+              name: section
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+        - name: 'rooms-fr'
+          label: Piéces
+          file: 'src/pages/pieces.fr.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Secció
+              name: section
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+        - name: 'areas-fr'
+          label: Espaces Communs
+          file: 'src/pages/espaces=communs.fr.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Secció
+              name: section
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+        - name: 'exteriors-fr'
+          label: Extérieurs
+          file: 'src/pages/exterieurs.fr.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Secció
+              name: section
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+        - name: 'contact-fr'
+          label: 'Contact'
+          file: 'src/pages/contact.fr.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Text
+              name: summary
+              widget: markdown
+              required: false
+        - name: 'legal-notice-fr'
+          label: 'Legal Note'
+          file: 'src/pages/legal-note.fr.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Cos
+              name: body
+              widget: markdown
+        - name: 'privacy-policy-fr'
+          label: 'Privacy Policy'
+          file: 'src/pages/privacy-policy.fr.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Cos
+              name: body
+              widget: markdown
+        - name: 'conditions-fr'
+          label: Conditions de Réservation
+          file: 'src/pages/conditions-de-reservation.fr.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Cos
+              name: body
+              widget: markdown
+        - name: '404-fr'
+          label: '404'
+          file: 'src/pages/404.fr.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Cos
+              name: body
+              widget: markdown
