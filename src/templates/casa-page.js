@@ -4,7 +4,8 @@ import PropTypes from "prop-types"
 
 import useTranslations from "../components/useTranslations"
 
-import { Box, Container, Heading, Text } from "@chakra-ui/react"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import { Box, Container, Stack, Image, Heading, Text } from "@chakra-ui/react"
 
 import SEO from "../components/SEO/seo"
 import Hero from "../components/sections/Hero"
@@ -18,7 +19,7 @@ import Gallery from "../components/ui/Gallery"
 
 const CasaPage = props => {
   const { frontmatter } = props.data.default
-  const { whoId, historyId, spacesId, spaces, bookButton } = useTranslations()
+  const { whoId, historyId, spacesId, bookButton } = useTranslations()
 
   return (
     <>
@@ -30,10 +31,19 @@ const CasaPage = props => {
           <Heading as="h2" variant="in-section">
             {frontmatter.who.title}
           </Heading>
-          <ReactMarkdown
-            components={ChakraUIRenderer()}
-            children={frontmatter.who.description}
-          />
+          <Stack direction={["column", "row"]} spacing={8} justify="center">
+            <Box h="full" align="left">
+              <ReactMarkdown
+                components={ChakraUIRenderer()}
+                children={frontmatter.who.description}
+              />
+            </Box>
+            <Image
+              as={GatsbyImage}
+              image={getImage(props.data.images.frontmatter.who.image)}
+              alt={frontmatter.who.title}
+            />
+          </Stack>
         </Container>
       </Box>
 
@@ -63,6 +73,52 @@ const CasaPage = props => {
           images={props.data.images.frontmatter.history}
           title="Imatge"
         />
+      </Box>
+
+      <Box>
+        <Container mb={4} variant="is-section">
+          <Heading as="h2" variant="in-section">
+            {frontmatter.project.title}
+          </Heading>
+          <ReactMarkdown
+            components={ChakraUIRenderer()}
+            children={frontmatter.project.description}
+          />
+        </Container>
+      </Box>
+
+      <Box>
+        <Container mb={4} variant="is-section">
+          <Heading as="h2" variant="in-section">
+            {frontmatter.sustainability.title}
+          </Heading>
+          <ReactMarkdown
+            components={ChakraUIRenderer()}
+            children={frontmatter.sustainability.description}
+          />
+        </Container>
+      </Box>
+
+      <Box
+        id={spacesId}
+        bgGradient={{
+          base: "linear(to-b, sickGreen.500 70%, white 30%)",
+          md: "linear(to-b, sickGreen.500 50%, white 50%)",
+        }}
+        color="white"
+      >
+        <Container variant="is-section">
+          <Heading as="h2" variant="in-section">
+            {frontmatter.spaces.title}
+          </Heading>
+          <Text mb={4}>{frontmatter.spaces.description}</Text>
+          <MotionText display="block" whileTap={{ scale: 0.95 }}>
+            <LocalizedLink to="/espais" variant="button" colorScheme="white">
+              {bookButton}
+            </LocalizedLink>
+          </MotionText>
+        </Container>
+        <Gallery images={props.data.images.frontmatter.spaces} title="Imatge" />
       </Box>
     </>
   )
@@ -95,6 +151,18 @@ export const query = graphql`
           title
           description
         }
+        project {
+          title
+          description
+        }
+        sustainability {
+          title
+          description
+        }
+        spaces {
+          title
+          description
+        }
       }
     }
     images: markdownRemark(
@@ -117,7 +185,7 @@ export const query = graphql`
             childImageSharp {
               gatsbyImageData(
                 layout: CONSTRAINED
-                height: 500
+                height: 400
                 aspectRatio: 0.667
                 placeholder: BLURRED
                 formats: [AVIF, WEBP, AUTO]
@@ -140,7 +208,56 @@ export const query = graphql`
             childImageSharp {
               gatsbyImageData(
                 layout: CONSTRAINED
-                height: 500
+                height: 700
+                aspectRatio: 0.667
+                placeholder: BLURRED
+                formats: [AVIF, WEBP, AUTO]
+              )
+            }
+          }
+        }
+        project {
+          image {
+            childImageSharp {
+              gatsbyImageData(
+                layout: CONSTRAINED
+                height: 400
+                aspectRatio: 0.667
+                placeholder: BLURRED
+                formats: [AVIF, WEBP, AUTO]
+              )
+            }
+          }
+        }
+        sustainability {
+          image {
+            childImageSharp {
+              gatsbyImageData(
+                layout: CONSTRAINED
+                height: 400
+                aspectRatio: 0.667
+                placeholder: BLURRED
+                formats: [AVIF, WEBP, AUTO]
+              )
+            }
+          }
+        }
+        spaces {
+          title
+          images {
+            childImageSharp {
+              gatsbyImageData(
+                layout: FULL_WIDTH
+                placeholder: BLURRED
+                formats: [AVIF, WEBP, AUTO]
+              )
+            }
+          }
+          gallery: images {
+            childImageSharp {
+              gatsbyImageData(
+                layout: CONSTRAINED
+                height: 700
                 aspectRatio: 0.667
                 placeholder: BLURRED
                 formats: [AVIF, WEBP, AUTO]

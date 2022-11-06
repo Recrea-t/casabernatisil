@@ -112,6 +112,7 @@ collections:
             - label: Imatge Principal
               name: hero
               widget: object
+              collapsed: true
               summary: '{{fields.title}}'
               fields:
                 - label: Títol
@@ -125,6 +126,7 @@ collections:
             - label: Qui Som
               name: who
               widget: object
+              collapsed: true
               summary: '{{fields.title}}'
               fields:
                 - label: Títol
@@ -140,6 +142,7 @@ collections:
             - label: Història
               name: history
               widget: object
+              collapsed: true
               summary: '{{fields.title}}'
               fields:
                 - label: Títol
@@ -154,9 +157,42 @@ collections:
                   minimize_collapsed: true
                   label_singular: imatge
                   field: { label: Imatge, name: image, widget: image }
+            - label: Projecte
+              name: project
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+                - label: Imatge
+                  name: image
+                  widget: image
+                  allow_multiple: false
+            - label: Sostenibilitat
+              name: sustainability
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+                - label: Imatge
+                  name: image
+                  widget: image
+                  allow_multiple: false
             - label: Els Espais
               name: spaces
               widget: object
+              collapsed: true
               summary: '{{fields.title}}'
               fields:
                 - label: Títol
@@ -170,4 +206,42 @@ collections:
                   widget: list
                   minimize_collapsed: true
                   label_singular: imatge
-                  field: { label: Imatge, name: image, widget: image, allow_multiple: false }
+                  field: { label: Imatge, name: image, widget: image }
+        - name: 'activitats-ca'
+          label: Activitats
+          file: 'src/pages/activitats.ca.md'
+          fields:
+            - label: Títol (SEO)
+              name: title
+              widget: string
+            - label: Descripció (SEO)
+              name: description
+              widget: text
+            - label: Imatge Principal
+              name: hero
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Imatge
+                  name: image
+                  widget: image
+                  allow_multiple: false
+            - label: Seccio
+              name: section
+              widget: object
+              collapsed: true
+              summary: '{{fields.title}}'
+              fields:
+                - label: Títol
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: markdown
+                - label: Imatges
+                  name: images
+                  widget: list
+                  minimize_collapsed: true
+                  label_singular: imatge
+                  field: { label: Imatge, name: image, widget: image}

@@ -41,7 +41,7 @@ const Gallery = props => {
   }
 
   return (
-    <Box h={500} my={8} ms={{ base: 0, lg: 8 }}>
+    <Box h={700} my={8} ms={8}>
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
         <ModalContent>
@@ -51,7 +51,7 @@ const Gallery = props => {
       </Modal>
       <Slider {...settings}>
         {gallery.map((image, index) => (
-          <Box onClick={() => openModal(index)}>
+          <Box onClick={() => openModal(index)} cursor="pointer">
             <Image
               mr={8}
               key={index}

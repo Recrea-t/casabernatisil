@@ -56,6 +56,31 @@ history:
     - /images/DSC01530.jpg
     - /images/DSC01565.jpg
     - /images/DSC01574.jpg
+project:
+  description: >-
+    Casa Bernat neix com a allotjament rural a partir d’un projecte familiar,
+    amb la il·lusió de restaurar i adequar la casa, mantenint l'essència d’una
+    casa antiga dels Pirineus.
+
+
+    Un dels objectius del projecte ha estat convertir Casa Bernat en una casa rural sostenible i eficient, respectant el medi, el poble i la gent que hi viu.
+  title: Projecte Casa Bernat
+  image: /images/DSC01352.jpg
+sustainability:
+  title: Casa Sostenible
+  description: >-
+    Hem aïllat tèrmicament totes les parets exteriors de la casa amb llana de
+    roca, evitant els derivats del petroli.
+
+
+    En tota la casa predomina la fusta i la pedra.
+
+
+    La calefacció i l’aigua calenta sanitària s’alimenten d’energia renovable, amb estella procedent del Pallars.
+
+
+    Disposem d'un endoll per recàrrega de vehicle elèctric per als clients.
+  image: /images/DSC01565.jpg
 spaces:
   title: Els Espais
   description: Casa Bernat és una casa típica del Pirineu de Lleida i funciona en
