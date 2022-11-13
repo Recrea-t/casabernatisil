@@ -25,10 +25,9 @@ const Gallery = props => {
     className: "is-slider",
     arrows: false,
     dots: false,
-    infinite: false,
+    infinite: true,
     fade: false,
     autoplay: false,
-    speed: 500,
     swipe: true,
     variableWidth: true,
     rows: 1,
@@ -37,7 +36,6 @@ const Gallery = props => {
   const openModal = index => {
     onOpen()
     setCurrentImage(images[index])
-    console.log(currentImage)
   }
 
   return (

@@ -39,7 +39,6 @@ const Spaces = props => {
   const openModal = index => {
     onOpen()
     setCurrentImage(images[index])
-    console.log(currentImage)
   }
 
   return (
