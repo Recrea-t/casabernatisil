@@ -37,7 +37,7 @@ const Header = () => {
     <Box
       as="nav"
       w="full"
-      h="135px"
+      h={["135px", "188px"]}
       pos={{ base: "fixed", lg: "inherit" }}
       top="0"
       right="0"
@@ -54,7 +54,7 @@ const Header = () => {
         align="center"
         justify="space-between"
         mx="auto"
-        p={4}
+        p={3}
         wrap="wrap"
       >
         <LocalizedLink
@@ -83,7 +83,7 @@ const Header = () => {
             loading="eager"
             layout="fixed"
             placeholder="tracedSVG"
-            width={200}
+            width={300}
           />
         </LocalizedLink>
 
@@ -186,11 +186,12 @@ const Header = () => {
           display={{ base: "none", lg: "inherit" }}
           direction="column"
           alignItems="self-end"
-          justify="flex-end"
+          justify="space-between"
+          h="full"
         >
           <Languages />
-          <Flex mt={8} align="center" direction="row" justify="flex-end">
-            <Menu matchWidth={true} offset={8} isOpen={isMenuOpen}>
+          <Flex align="center" direction="row" justify="flex-end">
+            <Menu matchWidth={true} offset={4} isOpen={isMenuOpen}>
               <MenuButton as={Link} variant="nav-link-lg">
                 {menuTitle}
               </MenuButton>
@@ -234,7 +235,8 @@ const Header = () => {
           display={{ base: "none", lg: "inherit" }}
           direction="column"
           alignSelf="right"
-          justify={{ md: "space-between", lg: "flex-end" }}
+          justify="space-between"
+          h="full"
         >
           <SocialLink
             color="white"

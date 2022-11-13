@@ -2,7 +2,7 @@ import React from "react"
 import { useLocale } from "../../hooks/locale"
 
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import { Box, Container, Heading, Image } from "@chakra-ui/react"
+import { Box, Container, Center, Heading, Image } from "@chakra-ui/react"
 
 import ReactMarkdown from "react-markdown"
 import ChakraUIRenderer from "../../utils/ChakraUIRenderer"
@@ -23,7 +23,11 @@ const Hero = props => {
     !props.data.images.frontmatter.hero
   ) {
     return (
-      <Box pos="relative" w="full" h="calc(75vh - 135px)">
+      <Box
+        pos="relative"
+        w="full"
+        h={["calc(75vh - 135px)", "calc(75vh - 188px)"]}
+      >
         <iframe
           width="100%"
           height="100%"
@@ -43,7 +47,11 @@ const Hero = props => {
   const { hero } = props.data.images.frontmatter
 
   return (
-    <Box pos="relative" w="full" h="calc(75vh - 135px)">
+    <Box
+      pos="relative"
+      w="full"
+      h={["calc(75vh - 135px)", "calc(75vh - 188px)"]}
+    >
       <Image
         pos="absolute"
         left={0}
@@ -66,21 +74,16 @@ const Hero = props => {
         h="full"
       >
         {" "}
-        <Container textAlign="right" pos="relative" h="full">
+        <Container h="full">
           {frontmatter.hero && (
-            <Heading
-              as="h1"
-              variant="in-hero"
-              pos="absolute"
-              top="30%"
-              right="0"
-              color="staleGrey.500"
-            >
-              <ReactMarkdown
-                components={ChakraUIRenderer()}
-                children={frontmatter.hero.title}
-              />
-            </Heading>
+            <Center h="full" w="full" justifyContent="end">
+              <Heading as="h1" variant="in-hero" color="staleGrey.500">
+                <ReactMarkdown
+                  components={ChakraUIRenderer()}
+                  children={frontmatter.hero.title}
+                />
+              </Heading>
+            </Center>
           )}
         </Container>
       </Box>

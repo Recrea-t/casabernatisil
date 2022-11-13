@@ -55,7 +55,7 @@ const Footer = props => {
         </LocalizedLink>
 
         <Box>
-          <VStack spacing={2} fontSize="s" textAlign="center">
+          <VStack spacing={2} fontSize="xs" textAlign="center">
             <Text dangerouslySetInnerHTML={{ __html: organization.address }} />
             <HStack spacing={1} divider={<StackDivider />}>
               {organization.phones.map((phone, index) => (
@@ -96,7 +96,7 @@ const Footer = props => {
       </Flex>
 
       <Box mt={8}>
-        <HStack spacing={2} divider={<StackDivider />} fontSize="xs">
+        <HStack spacing={1} divider={<StackDivider />} fontSize={["3xs", "xs"]}>
           <Text>
             &copy; {new Date().getFullYear()} {props.title}
           </Text>

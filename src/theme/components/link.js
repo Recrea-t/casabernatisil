@@ -45,13 +45,15 @@ export default {
     button: variantButton,
     "nav-link-lg": {
       textTransform: "uppercase",
-      ml: 8,
+      ml: 4,
     },
     "nav-link-base": {
       textTransform: "uppercase",
       fontWeight: "bold",
     },
-    "nav-sublink-lg": {},
+    "nav-sublink-lg": {
+      fontSize: "xs",
+    },
     "nav-sublink-base": {},
     "in-footer": {
       textDecoration: "underline",

@@ -1,7 +1,11 @@
 const styles = {
-  global: {
+  global: props => ({
     html: {
       //scrollBehavior: "smooth",
+      fontSize: "20px",
+      [`@media screen and (max-width: ${props.theme.breakpoints.sm})`]: {
+        fontSize: "16px",
+      },
     },
     body: {
       color: "staleGrey.500",
@@ -51,7 +55,7 @@ const styles = {
         },
       },
     },
-  },
+  }),
 }
 
 export default styles

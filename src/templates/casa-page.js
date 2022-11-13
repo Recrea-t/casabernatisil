@@ -31,7 +31,7 @@ const CasaPage = props => {
           <Heading as="h2" variant="in-section">
             {frontmatter.who.title}
           </Heading>
-          <Stack direction={["column", "row"]} spacing={8} justify="center">
+          <Stack direction={["column", "row"]} spacing={4} justify="center">
             <Box h="full" align="left">
               <ReactMarkdown
                 components={ChakraUIRenderer()}

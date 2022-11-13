@@ -7,14 +7,14 @@ export default {
   },
   variants: {
     "in-hero": {
-      fontSize: "5xl",
+      fontSize: "2.4rem",
       fontWeight: "semibold",
       color: "staleGrey.500",
       textAlign: "right",
       mb: "0",
     },
     "in-section": {
-      fontSize: "2xl",
+      fontSize: "1.325rem",
       fontWeight: "normal",
       fontStyle: "italic",
     },
