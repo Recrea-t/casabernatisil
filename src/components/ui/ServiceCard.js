@@ -48,7 +48,7 @@ const ServiceCard = props => {
       <Text>{service.description}</Text>
       <MotionText display="block" whileTap={{ scale: 0.95 }}>
         <LocalizedLink
-          to={service.link}
+          to={`/${service.link}`}
           variant="button"
           colorScheme="sickGreen"
         >
