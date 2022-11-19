@@ -40,7 +40,7 @@ const Footer = props => {
     >
       <Flex
         direction={{ base: "column", lg: "row" }}
-        align={{ base: "center", lg: "start" }}
+        align="center"
         justify="center"
         w="full"
       >
@@ -54,7 +54,7 @@ const Footer = props => {
           />
         </LocalizedLink>
 
-        <Box>
+        <Flex direction={["column", "row"]} h="full" align="center">
           <VStack spacing={2} fontSize="xs" textAlign="center">
             <Text dangerouslySetInnerHTML={{ __html: organization.address }} />
             <HStack spacing={1} divider={<StackDivider />}>
@@ -92,7 +92,30 @@ const Footer = props => {
               />
             </HStack>
           </VStack>
-        </Box>
+          <VStack mt={[2, 0]} ml={[0, 4]} spacing={2} justify="center">
+            <StaticImage
+              src="../../images/Logo_LEADER.jpeg"
+              alt="Consorci Leader Pirineu Occidental"
+              layout="fixed"
+              placeholder="tracedSVG"
+              width={125}
+            />
+            <Text fontSize=".5rem" textAlign="center">
+              Implementació d’estratègies de desenvolupament local
+              <br />
+              Actuació del Programa de Desenvolupament Rural
+              <br />
+              de Catalunya 2014-2020 cofinançada per:
+            </Text>
+            <StaticImage
+              src="../../images/eu-gen.jpg"
+              alt="Fons Europeu de Desenvolupament Rural"
+              layout="fixed"
+              placeholder="tracedSVG"
+              width={250}
+            />
+          </VStack>
+        </Flex>
       </Flex>
 
       <Box mt={8}>

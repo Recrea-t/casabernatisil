@@ -52,7 +52,7 @@ const Spaces = props => {
       </Modal>
       <Slider {...settings}>
         {gallery.map((image, index) => (
-          <Box key={index} position="relative">
+          <Box key={index} position="relative" textAlign="center">
             <Box onClick={() => openModal(index)} cursor="pointer">
               <Image
                 mr={8}
@@ -62,18 +62,15 @@ const Spaces = props => {
                 alt={links[index].title}
               />
             </Box>
-            <LocalizedLink
-              to={links[index].link}
-              variant="button"
-              colorScheme="sickGreen"
-              width="150px"
-              textAlign="center"
-              position="absolute"
-              bottom={8}
-              right="calc(50% - 75px + 2rem)"
-            >
-              {links[index].title}
-            </LocalizedLink>
+            <Box w="full" textAlign="center" position="absolute" bottom={8}>
+              <LocalizedLink
+                to={links[index].link}
+                variant="button"
+                colorScheme="sickGreen"
+              >
+                {links[index].title}
+              </LocalizedLink>
+            </Box>
           </Box>
         ))}
       </Slider>

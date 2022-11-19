@@ -14,13 +14,13 @@ hero:
   image: /images/DSC01567.jpg
 mainTitle: Casa Bernat d'Isil
 images:
-  - title: Habitacions
+  - title: Pièces
     link: /habitacions
     image: /images/DSC01530.jpg
-  - title: Zones Comuns
+  - title: Espaces Communs
     link: /zones-comuns
     image: /images/DSC01454.jpg
-  - title: Exteriors
+  - title: Extérieurs
     link: /exteriors
     image: /images/DSC01333.jpg
 whyTitle: Per què escollir Casa Bernat
