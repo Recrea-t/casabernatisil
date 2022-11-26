@@ -37,7 +37,7 @@ const Header = () => {
     <Box
       as="nav"
       w="full"
-      h={["135px", "188px"]}
+      h={["100px", "188px"]}
       pos={{ base: "fixed", lg: "inherit" }}
       top="0"
       right="0"
@@ -45,7 +45,7 @@ const Header = () => {
       zIndex="1"
       color="white"
       bg="sickGreen.500"
-      borderBottom="2px solid white"
+      shadow={["md", "none"]}
     >
       <Flex
         h="full"
