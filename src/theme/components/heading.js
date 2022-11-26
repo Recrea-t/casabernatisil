@@ -14,9 +14,10 @@ export default {
       mb: "0",
     },
     "in-section": {
-      fontSize: "1.325rem",
+      fontSize: "3xl",
       fontWeight: "normal",
       fontStyle: "italic",
+      textTransform: "uppercase",
     },
     "no-margin": {
       mb: "0",
