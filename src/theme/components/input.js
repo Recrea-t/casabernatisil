@@ -21,7 +21,7 @@ export default {
         },
         _focus: {
           bg: "lightGrey.200",
-          borderColor: "sickGreen.200",
+          borderColor: "staleGrey.500",
         },
       },
       addon: {
