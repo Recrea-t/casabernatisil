@@ -77,7 +77,7 @@ const Hero = props => {
         <Container h="full">
           {frontmatter.hero && (
             <Center h="full" w="full" justifyContent="end">
-              <Heading as="h1" variant="in-hero" color="staleGrey.500">
+              <Heading as="h1" variant="in-hero">
                 <ReactMarkdown
                   components={ChakraUIRenderer()}
                   children={frontmatter.hero.title}
