@@ -93,6 +93,14 @@ const Footer = props => {
             </HStack>
           </VStack>
           <VStack mt={[2, 0]} ml={[0, 4]} spacing={2} justify="center">
+            <Text fontSize=".6rem" textAlign="center">
+              Ajut per "Transformació de Casa Bernat d'Isil en allotjament de
+              turisme rural (CPI) i
+              <br />
+              implantació d'un centre d'activitats esportives de muntanya".
+              <br />
+              Operació: Implementació d'estratègies de desenvolupament local.
+            </Text>
             <StaticImage
               src="../../images/Logo_LEADER.jpeg"
               alt="Consorci Leader Pirineu Occidental"
@@ -100,9 +108,7 @@ const Footer = props => {
               placeholder="tracedSVG"
               width={125}
             />
-            <Text fontSize=".5rem" textAlign="center">
-              Implementació d’estratègies de desenvolupament local
-              <br />
+            <Text fontSize=".6rem" textAlign="center">
               Actuació del Programa de Desenvolupament Rural
               <br />
               de Catalunya 2014-2020 cofinançada per:
