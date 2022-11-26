@@ -16,10 +16,12 @@ const Section = props => {
         <Heading as="h2" variant="in-section">
           {frontmatter.section.title}
         </Heading>
-        <ReactMarkdown
-          components={ChakraUIRenderer()}
-          children={frontmatter.section.description}
-        />
+        <Box textAlign="left">
+          <ReactMarkdown
+            components={ChakraUIRenderer()}
+            children={frontmatter.section.description}
+          />
+        </Box>
       </Container>
       <Gallery images={props.data.images.frontmatter.section} title="Imatge" />
     </Box>

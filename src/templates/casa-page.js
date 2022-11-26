@@ -76,25 +76,10 @@ const CasaPage = props => {
       </Box>
 
       <Box>
-        <Container mb={4} variant="is-section">
-          <Heading as="h2" variant="in-section">
-            {frontmatter.project.title}
-          </Heading>
+        <Container mb={4} variant="is-section" textAlign="left">
           <ReactMarkdown
             components={ChakraUIRenderer()}
             children={frontmatter.project.description}
-          />
-        </Container>
-      </Box>
-
-      <Box>
-        <Container mb={4} variant="is-section">
-          <Heading as="h2" variant="in-section">
-            {frontmatter.sustainability.title}
-          </Heading>
-          <ReactMarkdown
-            components={ChakraUIRenderer()}
-            children={frontmatter.sustainability.description}
           />
         </Container>
       </Box>
@@ -152,11 +137,6 @@ export const query = graphql`
           description
         }
         project {
-          title
-          description
-        }
-        sustainability {
-          title
           description
         }
         spaces {
@@ -209,32 +189,6 @@ export const query = graphql`
               gatsbyImageData(
                 layout: CONSTRAINED
                 height: 700
-                aspectRatio: 0.667
-                placeholder: BLURRED
-                formats: [AVIF, WEBP, AUTO]
-              )
-            }
-          }
-        }
-        project {
-          image {
-            childImageSharp {
-              gatsbyImageData(
-                layout: CONSTRAINED
-                height: 400
-                aspectRatio: 0.667
-                placeholder: BLURRED
-                formats: [AVIF, WEBP, AUTO]
-              )
-            }
-          }
-        }
-        sustainability {
-          image {
-            childImageSharp {
-              gatsbyImageData(
-                layout: CONSTRAINED
-                height: 400
                 aspectRatio: 0.667
                 placeholder: BLURRED
                 formats: [AVIF, WEBP, AUTO]

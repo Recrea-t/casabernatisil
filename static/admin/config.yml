@@ -163,32 +163,9 @@ collections:
               collapsed: true
               summary: '{{fields.title}}'
               fields:
-                - label: Títol
-                  name: title
-                  widget: string
                 - label: Descripció
                   name: description
                   widget: markdown
-                - label: Imatge
-                  name: image
-                  widget: image
-                  allow_multiple: false
-            - label: Sostenibilitat
-              name: sustainability
-              widget: object
-              collapsed: true
-              summary: '{{fields.title}}'
-              fields:
-                - label: Títol
-                  name: title
-                  widget: string
-                - label: Descripció
-                  name: description
-                  widget: markdown
-                - label: Imatge
-                  name: image
-                  widget: image
-                  allow_multiple: false
             - label: Els Espais
               name: spaces
               widget: object
@@ -572,21 +549,6 @@ collections:
               collapsed: true
               summary: '{{fields.title}}'
               fields:
-                - label: Títol
-                  name: title
-                  widget: string
-                - label: Descripció
-                  name: description
-                  widget: markdown
-            - label: Sostenibilitat
-              name: sustainability
-              widget: object
-              collapsed: true
-              summary: '{{fields.title}}'
-              fields:
-                - label: Títol
-                  name: title
-                  widget: string
                 - label: Descripció
                   name: description
                   widget: markdown
@@ -887,21 +849,6 @@ collections:
               collapsed: true
               summary: '{{fields.title}}'
               fields:
-                - label: Títol
-                  name: title
-                  widget: string
-                - label: Descripció
-                  name: description
-                  widget: markdown
-            - label: Sostenibilitat
-              name: sustainability
-              widget: object
-              collapsed: true
-              summary: '{{fields.title}}'
-              fields:
-                - label: Títol
-                  name: title
-                  widget: string
                 - label: Descripció
                   name: description
                   widget: markdown
@@ -1202,21 +1149,6 @@ collections:
               collapsed: true
               summary: '{{fields.title}}'
               fields:
-                - label: Títol
-                  name: title
-                  widget: string
-                - label: Descripció
-                  name: description
-                  widget: markdown
-            - label: Sostenibilitat
-              name: sustainability
-              widget: object
-              collapsed: true
-              summary: '{{fields.title}}'
-              fields:
-                - label: Títol
-                  name: title
-                  widget: string
                 - label: Descripció
                   name: description
                   widget: markdown
