@@ -65,7 +65,7 @@ const IndexPage = props => {
           <Heading as="h2" variant="in-section">
             {frontmatter.whyTitle}
           </Heading>
-          <SimpleGrid columns="2" spacing={16}>
+          <SimpleGrid columns={[2, 3]} spacing={16}>
             {frontmatter.why.map((item, index) => (
               <WhyCard key={index} reason={item} />
             ))}
