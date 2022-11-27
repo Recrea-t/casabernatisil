@@ -32,7 +32,7 @@ who:
 
     voluntari.\
 
-    La Núria és geòloga, professora d’esquí i guia de la Casa de l’Os Bru del Pirineu.¸
+    La Núria és geòloga, professora d'esquí i guia de la Casa de l’Os Bru del Pirineu.¸
 
 
     Ambdós som nascuts al Vallès Occidental i vam decidir deixar la ciutat per començar el\
@@ -74,7 +74,7 @@ project:
     Vàrem fer el projecte i les reformes per transformar-la en la casa de turisme rural que és ara.
 
 
-    **P﻿rojecte Casa Bernat**
+    **Projecte Casa Bernat**
 
 
     Casa Bernat neix com a allotjament rural a partir d’un projecte familiar, amb la il·lusió de restaurar i adequar la casa, mantenint l'essència d’una casa antiga dels Pirineus.
@@ -83,7 +83,7 @@ project:
     Un dels objectius del projecte ha estat convertir Casa Bernat en una casa rural sostenible i eficient, respectant el medi, el poble i la gent que hi viu.
 
 
-    **C﻿asa Sostenible**
+    **Casa Sostenible**
 
 
     Té la façana principal arrebossada, indicatiu que va ser una casa pròspera. A finals del segle XVIII la casa ja comptava amb forn de pedra, estable i paller.
@@ -102,10 +102,13 @@ spaces:
     espais. Disposa de set habitacions, i diversos espais tant interiors com
     exteriors.
   images:
-    - /images/DSC01333.jpg
-    - /images/DSC01384.jpg
-    - /images/DSC01506.jpg
-    - /images/DSC01530.jpg
-    - /images/DSC01565.jpg
-    - /images/DSC01574.jpg
+    - title: Habitacions
+      link: /habitacions
+      image: /images/DSC01530.jpg
+    - title: Zones Comuns
+      link: /zones-comuns
+      image: /images/DSC01352.jpg
+    - title: Exteriors
+      link: /exteriors
+      image: /images/DSC01565.jpg
 ---

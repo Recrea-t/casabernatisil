@@ -21,7 +21,7 @@ import Testimonial from "../components/ui/Testimonial"
 
 import { MotionText } from "../theme/utils"
 import LocalizedLink from "../components/ui/LocalizedLink"
-import Spaces from "../components/ui/Spaces"
+import Gallery from "../components/ui/Gallery"
 
 const IndexPage = props => {
   const { frontmatter } = props.data.default
@@ -54,9 +54,9 @@ const IndexPage = props => {
             </LocalizedLink>
           </MotionText>
         </Container>
-        <Spaces
-          links={frontmatter.images}
+        <Gallery
           images={props.data.images.frontmatter}
+          title="Imatge Galeria"
         />
       </Box>
 
@@ -129,10 +129,6 @@ export const query = graphql`
         }
         mainDescription
         whyTitle
-        images {
-          title
-          link
-        }
         why {
           name
           image {
@@ -179,28 +175,24 @@ export const query = graphql`
             }
           }
         }
-        gallery: images {
-          image {
-            childImageSharp {
-              gatsbyImageData(
-                layout: CONSTRAINED
-                height: 700
-                aspectRatio: 0.667
-                placeholder: BLURRED
-                formats: [AVIF, WEBP, AUTO]
-              )
-            }
+        images {
+          childImageSharp {
+            gatsbyImageData(
+              layout: FULL_WIDTH
+              placeholder: BLURRED
+              formats: [AVIF, WEBP, AUTO]
+            )
           }
         }
-        images {
-          image {
-            childImageSharp {
-              gatsbyImageData(
-                layout: FULL_WIDTH
-                placeholder: BLURRED
-                formats: [AVIF, WEBP, AUTO]
-              )
-            }
+        gallery: images {
+          childImageSharp {
+            gatsbyImageData(
+              layout: CONSTRAINED
+              height: 700
+              aspectRatio: 0.667
+              placeholder: BLURRED
+              formats: [AVIF, WEBP, AUTO]
+            )
           }
         }
       }

@@ -1,6 +1,6 @@
 ---
-mainDescription: Vine a gaudir d’una casa amb encant, confortable i sostenible
-  al bell mig d’un poble de les Valls d’Àneu, al nord del Pallars Sobirà.
+mainDescription: Vine a gaudir d'una casa amb encant, confortable i sostenible
+  al bell mig d’un poble de les Valls d'Àneu, al nord del Pallars Sobirà.
 templateKey: index-page
 title: Inici
 description: Turisme rural i sostenible al Pallars Sobirà
@@ -14,15 +14,12 @@ hero:
   image: /images/DSC01567.jpg
 mainTitle: Casa Bernat d'Isil
 images:
-  - title: Habitacions
-    link: /habitacions
-    image: /images/DSC01530.jpg
-  - title: Zones Comuns
-    link: /zones-comuns
-    image: /images/DSC01454.jpg
-  - title: Exteriors
-    link: /exteriors
-    image: /images/DSC01333.jpg
+  - /images/DSC01333.jpg
+  - /images/DSC01352.jpg
+  - /images/DSC01384.jpg
+  - /images/DSC01454.jpg
+  - /images/DSC01506.jpg
+  - /images/DSC01530.jpg
 whyTitle: Per què escollir Casa Bernat
 why:
   - name: Capacitat per a quinze persones

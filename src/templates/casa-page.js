@@ -16,6 +16,7 @@ import ChakraUIRenderer from "../utils/ChakraUIRenderer"
 import { MotionText } from "../theme/utils"
 import LocalizedLink from "../components/ui/LocalizedLink"
 import Gallery from "../components/ui/Gallery"
+import Spaces from "../components/ui/Spaces"
 
 const CasaPage = props => {
   const { frontmatter } = props.data.default
@@ -103,7 +104,10 @@ const CasaPage = props => {
             </LocalizedLink>
           </MotionText>
         </Container>
-        <Gallery images={props.data.images.frontmatter.spaces} title="Imatge" />
+        <Spaces
+          links={frontmatter.spaces.images}
+          images={props.data.images.frontmatter.spaces}
+        />
       </Box>
     </>
   )
@@ -142,6 +146,10 @@ export const query = graphql`
         spaces {
           title
           description
+          images {
+            title
+            link
+          }
         }
       }
     }
@@ -174,7 +182,6 @@ export const query = graphql`
           }
         }
         history {
-          title
           images {
             childImageSharp {
               gatsbyImageData(
@@ -197,25 +204,29 @@ export const query = graphql`
           }
         }
         spaces {
-          title
           images {
-            childImageSharp {
-              gatsbyImageData(
-                layout: FULL_WIDTH
-                placeholder: BLURRED
-                formats: [AVIF, WEBP, AUTO]
-              )
+            image {
+              childImageSharp {
+                gatsbyImageData(
+                  layout: FULL_WIDTH
+                  placeholder: BLURRED
+                  formats: [AVIF, WEBP, AUTO]
+                )
+              }
             }
           }
           gallery: images {
-            childImageSharp {
-              gatsbyImageData(
-                layout: CONSTRAINED
-                height: 700
-                aspectRatio: 0.667
-                placeholder: BLURRED
-                formats: [AVIF, WEBP, AUTO]
-              )
+            image {
+              childImageSharp {
+                gatsbyImageData(
+                  layout: CONSTRAINED
+                  height: 700
+                  aspectRatio: 0.667
+                  placeholder: BLURRED
+                  formats: [AVIF, WEBP, AUTO]
+                  transformOptions: { fit: COVER }
+                )
+              }
             }
           }
         }

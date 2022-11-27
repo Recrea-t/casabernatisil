@@ -14,11 +14,8 @@ sustainability:
 
 
     Disposem d'un endoll per recàrrega de vehicle elèctric per als clients.
-  image: /images/DSC01565.jpg
 title: Casa Bernat
 description: Turisme rural i sostenible al Pallars Sobirà
-hero:
-  image: /images/DSC01567.jpg
 who:
   title: Qui som
   description: >-
@@ -47,20 +44,12 @@ who:
     amb raquetes, descens de barrancs, excursions, vies ferrades, acompanyaments i sortides\
 
     interpretatives.
-  image: /images/DSC01333.jpg
 history:
   title: Una mica d'història de la casa
   description: Casa Bernat és una ‘casa gran’ al poble dIsil. Una casa amb molts
     segles d'història. No en coneixem lorigen. Ja en el segle XVI hi ha
     documents referents a una compra de bestiar per part de Jaume Barado de Casa
     Bernat dIsil.
-  images:
-    - /images/DSC01333.jpg
-    - /images/DSC01384.jpg
-    - /images/DSC01506.jpg
-    - /images/DSC01530.jpg
-    - /images/DSC01565.jpg
-    - /images/DSC01574.jpg
 project:
   description: >-
     Té la façana principal arrebossada, indicatiu que va ser una casa pròspera.
@@ -102,10 +91,10 @@ spaces:
     espais. Disposa de set habitacions, i diversos espais tant interiors com
     exteriors.
   images:
-    - /images/DSC01333.jpg
-    - /images/DSC01384.jpg
-    - /images/DSC01506.jpg
-    - /images/DSC01530.jpg
-    - /images/DSC01565.jpg
-    - /images/DSC01574.jpg
+    - title: Rooms
+      link: /habitacions
+    - title: Common Areas
+      link: /zones-comuns
+    - title: Outdoor Areas
+      link: /exteriors
 ---

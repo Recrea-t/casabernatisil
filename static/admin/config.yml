@@ -58,11 +58,8 @@ collections:
             - label: Imatges
               name: images
               widget: list
-              allow_add: false
-              min: 3
-              max: 3
               minimize_collapsed: true
-              field: { label: Imatge, name: image, widget: image, allow_multiple: false }
+              field: { label: Imatge, name: image, widget: image}
             - label: Títol Raons
               name: whyTitle
               widget: string
@@ -85,6 +82,7 @@ collections:
               widget: list
               allow_add: false
               min: 2
+              max: 2
               fields:
                 - label: Nom
                   name: name
@@ -181,9 +179,21 @@ collections:
                 - label: Imatges
                   name: images
                   widget: list
-                  minimize_collapsed: true
-                  label_singular: imatge
-                  field: { label: Imatge, name: image, widget: image }
+                  minimize_collapsed: false
+                  min: 3
+                  max: 3
+                  summary: '{{fields.title}}'
+                  fields:
+                    - label: Title
+                      name: title
+                      widget: string
+                    - label: link
+                      name: link
+                      widget: string
+                    - label: Imatge
+                      name: image
+                      widget: image
+                      allow_multiple: false
         - name: 'activitats-ca'
           label: Activitats
           file: 'src/pages/activitats.ca.md'
@@ -495,6 +505,7 @@ collections:
               widget: list
               allow_add: false
               min: 2
+              max: 2
               fields:
                 - label: Nom
                   name: name

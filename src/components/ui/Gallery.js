@@ -9,6 +9,7 @@ import {
   ModalContent,
   ModalCloseButton,
   useDisclosure,
+  useBreakpointValue,
 } from "@chakra-ui/react"
 
 import Slider from "react-slick"
@@ -21,17 +22,32 @@ const Gallery = props => {
   const [currentImage, setCurrentImage] = React.useState(images[1])
   const { isOpen, onOpen, onClose } = useDisclosure()
 
-  const settings = {
-    className: "is-slider",
-    arrows: false,
-    dots: false,
-    infinite: true,
-    fade: false,
-    autoplay: false,
-    swipe: true,
-    variableWidth: true,
-    rows: 1,
-  }
+  const settings = useBreakpointValue([
+    {
+      className: "is-slider",
+      arrows: false,
+      dots: true,
+      infinite: true,
+      autoplay: false,
+      swipe: true,
+      fade: false,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      rows: 1,
+    },
+    {
+      className: "is-slider",
+      arrows: true,
+      dots: false,
+      infinite: false,
+      fade: false,
+      autoplay: false,
+      swipe: false,
+      slidesToScroll: 1,
+      variableWidth: true,
+      rows: 1,
+    },
+  ])
 
   const openModal = index => {
     onOpen()
@@ -39,7 +55,7 @@ const Gallery = props => {
   }
 
   return (
-    <Box h={700} my={8} ms={8}>
+    <Box my={8} ms={8}>
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
         <ModalContent>
@@ -47,11 +63,13 @@ const Gallery = props => {
           <Image as={GatsbyImage} image={getImage(currentImage)} alt={title} />
         </ModalContent>
       </Modal>
-      <Slider {...settings} align="center">
+      <Slider {...settings} h="full">
         {gallery.map((image, index) => (
           <Box onClick={() => openModal(index)} cursor="pointer">
             <Image
               mr={8}
+              h="full"
+              objectFit="contain"
               key={index}
               as={GatsbyImage}
               loading={index === 0 ? "eager" : "lazy"}

@@ -35,7 +35,7 @@ const styles = {
       padding: 0,
 
       ".slick-slide": {
-        padding: "0 1rem",
+        padding: "0",
         overflow: "hidden",
       },
       ".slick-list": {
@@ -50,6 +50,37 @@ const styles = {
 
             "> div": {
               height: "100%",
+            },
+          },
+        },
+      },
+      ".slick-dots": {
+        position: "absolute",
+        bottom: "1rem",
+
+        li: {
+          margin: "0",
+        },
+
+        button: {
+          _before: {
+            fontSize: ".75rem",
+            color: "#B7AA2E",
+            opacity: 0.75,
+
+            _hover: {
+              opacity: 1,
+            },
+          },
+        },
+
+        ".slick-active": {
+          button: {
+            _before: {
+              fontSize: "1rem",
+              color: "#696A6F",
+              textShadow:
+                "-1px 0 #B7AA2E, 0 1px #B7AA2E, 1px 0 #B7AA2E, 0 -1px #B7AA2E",
             },
           },
         },

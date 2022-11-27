@@ -27,16 +27,6 @@ why:
     image: /images/icona_pqCasaBernat_04.png
   - name: Dins del Parc Natural de l'Alt Pirineu
     image: /images/icona_pqCasaBernat_05.png
-images:
-  - title: Rooms
-    link: /habitacions
-    image: /images/DSC01530.jpg
-  - title: Common Areas
-    link: /zones-comuns
-    image: /images/DSC01454.jpg
-  - title: Outdoor Areas
-    link: /exteriors
-    image: /images/DSC01333.jpg
 servicesTitle: Serveis complementaris
 services:
   - name: Activitats

@@ -27,7 +27,7 @@ const TemplateWrapper = ({ children, pageContext: { locale } }) => {
         as="main"
         pos="relative"
         w="full"
-        pt={{ base: "100px", lg: "0px" }}
+        pt={{ base: "90px", lg: "0px" }}
         direction="column"
       >
         {children}
