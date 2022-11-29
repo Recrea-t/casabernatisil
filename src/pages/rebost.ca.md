@@ -33,6 +33,8 @@ section:
 
     Un cop feta la reserva de la casa, s'enviarà un formulari a través del qual podràs sol·licitar els serveis del Rebost.
 
+
+
     *\*En cas d'estades d'una setmana o més, es reposicionen els esmorzars cada tres dies.*
   images:
     - /images/DSC01333.jpg
