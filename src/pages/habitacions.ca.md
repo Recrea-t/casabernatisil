@@ -12,19 +12,22 @@ section:
     d'Àneu.
 
 
-    ### Planta baixa
+    **Planta baixa**
+
 
     * Vall de Rosari: llit doble.
 
     * Vall de Bonabé: dos llits individuals.
 
 
-    ### Primera planta
+    **Primera planta**
+
 
     * Estany d'Airoto: dos llits individuals.
 
 
-    ### Segona planta
+    **Segona planta**
+
 
     * Port de Salau: 3 llits individuals, 4rt llit opcional.
 
@@ -33,7 +36,8 @@ section:
     * Port de Clavera: llit doble.
 
 
-    ### Cap de casa
+    **Cap de casa**
+
 
     * Pic de Sarredo: llit doble.
 
