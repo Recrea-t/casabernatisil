@@ -23,7 +23,7 @@ section:
     A la primavera ja comença el bon temps per agafar la bicicleta, ja sigui la de carretera o la de muntanya. Per ambdues les Valls d'Àneu i el Pallars ofereixen uns itineraris espectaculars. També comencen les activitats d'aigua tan emocionants com els barrancs o el ràfting.
 
 
-    A l'estiu podem seguir amb les activitats de primavera, i alhora, a Valls d'Àneu s'hi sumen els festivals culturals Esbaiola't, Dansàneu, Fira de la Cervesa d'Esterri d'Àneu, Festival de Música Antiga dels Pirineus, baixades de falles a Isil, València d'Àneu i Alós, festes majors cada cap de setmana i varies fires entre altres.
+    A l'estiu podem seguir amb les activitats de primavera, i alhora, a Valls d'Àneu s'hi sumen els festivals culturals [Esbaiola't](https://festivalesbaiolat.cat/), [Dansàneu](https://www.dansaneu.cat/), Fira de la Cervesa d'Esterri d'Àneu, Festival de Música Antiga dels Pirineus, baixades de [falles a Isil](http://www.fallesisil.cat/), València d'Àneu i Alós, festes majors cada cap de setmana i varies fires entre altres.
 
 
     I a la tardor és un moment increible per fer excursions, anar a buscar bolets o escoltar la brama del cérvol i contemplar el preciós espectacle dels colors dels boscos.
