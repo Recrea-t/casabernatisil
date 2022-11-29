@@ -7,10 +7,10 @@ hero:
 section:
   title: Exteriors
   description: |-
-    Pati privat amb barbacoa d'obra.
-    Llúpia (galeria coberta).
-    Ascensor entre les plantes baixa i primera.
-    Sala per guardar esquís i altres.
+    * Pati privat amb barbacoa d'obra.
+    * Llúpia (galeria coberta).
+    * Ascensor entre les plantes baixa i primera. 
+    * Sala per guardar esquís i altres.  
   images:
     - /images/DSC01333.jpg
     - /images/DSC01384.jpg
