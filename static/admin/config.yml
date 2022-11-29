@@ -310,7 +310,7 @@ collections:
                   field: { label: Imatge, name: image, widget: image}
         - name: 'zones-ca'
           label: Zones Comunes
-          file: 'src/pages/zones-comunes.ca.md'
+          file: 'src/pages/zones-comuns.ca.md'
           fields:
             - label: Títol (SEO)
               name: title
