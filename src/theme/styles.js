@@ -11,6 +11,10 @@ const styles = {
       color: "staleGrey.500",
     },
     ".markdown": {
+      a: {
+        textDecoration: "underline",
+        color: "sickGreen.500",
+      },
       li: {
         margin: "0 !important",
       },

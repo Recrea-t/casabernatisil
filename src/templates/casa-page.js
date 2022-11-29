@@ -77,7 +77,12 @@ const CasaPage = props => {
       </Box>
 
       <Box>
-        <Container mb={4} variant="is-section" textAlign="left">
+        <Container
+          mb={4}
+          variant="is-section"
+          textAlign="left"
+          className="markdown"
+        >
           <ReactMarkdown
             components={ChakraUIRenderer()}
             children={frontmatter.project.description}

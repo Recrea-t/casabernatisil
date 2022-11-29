@@ -16,7 +16,7 @@ const Section = props => {
         <Heading as="h2" variant="in-section">
           {frontmatter.section.title}
         </Heading>
-        <Box textAlign="left">
+        <Box textAlign="left" className="markdown">
           <ReactMarkdown
             components={ChakraUIRenderer()}
             children={frontmatter.section.description}
