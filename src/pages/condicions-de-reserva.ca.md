@@ -14,14 +14,14 @@ En aquest apartat sespecifiquen les condicions i normatives de Casa Bernat.
 * La Taxa Turística no està inclosa en el preu i es cobrarà al final de l'estada. Aquesta taxa és de 0,60 €/persona/nit. Les persones d'edat igual o inferior a setze anys queden exemptes de pagar-la.
 * Com a fiança es reservaran 200 € via Targeta Modus Garantia.
 
-## Polítiques de cancel·lació
+**Polítiques de cancel·lació**
 
 * Si es cancel·la la reserva més de 30 dies abans de la data d'arribada, es retorna el 100% del pagament.
 * Si es cancel·la fins 15 dies abans, es retorna el 75% del pagament.
 * Si es cancel·la amb menys de 15 dies d'antelació, es retorna el 50% del pagament.
 * Si es cancel·la amb menys de 7 dies, no es retorna cap import.
 
-## Normativa de Casa Bernat
+**Normativa de Casa Bernat**
 
 La Núria i en Jaume, gestors de Casa Bernat, es reserven el dret d'admissió.
 
@@ -45,6 +45,6 @@ La Núria i en Jaume, gestors de Casa Bernat, es reserven el dret d'admissió.
 
 El no compliment de la següent normativa dóna dret a la Núria i en Jaume, gestors de Casa Bernat, de rescindir el contracte amb els hostes i suposar, per tant, la fi immediata de la seva estada a la casa, sense cap retorn econòmic.
 
-### Informació complementària
+**Informació complementària**
 
 L'habitatge de la Núria i en Jaume dóna al pati i a la llúpia (galeria coberta). Es comprometen a no fer ús d'aquests espais durant l'estada dels hostes.
