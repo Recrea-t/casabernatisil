@@ -41,6 +41,7 @@ export const query = graphql`
         section {
           title
           description
+          details
         }
       }
     }

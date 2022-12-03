@@ -12,6 +12,8 @@ import {
   useBreakpointValue,
 } from "@chakra-ui/react"
 
+import { ChevronLeftIcon, ChevronRightIcon } from "@chakra-ui/icons"
+
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
@@ -39,13 +41,15 @@ const Gallery = props => {
       className: "is-slider",
       arrows: true,
       dots: false,
-      infinite: false,
+      infinite: true,
       fade: false,
       autoplay: false,
       swipe: false,
       slidesToScroll: 1,
       variableWidth: true,
       rows: 1,
+      prevArrow: <ChevronLeftIcon h={8} w={8} color="white" />,
+      nextArrow: <ChevronRightIcon h={8} w={8} color="white" />,
     },
   ])
 
@@ -65,7 +69,7 @@ const Gallery = props => {
       </Modal>
       <Slider {...settings} h="full">
         {gallery.map((image, index) => (
-          <Box onClick={() => openModal(index)} cursor="pointer">
+          <Box onClick={() => openModal(index)} cursor="pointer" key={index}>
             <Image
               mr={8}
               h="full"

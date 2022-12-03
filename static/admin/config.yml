@@ -308,8 +308,12 @@ collections:
                   minimize_collapsed: true
                   label_singular: imatge
                   field: { label: Imatge, name: image, widget: image}
+                - label: Detalls
+                  name: details
+                  widget: markdown
+                  required: false
         - name: 'zones-ca'
-          label: Zones Comunes
+          label: Zones Comuns
           file: 'src/pages/zones-comuns.ca.md'
           fields:
             - label: Títol (SEO)
@@ -346,6 +350,10 @@ collections:
                   minimize_collapsed: true
                   label_singular: imatge
                   field: { label: Imatge, name: image, widget: image}
+                - label: Detalls
+                  name: details
+                  widget: markdown
+                  required: false
         - name: 'exteriors-ca'
           label: Exteriors
           file: 'src/pages/exteriors.ca.md'
@@ -384,6 +392,10 @@ collections:
                   minimize_collapsed: true
                   label_singular: imatge
                   field: { label: Imatge, name: image, widget: image}
+                - label: Detalls
+                  name: details
+                  widget: markdown
+                  required: false
         - name: 'contact-ca'
           label: 'Contacte'
           file: 'src/pages/contacte.ca.md'
@@ -641,6 +653,10 @@ collections:
                 - label: Descripció
                   name: description
                   widget: markdown
+                - label: Detalls
+                  name: details
+                  widget: markdown
+                  required: false
         - name: 'areas-es'
           label: Zonas Comunes
           file: 'src/pages/zonas-comunes.es.md'
@@ -663,6 +679,10 @@ collections:
                 - label: Descripció
                   name: description
                   widget: markdown
+                - label: Detalls
+                  name: details
+                  widget: markdown
+                  required: false
         - name: 'exteriors-es'
           label: Exteriores
           file: 'src/pages/exteriores.es.md'
@@ -685,6 +705,10 @@ collections:
                 - label: Descripció
                   name: description
                   widget: markdown
+                - label: Detalls
+                  name: details
+                  widget: markdown
+                  required: false
         - name: 'contact-es'
           label: 'Contacto'
           file: 'src/pages/contacto.es.md'
@@ -941,6 +965,10 @@ collections:
                 - label: Descripció
                   name: description
                   widget: markdown
+                - label: Detalls
+                  name: details
+                  widget: markdown
+                  required: false
         - name: 'areas-en'
           label: Common Areas
           file: 'src/pages/common-areas.en.md'
@@ -963,6 +991,10 @@ collections:
                 - label: Descripció
                   name: description
                   widget: markdown
+                - label: Detalls
+                  name: details
+                  widget: markdown
+                  required: false
         - name: 'exteriors-en'
           label: Outdoor Areas
           file: 'src/pages/outdoor-areas.en.md'
@@ -985,6 +1017,10 @@ collections:
                 - label: Descripció
                   name: description
                   widget: markdown
+                - label: Detalls
+                  name: details
+                  widget: markdown
+                  required: false
         - name: 'contact-en'
           label: 'Contact'
           file: 'src/pages/contact.en.md'
@@ -1241,6 +1277,10 @@ collections:
                 - label: Descripció
                   name: description
                   widget: markdown
+                - label: Detalls
+                  name: details
+                  widget: markdown
+                  required: false
         - name: 'areas-fr'
           label: Espaces Communs
           file: 'src/pages/espaces=communs.fr.md'
@@ -1263,6 +1303,10 @@ collections:
                 - label: Descripció
                   name: description
                   widget: markdown
+                - label: Detalls
+                  name: details
+                  widget: markdown
+                  required: false
         - name: 'exteriors-fr'
           label: Extérieurs
           file: 'src/pages/exterieurs.fr.md'
@@ -1285,6 +1329,10 @@ collections:
                 - label: Descripció
                   name: description
                   widget: markdown
+                - label: Detalls
+                  name: details
+                  widget: markdown
+                  required: false
         - name: 'contact-fr'
           label: 'Contact'
           file: 'src/pages/contact.fr.md'

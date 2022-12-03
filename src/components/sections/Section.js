@@ -24,6 +24,16 @@ const Section = props => {
         </Box>
       </Container>
       <Gallery images={props.data.images.frontmatter.section} title="Imatge" />
+      {frontmatter.section.details && (
+        <Container variant="is-section">
+          <Box textAlign="left" className="markdown">
+            <ReactMarkdown
+              components={ChakraUIRenderer()}
+              children={frontmatter.section.details}
+            />
+          </Box>
+        </Container>
+      )}
     </Box>
   )
 }

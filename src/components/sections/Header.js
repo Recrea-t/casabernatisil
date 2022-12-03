@@ -37,7 +37,7 @@ const Header = () => {
     <Box
       as="nav"
       w="full"
-      h={["90px", "188px"]}
+      h={["100px", "188px"]}
       pos={{ base: "fixed", lg: "inherit" }}
       top="0"
       right="0"

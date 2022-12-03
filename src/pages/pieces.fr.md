@@ -5,7 +5,7 @@ description: Turisme rural i sostenible al Pallars Sobirà
 hero:
   image: /images/DSC01567.jpg
 section:
-  title: Rooms
+  title: Pièces
   description: >-
     Casa Bernat disposa de 7 habitacions, totes amb bany propi. Per anomenar-les
     hem escollit noms de valls, estanys, ports i pics emblemàtics de les Valls

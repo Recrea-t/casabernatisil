@@ -39,7 +39,7 @@ const styles = {
       padding: 0,
 
       ".slick-slide": {
-        padding: "0",
+        padding: "0 1rem",
         overflow: "hidden",
       },
       ".slick-list": {
@@ -85,6 +85,32 @@ const styles = {
               color: "#696A6F",
               textShadow:
                 "-1px 0 #B7AA2E, 0 1px #B7AA2E, 1px 0 #B7AA2E, 0 -1px #B7AA2E",
+            },
+          },
+        },
+      },
+      ".slick-prev": {
+        left: "0px",
+        "z-index": 100,
+        color: "white !important",
+      },
+      ".slick-next": {
+        right: "2rem",
+        color: "white !important",
+      },
+    },
+    [`@media screen and (min-width: ${props.theme.breakpoints.md})`]: {
+      ".spaces": {
+        ".slick-track": {
+          width: "100% !important",
+          display: "flex",
+          justifyContent: "center",
+
+          ".slick-slide": {
+            height: "100%",
+
+            "> div": {
+              height: "100%",
             },
           },
         },
