@@ -48,8 +48,8 @@ const Gallery = props => {
       slidesToScroll: 1,
       variableWidth: true,
       rows: 1,
-      prevArrow: <ChevronLeftIcon h={8} w={8} color="white" />,
-      nextArrow: <ChevronRightIcon h={8} w={8} color="white" />,
+      prevArrow: <ChevronLeftIcon boxSize={8} h={8} w={8} color="white" />,
+      nextArrow: <ChevronRightIcon boxSize={8} h={8} w={8} color="white" />,
     },
   ])
 
