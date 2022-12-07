@@ -66,7 +66,12 @@ const Spaces = props => {
           <Image as={GatsbyImage} image={getImage(currentImage)} alt={title} />
         </ModalContent>
       </Modal>
-      <Slider {...settings} h="full" align="center" className="spaces">
+      <Slider
+        {...settings}
+        h="full"
+        align="center"
+        className="is-slider spaces"
+      >
         {gallery.map((image, index) => (
           <Box key={index} position="relative" textAlign="center">
             <Box onClick={() => openModal(index)} cursor="pointer">

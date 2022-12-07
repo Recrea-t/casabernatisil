@@ -61,6 +61,7 @@ const styles = {
       ".slick-dots": {
         position: "absolute",
         bottom: "1rem",
+        left: "-1rem",
 
         li: {
           margin: "0",
