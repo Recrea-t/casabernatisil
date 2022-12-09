@@ -39,7 +39,7 @@ section:
     **Cap de casa**
 
 
-    * Pic de Sarredo: llit doble.
+    * El Faro: llit doble.
 
 
     A les habitacions Vall de Rosari, Vall de Bonabé i Estany d'Airoto hi poden accedir cadires de rodes. En cas d'hostes amb mobilitat reduïda, consulteu prèviament les condicions daccessibilitat
