@@ -12,6 +12,7 @@ export default {
       color: "whiteBernat.500",
       textAlign: "right",
       mb: "0",
+      textShadow: "0 0 2.4rem #696A6F",
     },
     "in-section": {
       fontSize: "3xl",
