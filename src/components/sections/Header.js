@@ -37,7 +37,7 @@ const Header = () => {
     <Box
       as="nav"
       w="full"
-      h={["100px", "188px"]}
+      h={["90px", "188px"]}
       pos={{ base: "fixed", lg: "inherit" }}
       top="0"
       right="0"
@@ -54,7 +54,8 @@ const Header = () => {
         align="center"
         justify="space-between"
         mx="auto"
-        p={3}
+        py={[0, 3]}
+        px={3}
         wrap="wrap"
       >
         <LocalizedLink

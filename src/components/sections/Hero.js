@@ -26,7 +26,7 @@ const Hero = props => {
       <Box
         pos="relative"
         w="full"
-        h={["calc(80vh - 100px)", "calc(90vh - 188px)"]}
+        h={["calc(80vh - 90px)", "calc(90vh - 188px)"]}
       >
         <iframe
           width="100%"
@@ -50,7 +50,7 @@ const Hero = props => {
     <Box
       pos="relative"
       w="full"
-      h={["calc(80vh - 100px)", "calc(90vh - 188px)"]}
+      h={["calc(80vh - 90px)", "calc(90vh - 188px)"]}
     >
       <Image
         pos="absolute"
