@@ -610,8 +610,8 @@ collections:
                   name: description
                   widget: markdown
         - name: 'rebost-es'
-          label: Rebost
-          file: 'src/pages/rebost.es.md'
+          label: Despensa
+          file: 'src/pages/despensa.es.md'
           fields:
             - label: Títol (SEO)
               name: title
@@ -922,8 +922,8 @@ collections:
                   name: description
                   widget: markdown
         - name: 'rebost-en'
-          label: Rebost
-          file: 'src/pages/rebost.en.md'
+          label: Pantry
+          file: 'src/pages/pantry.en.md'
           fields:
             - label: Títol (SEO)
               name: title
@@ -996,8 +996,8 @@ collections:
                   widget: markdown
                   required: false
         - name: 'exteriors-en'
-          label: Outdoor Areas
-          file: 'src/pages/outdoor-areas.en.md'
+          label: Outdoors
+          file: 'src/pages/outdoors.en.md'
           fields:
             - label: Títol (SEO)
               name: title
@@ -1234,8 +1234,8 @@ collections:
                   name: description
                   widget: markdown
         - name: 'rebost-fr'
-          label: Rebost
-          file: 'src/pages/rebost.fr.md'
+          label: Le Garde-manger
+          file: 'src/pages/garde-manger.fr.md'
           fields:
             - label: Títol (SEO)
               name: title
@@ -1256,8 +1256,8 @@ collections:
                   name: description
                   widget: markdown
         - name: 'rooms-fr'
-          label: Piéces
-          file: 'src/pages/pieces.fr.md'
+          label: Chambres
+          file: 'src/pages/chambres.fr.md'
           fields:
             - label: Títol (SEO)
               name: title
@@ -1283,7 +1283,7 @@ collections:
                   required: false
         - name: 'areas-fr'
           label: Espaces Communs
-          file: 'src/pages/espaces=communs.fr.md'
+          file: 'src/pages/espaces-communs.fr.md'
           fields:
             - label: Títol (SEO)
               name: title
@@ -1308,8 +1308,8 @@ collections:
                   widget: markdown
                   required: false
         - name: 'exteriors-fr'
-          label: Extérieurs
-          file: 'src/pages/exterieurs.fr.md'
+          label: Dehors
+          file: 'src/pages/dehors.fr.md'
           fields:
             - label: Títol (SEO)
               name: title

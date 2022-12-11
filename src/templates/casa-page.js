@@ -33,7 +33,7 @@ const CasaPage = props => {
             {frontmatter.who.title}
           </Heading>
           <Stack direction={["column", "row"]} spacing={4} justify="center">
-            <Box h="full" align="left">
+            <Box h="full" align="left" className="markdown">
               <ReactMarkdown
                 components={ChakraUIRenderer()}
                 children={frontmatter.who.description}

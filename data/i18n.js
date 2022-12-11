@@ -8,7 +8,7 @@ module.exports = {
     dateFormat: `DD/MM/YYYY`,
     siteLanguage: `ca`,
     ogLanguage: `ca_ES`,
-    defaultTitle: "Casa Bernat",
+    defaultTitle: "Casa Bernat d'Isil",
     defaultDescription: "Turisme rural i sostenible al Pallars Sobirà",
   },
   es: {
@@ -17,8 +17,8 @@ module.exports = {
     dateFormat: `DD/MM/YYYY`,
     siteLanguage: `es`,
     ogLanguage: `es_ES`,
-    defaultTitle: "Casa Bernat",
-    defaultDescription: "Turismo rural y sostenible",
+    defaultTitle: "Casa Bernat d'Isil",
+    defaultDescription: "Turismo rural y sostenible en el Pallars Sobirà",
   },
   en: {
     path: `en`,
@@ -26,8 +26,8 @@ module.exports = {
     dateFormat: `MM/DD/YYYY`,
     siteLanguage: `en`,
     ogLanguage: `en_US`,
-    defaultTitle: "Casa Bernat",
-    defaultDescription: "Rural and sustainable tourism",
+    defaultTitle: "Casa Bernat d'Isil",
+    defaultDescription: "Rural and sustainable tourism in Pallars Sobirà",
   },
   fr: {
     path: `fr`,
@@ -35,7 +35,7 @@ module.exports = {
     dateFormat: `DD/MM/YYYY`,
     siteLanguage: `fr`,
     ogLanguage: `fr_FR`,
-    defaultTitle: "Casa Bernat",
-    defaultDescription: "Rural and sustainable tourism",
+    defaultTitle: "Casa Bernat d'Isil",
+    defaultDescription: "Tourisme rural et durable à Pallars Sobirà",
   },
 }

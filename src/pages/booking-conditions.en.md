@@ -1,50 +1,53 @@
 ---
 templateKey: general-page
-title: Avís legal
-description: Turisme Rural i Sostenible al Pallars Sobirà
+title: Booking Conditions
+description: |
+  Rural and sustainable tourism in Pallars Sobirà
 ---
 # Booking Conditions
 
-Casa Bernat és una casa rural que funciona en règim d'ús sencer, això vol dir que no es lloga per habitacions sinó que es lloga la casa sencera. El preu mínim representa el cost de 8 persones, per tant, es recomanen reserves a partir de 8 persones majors de 3 anys.
-En aquest apartat sespecifiquen les condicions i normatives de Casa Bernat.
+Casa Bernat is a rural accommodation that has to be rented in full. Base price is for 8 guests, and any incremental guests will be charged additionally. Given the minimum price is that of 8 people, reservations from 8 people over 3 years old are recommended.
 
-* L'estada mínima a la casa ha de ser de dues nits.
-* No es permeten reserves sense cap major dedat.
-* El preu ja inclou el 10% d'IVA.
-* La Taxa Turística no està inclosa en el preu i es cobrarà al final de l'estada. Aquesta taxa és de 0,60 €/persona/nit. Les persones d'edat igual o inferior a setze anys queden exemptes de pagar-la.
-* Com a fiança es reservaran 200 € via Targeta Modus Garantia.
+This section specifies the conditions and regulations of Casa Bernat.
 
-## Polítiques de cancel·lació
+**Booking conditions**
 
-* Si es cancel·la la reserva més de 30 dies abans de la data d'arribada, es retorna el 100% del pagament.
-* Si es cancel·la fins 15 dies abans, es retorna el 75% del pagament.
-* Si es cancel·la amb menys de 15 dies d'antelació, es retorna el 50% del pagament.
-* Si es cancel·la amb menys de 7 dies, no es retorna cap import.
+* Minimum stay in the house is two nights.
+* Reservations are not allowed without any of age person.
+* 10% VAT is included in booking price.
+* Tourist Tax is not included in the price and will be charged at the end of the stay. The rate is 0,60 €/person/night. Sixteen-year-olds and younger are exempt from the tax.
+* € 200 will be kept via Modus Guarantee Card as a deposit
 
-## Normativa de Casa Bernat
+**Cancellation policies**
 
-La Núria i en Jaume, gestors de Casa Bernat, es reserven el dret d'admissió.
+* If cancelled more than 30 days before date of arrival, 100% of the payment will be refunded.
+* If cancelled up to 15 days before, 75% of the payment will be refunded.
+* If cancelled less than 15 days in advance, 50% of the payment will be refunded.
+* If cancelled with less than 7 days, no amount is refunded.
 
-* Els horaris del primer i últim dia:
-  * Entrada a partir de les 5 de la tarda.
-  * Sortida a les 11 del matí.
-* Prèvia consulta, Casa Bernat podrà custodiar l'equipatge abans de l'entrada o després de la sortida.
-* Com mana la Llei INT/321/2021, publicada al BOE el 30 de març, s'hauran de presentar els DNI's dels hostes majors de 14 anys.
-* Casa Bernat no admet cap tipus d'animal de companyia en tot el seu espai, amb excepció dels gossos pigall.
-* No es permeten festes sorolloses a la casa (soroll segons normativa vigent).
-* No es permet fumar a tota la casa.
-* No es permet encendre espelmes sense l'autorització dels gestors.
-* Qualsevol persona aliena a la reserva que vulgui entrar a la casa s'ha de notificar als gestors i queda fora de la cobertura de l'assegurança.
-* Cal respectar la casa, el poble, l'entorn natural i els seus veïns, així com el seu descans.
-* El trencament de qualsevol element de la casa que provingui d'una negligència o mal ús es cobrarà al responsable de la reserva. Igualment amb els furts i robatoris.
-* Hi ha fulls de reclamació a disposició dels hostes.
-* Qualsevol moviment d'algun moble (excepte cadires) només es podrà fer amb autorització i presència dels gestors.
-* Només podran fer foc els majors de d'edat.
-* Si a l'entrada, venen més persones més de les notificades a l'entrada, en cas de cabre-hi a la casa, se'ls cobrarà.
+**Rules and regulations at Casa Bernat**
 
+Núria and Jaume, managers of Casa Bernat, reserve the right to refuse admission.
 
-El no compliment de la següent normativa dóna dret a la Núria i en Jaume, gestors de Casa Bernat, de rescindir el contracte amb els hostes i suposar, per tant, la fi immediata de la seva estada a la casa, sense cap retorn econòmic.
+* Check-in and check-out time:
+  * Check-in from 5 pm.
+  * Check-out before 11 am.
+* At your request, Casa Bernat may store your luggage before check-in or after check-out. 
+* As dictated by Law INT/321/2021, published in the BOE on March 30, the ID cards of guests over 14 years of age must be presented.
+* Pets are not allowed anywhere in Casa Bernat, except for guide dogs.
+* Noisy parties are not allowed in the house (noise according to current regulations).
+* Smoking is not allowed anywhere indoors.
+* Lighting candles is not allowed without manager authorization
+* Additional guests outside the reservation entering the premises need to be notified to managers and will remain outside insurance coverage.
+* All guests must respect the house, the town, the natural environment and its neighbors, as well as their rest.
+* Damages resulting from negligence or misuse will be charged to booking party.
+* Complaint Forms are available to guests.
+* Furniture (except chairs) is not to be moved without manager’s authorization and must be done in their presence.  
+* Only those of legal age may light the fire.
+* Guests up to 15 will be considered staying guests and hence will be charged for regardless of whether they were originally included in the reservation or not. 
 
-### Informació complementària
+Failure to comply with the following regulations gives Núria and Jaume, managers of Casa Bernat, the right to terminate the contract with guests and result into the immediate end of your stay in the house, without refunds.
 
-L'habitatge de la Núria i en Jaume dóna al pati i a la llúpia (galeria coberta). Es comprometen a no fer ús d'aquests espais durant l'estada dels hostes.
+**Additional information**
+
+Núria and Jaume's house overlooks the courtyard and the covered gallery. They will not use these spaces during the guests' stay.

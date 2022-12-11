@@ -6,18 +6,18 @@
       "variant": "nav-sublink"
     },
     {
-      "name": "History",
+      "name": "Our History",
       "link": "/casa-bernat#history",
       "variant": "nav-sublink"
     },
     {
-      "name": "The spaces",
+      "name": "Our Spaces",
       "link": "/casa-bernat#spaces",
       "variant": "nav-sublink"
     },
     {
-      "name": "Reservations",
-      "link": "/reservations",
+      "name": "Bookings",
+      "link": "/bookings",
       "variant": "nav-link"
     },
     {
@@ -26,8 +26,8 @@
       "variant": "nav-link"
     },
     {
-      "name": "El Rebost",
-      "link": "/rebost",
+      "name": "Pantry",
+      "link": "/pantry",
       "variant": "nav-link"
     },
     {

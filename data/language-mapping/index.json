@@ -14,7 +14,7 @@
         "link": "/"
       },
       "fr": {
-        "title": "Home",
+        "title": "Début",
         "link": "/"
       }
     },
@@ -68,7 +68,7 @@
         "link": "/casa-bernat#about-us"
       },
       "fr": {
-        "title": "Qui sommes nous?",
+        "title": "Qui sommes-nous?",
         "link": "/casa-bernat#qui-sommes-nous"
       }
     },
@@ -100,7 +100,7 @@
         "link": "/casa-bernat#espacios"
       },
       "en": {
-        "title": "The spaces",
+        "title": "Our spaces",
         "link": "/casa-bernat#spaces"
       },
       "fr": {
@@ -110,20 +110,20 @@
     },
     {
       "ca": {
-        "title": "Habitacions",
+        "title": "Les Habitacions",
         "link": "/habitacions"
       },
       "es": {
-        "title": "Habitaciones",
+        "title": "Las Habitaciones",
         "link": "/habitaciones"
       },
       "en": {
-        "title": "Rooms",
+        "title": "The Rooms",
         "link": "/rooms"
       },
       "fr": {
-        "title": "Pièces",
-        "link": "/pieces"
+        "title": "Les Chambres",
+        "link": "/chambres"
       }
     },
     {
@@ -154,12 +154,12 @@
         "link": "/exteriores"
       },
       "en": {
-        "title": "Outdoor Areas",
-        "link": "/outdoor-areas"
+        "title": "Outdoors",
+        "link": "/outdoors"
       },
       "fr": {
-        "title": "Extérieurs",
-        "link": "/exterieurs"
+        "title": "Dehors",
+        "link": "/dehors"
       }
     },
     {
@@ -172,12 +172,12 @@
         "link": "/reservas"
       },
       "en": {
-        "title": "Reservations",
-        "link": "/reservations"
+        "title": "Bookings",
+        "link": "/bookings"
       },
       "fr": {
-        "title": "Réservations",
-        "link": "/reservations"
+        "title": "Réservation",
+        "link": "/reservation"
       }
     },
     {
@@ -204,16 +204,16 @@
         "link": "/rebost"
       },
       "es": {
-        "title": "El Rebost",
-        "link": "/rebost"
+        "title": "La Despensa",
+        "link": "/despensa"
       },
       "en": {
-        "title": "El Rebost",
-        "link": "/rebost"
+        "title": "Pantry",
+        "link": "/pantry"
       },
       "fr": {
-        "title": "El Rebost",
-        "link": "/rebost"
+        "title": "Le Garde-manger",
+        "link": "/garde-manger"
       }
     },
     {

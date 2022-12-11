@@ -14,86 +14,80 @@ sustainability:
 
 
     Disposem d'un endoll per recàrrega de vehicle elèctric per als clients.
-title: Casa Bernat
-description: Turisme rural i sostenible al Pallars Sobirà
+title: Maison Bernat d'Isil
+description: Tourisme rural et durable à Pallars Sobirà
 who:
-  title: Qui som
+  title: Qui sommes-nous?
   description: >-
-    Us rebrem en Jaume i la Núria, una parella jove amb ganes d’ajudar-vos a
-    descobrir el\
-
-    Pallars Sobirà i les Valls d’Àneu i passar una bona estada a Casa Bernat.
-
-
-    En Jaume és guia de barrancs, professor d’esquí, guia de mitja muntanya i bomber\
-
-    voluntari.\
-
-    La Núria és geòloga, professora d’esquí i guia de la Casa de l’Os Bru del Pirineu.¸
+    Nous vous accueillerons Jaume et Núria, un jeune couple qui vous aidera à
+    découvrir Pallars Sobirà et les Vallées d’Àneu ainsi qu’à passer un bon
+    séjour à casa Bernat. 
 
 
-    Ambdós som nascuts al Vallès Occidental i vam decidir deixar la ciutat per començar el\
-
-    nostre projecte de vida al Pallars.
+    Jaume est moniteur de canyoning, professeur de ski, guide de moyenne montagne et pompier volontaire. 
 
 
-    A més de Casa Bernat, gestionem SnowCanyonPallars, la nostra petita empresa d’esports\
+    Núria est géologue, professeure de ski et guide à la Maison de l’Ours Brun dans les Pyrénées. 
 
-    d’aventura i activitats a la natura. Per a totes les edats i nivells, fem classes d’esquí, sortides\
 
-    amb raquetes, descens de barrancs, excursions, vies ferrades, acompanyaments i sortides\
+    Nous sommes tous les deux nés dans le Vallès Occidental et avons décidé de quitter la ville pour commencer notre projet de vie à Pallars.
 
-    interpretatives.
+
+    En plus de Casa Bernat, nous gérons [SnowCanyonPallars](http://www.snowcanyonpallars.com/), notre petite entreprise de sports d’aventure et d’activités de nature. Pour tous les âges et tous les niveaux, nous donnons des cours de ski, des excursions en raquettes, du canyoning, des excursions, de l’alpinisme, des accompagnements et des sorties d’interprétation.
 history:
-  title: Una mica d'història de la casa
-  description: Casa Bernat és una ‘casa gran’ al poble dIsil. Una casa amb molts
-    segles d'història. No en coneixem lorigen. Ja en el segle XVI hi ha
-    documents referents a una compra de bestiar per part de Jaume Barado de Casa
-    Bernat dIsil.
+  title: Un peu d’histoire de la maison
+  description: Casa Bernat est une « grande maison » dans le village d’Isil. Une
+    maison avec de nombreux siècles d’histoire. Nous ne connaissons pas son
+    origine. Déjà au XVIe siècle, il existait des documents faisant référence à
+    un achat de bétail par Jaume Barado à la Casa Bernat d’Isil.
 project:
-  description: >-
-    Té la façana principal arrebossada, indicatiu que va ser una casa pròspera.
-    A finals del segle XVIII la casa ja comptava amb forn de pedra, estable i
-    paller.
+  description: >
+    Il a la façade principale plâtrée, indiquant que c’était une maison
+    prospère. A la fin du XVIIIe siècle la maison disposait déjà d’un four en
+    pierre, d’une étable et d’une botte de foin. 
 
 
-    Lany 2018 vam comprar la casa als hereus del matrimoni Busquet i Duran, que la van gaudir més de 50 anys com a casa destiueig.
+    En 2018, nous avons acheté la maison aux héritiers du couple Busquet i Duran, qui l’ont appréciée pendant plus de 50 ans comme maison d’été.
 
 
-    Vàrem fer el projecte i les reformes per transformar-la en la casa de turisme rural que és ara.
+    Nous avons fait le projet et les réformes pour la transformer en la maison de tourisme rural qu’elle est aujourd’hui.
 
 
-    **P﻿rojecte Casa Bernat**
+    **Projet de maison Bernat**
 
 
-    Casa Bernat neix com a allotjament rural a partir d’un projecte familiar, amb la il·lusió de restaurar i adequar la casa, mantenint l'essència d’una casa antiga dels Pirineus.
+    Casa Bernat est née comme un logement rural d’un projet familial, avec l’illusion de restaurer et d’adapter la maison, en conservant l’essence d’une vieille maison dans les Pyrénées.
 
 
-    Un dels objectius del projecte ha estat convertir Casa Bernat en una casa rural sostenible i eficient, respectant el medi, el poble i la gent que hi viu.
+    L’un des objectifs du projet a été de transformer Casa Bernat en une maison rurale durable et efficace, respectueuse de l’environnement, de la ville et des personnes qui y vivent.
 
 
-    **C﻿asa Sostenible**
+
+    **Maison durable**
 
 
-    Té la façana principal arrebossada, indicatiu que va ser una casa pròspera. A finals del segle XVIII la casa ja comptava amb forn de pedra, estable i paller.
+    Nous avons isolé thermiquement tous les murs extérieurs de la maison avec de la laine de roche, en évitant les dérivés du pétrole.
 
 
-    Lany 2018 vam comprar la casa als hereus del matrimoni Busquet i Duran, que la van gaudir més de 50 anys com a casa destiueig.
+    Le bois et la pierre prédominent dans toute la maison.
 
 
-    Vàrem fer el projecte i les reformes per transformar-la en la casa de turisme rural que és ara.
+    Le chauffage et l’eau chaude sanitaire sont alimentés par des énergies renouvelables, avec des copeaux de bois provenant de Pallars.
+
+
+    Nous avons une borne pour recharger les véhicules électriques pour les clients.
   title: Projecte Casa Bernat
 spaces:
-  title: Els Espais
-  description: Casa Bernat és una casa típica del Pirineu de Lleida i funciona en
-    règim de lloguer de casa rural sencera per tal que pugueu gaudir de tots els
-    espais. Disposa de set habitacions, i diversos espais tant interiors com
-    exteriors.
+  title: Les Espaces
+  description: Casa Bernat est une maison typique des Pyrénées et est louée dans
+    son ensemble afin que vous puissiez profiter de tous les espaces. Elle
+    dispose de sept chambres et de plusieurs espaces partagés à l’intérieur et à
+    l’extérieur.
   images:
-    - title: Piéces
+    - title: Chambres
       link: /habitacions
     - title: Espaces Communs
       link: /zones-comuns
-    - title: Extérieurs
+    - title: Dehors
       link: /exteriors
 ---

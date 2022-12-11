@@ -1,49 +1,19 @@
 ---
-templateKey: rooms-page
-title: Casa Bernat
-description: Turisme rural i sostenible al Pallars Sobirà
+templateKey: exteriors-page
+title: Bernat d'Isil House
+description: Rural and sustainable tourism in Pallars Sobirà
 hero:
   image: /images/DSC01567.jpg
 section:
-  title: Rooms
-  description: >-
-    Casa Bernat has 7 ensuite bedrooms, each with its own bathroom. To name them
-    we have chosen names of valleys, lakes, passes and emblematic peaks of the
-    Valls d'Àneu.
+  title: Outdoors
+  description: |-
+    Private courtyard with built-in barbecue.
 
+    Covered gallery.
 
-    **Ground floor**
+    Elevator to first floor.
 
-
-    * Vall de Rosari: double bed.
-
-    * Vall de Bonabé: two single beds.
-
-
-    **First Floor**
-
-
-    * Estany d'Airoto: two single beds.
-
-
-    **Second Floor**
-
-
-    * Port de Salau: 3 single beds, 4th optional bed.
-
-    * Port d'Aulà: double bed.
-
-    * Port de Clavera: double bed.
-
-
-    **Attic**
-
-
-    * El Faro: double bed.
-
-
-
-    Wheelchairs can access Vall de Rosari, Vall de Bonabé and Estany d'Airoto rooms. For guests with reduced mobility, please check the accessibility conditions before booking.
+    Storage room for ski equipment and others.
   details: >-
     **Services included**
 

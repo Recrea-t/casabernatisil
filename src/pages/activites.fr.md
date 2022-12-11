@@ -1,35 +1,36 @@
 ---
 templateKey: activities-page
-title: Casa Bernat
-description: Turisme rural i sostenible al Pallars Sobirà
+title: Maison Bernat d'Isil
+description: Tourisme rural et durable à Pallars Sobirà
 hero:
   image: /images/DSC01567.jpg
 section:
   title: Activités
   description: >-
-    Els hostes gaudiran d'un 20% de descompte en les activitats que ofereixen la
-    Núria i en Jaume en la seva empresa d'activitats fisicoesportives
-    SnowCanyonPallars (enllaç) com són classes d'esquí, rutes en raquetes,
-    descens de barrancs, excursions, vies ferrades, acompanyaments i sortides
-    interpretatives de les Valls d'Àneu.
+    Les clients bénéficieront d’une réduction de 20% sur les activités proposées
+    par Núria et Jaume dans sa section d’activités physiques et sportives
+    [SnowCanyonPallars](http://www.snowcanyonpallars.com/) telles que des cours
+    de ski, des itinéraires de raquette, du canyoning, des excursions, de
+    l’alpinisme, des accompagnements et des sorties d’interprétation des Vallées
+    d’Àneu.
 
 
-    Isil i el Pallars Sobirà ofereixen una immensitat d'activitats per a tots els públics, des d'esportives a lúdiques, culturals i gastronòmiques.
+    Isil et Pallars Sobirà offrent une immensité d’activités pour tous les publics, du sport aux loisirs, la culture et la gastronomie.
 
 
-    A l'hivern la protagonista és la neu. Si us agrada esquiar a pistes tenim Baqueira-Beret (17min fins el pàrquing de La Peülla), Espot-Esquí, Port-Ainé i Tavascan. Si el que busqueu és esquí de fons tenim Tavascan, Virós-Vall Ferrera i Pla de Beret. El territori també ensofereix l'oportunitat de fer diferents rutes amb raquetes. I les opcions de rutes d'esquí de muntanya són inesgotables.
+    En hiver, le protagoniste est la neige. Si vous aimez skier sur les pistes, nous avons Baqueira-Beret (17min jusqu’au parking de La Peülla), Espot-Esquí, Port-Ainé et Tavascan. Si vous êtes à la recherche de ski de fond, nous avons Tavascan, Virós-Vall Ferrera et Pla de Beret. Le territoire nous offre également la possibilité de faire différents itinéraires avec des raquettes. Et les options d’itinéraires de ski randonné sont inépuisables.
 
 
-    A la primavera ja comença el bon temps per agafar la bicicleta, ja sigui la de carretera o la de muntanya. Per ambdues les Valls d'Àneu i el Pallars ofereixen uns itineraris espectaculars. També comencen les activitats d'aigua tan emocionants com els barrancs o el ràfting.
+    Au printemps, le beau temps commence afin de pouvoir prendre le vélo, que ce soit sur route ou en VTT. Les Vallées d’Àneu et le Pallars offrent des itinéraires spectaculaires. Des activités nautiques aussi passionnantes, que les ravins ou du rafting commencent également.
 
 
-    A l'estiu podem seguir amb les activitats de primavera, i alhora, a Valls d'Àneu s'hi sumen els festivals culturals Esbaiola't, Dansàneu, Fira de la Cervesa d'Esterri d'Àneu, Festival de Música Antiga dels Pirineus, baixades de falles a Isil, València d'Àneu i Alós, festes majors cada cap de setmana i varies fires entre altres.
+    En été, nous pouvons continuer avec des activités printanières, et en même temps, Valls d’Àneu est rejoint par les festivals culturels Esbaiola’t, Dansàneu, Esterri d’Àneu Foire de la bière, Festival de musique ancienne des Pyrénées, descentes de fallas à Isil, Valence d’Àneu et Alós, festivals tous les week-ends et plusieurs foires entre autres.
 
 
-    I a la tardor és un moment increible per fer excursions, anar a buscar bolets o escoltar la brama del cérvol i contemplar el preciós espectacle dels colors dels boscos.
+    Et en automne, c’est un moment incroyable pour faire de la randonnée, aller chercher des champignons ou écouter la brame des cerfs et contempler le beau spectacle des couleurs des forêts.
 
 
-    Per més activitats i esdeveniments a la comarca, la Núria i en Jaume estem a la vostra disposició per informar-vos. També podeu estar informats de tot consultant el web de [Turisme de les Valls d'Aneu](https://www.turismevallsdaneu.com).
+    Pour plus d’activités et d’événements dans la région, Núria et Jaume sont à votre disposition pour vous informer.  Vous pouvez également être informé de tout en consultant le site du [Tourisme des Vallées d’Àneu](https://www.turismevallsdaneu.com).
   images:
     - /images/DSC01333.jpg
     - /images/DSC01384.jpg

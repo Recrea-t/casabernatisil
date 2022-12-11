@@ -1,6 +1,7 @@
 ---
 templateKey: contact-page
 title: Contact
-description: Tourism
-summary: situated
+description: |
+  Rural and sustainable tourism in Pallars Sobirà
+summary: ""
 ---

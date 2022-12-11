@@ -15,80 +15,72 @@ sustainability:
 
     Disposem d'un endoll per recàrrega de vehicle elèctric per als clients.
 title: Casa Bernat
-description: Turisme rural y sostenible al Pallars Sobirà
+description: Turismo rural y sostenible en el Pallars Sobirà
 who:
   title: Quienes somos
   description: >-
-    Us rebrem en Jaume i la Núria, una parella jove amb ganes d’ajudar-vos a
-    descobrir el\
-
-    Pallars Sobirà i les Valls d’Àneu i passar una bona estada a Casa Bernat.
-
-
-    En Jaume és guia de barrancs, professor d’esquí, guia de mitja muntanya i bomber\
-
-    voluntari.\
-
-    La Núria és geòloga, professora d’esquí i guia de la Casa de l’Os Bru del Pirineu.¸
+    Os recibiremos Jaume y Núria, una pareja joven con ganas de ayudaros a
+    descubrir el Pallars Sobirà y les Valls d'Àneu y que gocéis de una buena
+    estancia en Casa Bernat. 
 
 
-    Ambdós som nascuts al Vallès Occidental i vam decidir deixar la ciutat per començar el\
-
-    nostre projecte de vida al Pallars.
+    Jaume es guía de barrancos, profesor de esquí, guía de media montaña y bombero voluntario. 
 
 
-    A més de Casa Bernat, gestionem SnowCanyonPallars, la nostra petita empresa d’esports\
+    Núria es geóloga, profesora de esquí y guía de la Casa del Oso Pardo del Pirineo. 
 
-    d’aventura i activitats a la natura. Per a totes les edats i nivells, fem classes d’esquí, sortides\
 
-    amb raquetes, descens de barrancs, excursions, vies ferrades, acompanyaments i sortides\
+    Ambos nacimos en el Vallès Occidental y decidimos dejar la ciudad para empezar nuestro proyecto de vida en El Pallars.
 
-    interpretatives.
+
+    Además de Casa Bernat, gestionamos [SnowCanyonPallars](http://www.snowcanyonpallars.com/), nuestra pequeña empresa de deportes de aventura y actividades en la naturaleza. Para todas las edades y niveles, damos clases de esquí, salidas con raquetas, descenso de barrancos, excursiones, vías ferratas, acompañamientos y salidas interpretativas.
 history:
-  title: Una mica d'història de la casa
-  description: Casa Bernat és una ‘casa gran’ al poble dIsil. Una casa amb molts
-    segles d'història. No en coneixem lorigen. Ja en el segle XVI hi ha
-    documents referents a una compra de bestiar per part de Jaume Barado de Casa
-    Bernat dIsil.
+  title: Un poco de historia de la casa
+  description: Casa Bernat es una 'casa grande' en el pueblo de Isil. Una casa con
+    muchos siglos de historia. No conocemos su origen. Desde el siglo XVI hay
+    documentos referentes a una compra de ganado por parte de Jaume Barado de
+    Casa Bernat d'Isil.
 project:
   description: >-
-    Té la façana principal arrebossada, indicatiu que va ser una casa pròspera.
-    A finals del segle XVIII la casa ja comptava amb forn de pedra, estable i
-    paller.
+    Tiene la fachada principal con revoco, indicativo de que fue una casa
+    próspera. A finales del siglo XVIII la casa ya contaba con horno de piedra,
+    establo y pajar. 
 
 
-    Lany 2018 vam comprar la casa als hereus del matrimoni Busquet i Duran, que la van gaudir més de 50 anys com a casa destiueig.
+    En el año 2018 compramos la casa a los herederos del matrimonio Busquet i Duran, que la disfrutaron más de 50 años como casa de veraneo.
 
 
-    Vàrem fer el projecte i les reformes per transformar-la en la casa de turisme rural que és ara.
+    Hicimos el proyecto y las reformas para transformarla en la casa de turismo rural que es ahora.
 
 
-    **P﻿rojecte Casa Bernat**
+    **P﻿royecto Casa Bernat**
 
 
-    Casa Bernat neix com a allotjament rural a partir d’un projecte familiar, amb la il·lusió de restaurar i adequar la casa, mantenint l'essència d’una casa antiga dels Pirineus.
+    Casa Bernat nace como alojamiento rural a partir de un proyecto familiar, con la ilusión de restaurar y adecuar la casa, manteniendo la esencia de una casa antigua de los Pirineos.
 
 
-    Un dels objectius del projecte ha estat convertir Casa Bernat en una casa rural sostenible i eficient, respectant el medi, el poble i la gent que hi viu.
+    Uno de los objetivos del proyecto ha sido convertir Casa Bernat en una casa rural sostenible y eficiente, respetando el medio, el pueblo y la gente que vive en ella. 
 
 
     **C﻿asa Sostenible**
 
 
-    Té la façana principal arrebossada, indicatiu que va ser una casa pròspera. A finals del segle XVIII la casa ja comptava amb forn de pedra, estable i paller.
+    Hemos aislado térmicamente todas las paredes exteriores de la casa con lana de roca, evitando los derivados del petróleo.
 
 
-    Lany 2018 vam comprar la casa als hereus del matrimoni Busquet i Duran, que la van gaudir més de 50 anys com a casa destiueig.
+    En toda la casa predomina la madera y la piedra.
 
 
-    Vàrem fer el projecte i les reformes per transformar-la en la casa de turisme rural que és ara.
+    La calefacción y el agua caliente sanitaria se alimentan de energía renovable, con astilla procedente del Pallars.
+
+
+    Disponemos de un enchufe para recarga de vehículo eléctrico para los clientes.
   title: Projecte Casa Bernat
 spaces:
-  title: Els Espais
-  description: Casa Bernat és una casa típica del Pirineu de Lleida i funciona en
-    règim de lloguer de casa rural sencera per tal que pugueu gaudir de tots els
-    espais. Disposa de set habitacions, i diversos espais tant interiors com
-    exteriors.
+  title: Los Espacios
+  description: Casa Bernat es una casa típica del Pirineo y se alquila entera para
+    que podáis disfrutar de todos los espacios. Dispone de siete habitaciones, y
+    diversos espacios compartidos tanto interiores como exteriores.
   images:
     - title: Habitaciones
       link: /habitacions

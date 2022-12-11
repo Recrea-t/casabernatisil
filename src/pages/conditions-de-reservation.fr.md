@@ -1,50 +1,52 @@
 ---
 templateKey: general-page
-title: Avís legal
-description: Turisme Rural i Sostenible al Pallars Sobirà
+title: Maison Bernat d'Isil
+description: Tourisme rural et durable à Pallars Sobirà
 ---
 # Conditions de réservation
 
-Casa Bernat és una casa rural que funciona en règim d'ús sencer, això vol dir que no es lloga per habitacions sinó que es lloga la casa sencera. El preu mínim representa el cost de 8 persones, per tant, es recomanen reserves a partir de 8 persones majors de 3 anys.
-En aquest apartat sespecifiquen les condicions i normatives de Casa Bernat.
+Casa Bernat est une maison rurale qui fonctionne en utilisation complète, ce qui signifie qu’elle n’est pas louée par des chambres mais toute la maison est louée. Le prix minimum représente le coût de 8 personnes, par conséquent, les réservations à partir de 8 personnes de plus de 3 ans sont recommandées.
 
-* L'estada mínima a la casa ha de ser de dues nits.
-* No es permeten reserves sense cap major dedat.
-* El preu ja inclou el 10% d'IVA.
-* La Taxa Turística no està inclosa en el preu i es cobrarà al final de l'estada. Aquesta taxa és de 0,60 €/persona/nit. Les persones d'edat igual o inferior a setze anys queden exemptes de pagar-la.
-* Com a fiança es reservaran 200 € via Targeta Modus Garantia.
+Cette section précise les conditions et règlements de Casa Bernat.
 
-## Polítiques de cancel·lació
+**Conditions de réservation**
 
-* Si es cancel·la la reserva més de 30 dies abans de la data d'arribada, es retorna el 100% del pagament.
-* Si es cancel·la fins 15 dies abans, es retorna el 75% del pagament.
-* Si es cancel·la amb menys de 15 dies d'antelació, es retorna el 50% del pagament.
-* Si es cancel·la amb menys de 7 dies, no es retorna cap import.
+1. Le séjour minimum dans la maison doit être de deux nuits.
+2. Les réservations ne sont pas autorisées s’il n’y a aucune personne majeure.
+3. Le prix comprend déjà 10% de TVA.
+4. La taxe de séjour n’est pas incluse dans le prix et sera facturée à la fin du séjour. Ce tarif est de 0,60 €/personne/nuit. Les personnes ayant moins de seize ans sont exemptées de la payer.
+5. En guise d’acompte, 200 € seront réservés via modus Guarantee Card.
 
-## Normativa de Casa Bernat
+**Conditions d’annulation**
 
-La Núria i en Jaume, gestors de Casa Bernat, es reserven el dret d'admissió.
+1. En cas d’annulation plus de 30 jours avant la date d’arrivée, 100% du paiement est remboursé.
+2. En cas d’annulation jusqu’à 15 jours avant, 75% du paiement sera remboursé.
+3. En cas d’annulation moins de 15 jours à l’avance, 50% du paiement sera remboursé.
+4. En cas d’annulation avec moins de 7 jours, aucun montant n’est remboursé.
 
-* Els horaris del primer i últim dia:
-  * Entrada a partir de les 5 de la tarda.
-  * Sortida a les 11 del matí.
-* Prèvia consulta, Casa Bernat podrà custodiar l'equipatge abans de l'entrada o després de la sortida.
-* Com mana la Llei INT/321/2021, publicada al BOE el 30 de març, s'hauran de presentar els DNI's dels hostes majors de 14 anys.
-* Casa Bernat no admet cap tipus d'animal de companyia en tot el seu espai, amb excepció dels gossos pigall.
-* No es permeten festes sorolloses a la casa (soroll segons normativa vigent).
-* No es permet fumar a tota la casa.
-* No es permet encendre espelmes sense l'autorització dels gestors.
-* Qualsevol persona aliena a la reserva que vulgui entrar a la casa s'ha de notificar als gestors i queda fora de la cobertura de l'assegurança.
-* Cal respectar la casa, el poble, l'entorn natural i els seus veïns, així com el seu descans.
-* El trencament de qualsevol element de la casa que provingui d'una negligència o mal ús es cobrarà al responsable de la reserva. Igualment amb els furts i robatoris.
-* Hi ha fulls de reclamació a disposició dels hostes.
-* Qualsevol moviment d'algun moble (excepte cadires) només es podrà fer amb autorització i presència dels gestors.
-* Només podran fer foc els majors de d'edat.
-* Si a l'entrada, venen més persones més de les notificades a l'entrada, en cas de cabre-hi a la casa, se'ls cobrarà.
+**Normativa de Casa Bernat**
 
+Núria et Jaume, gérants de Casa Bernat, se réservent le droit d’admission.
 
-El no compliment de la següent normativa dóna dret a la Núria i en Jaume, gestors de Casa Bernat, de rescindir el contracte amb els hostes i suposar, per tant, la fi immediata de la seva estada a la casa, sense cap retorn econòmic.
+* Les horaires du premier et du dernier jour :
+  * Check-in à partir de 17h. 
+  * Départ à 11 heures du matin.
+* Après consultation, Casa Bernat peut garder vos bagages avant l’enregistrement ou après le départ.
+* Conformément à la loi INT/321/2021, publiée dans le BOE le 30 mars, les cartes d’identité des invités de plus de 14 ans doivent être présentées.
+* Casa Bernat n’autorise aucun type d’animal de compagnie dans tout son espace, à l’exception des chiens-guides.
+* Les fêtes bruyantes ne sont pas autorisées dans la maison (bruit selon la réglementation en vigueur).
+* Il est interdit de fumer dans toute la maison.
+* L’allumage de bougies n’est pas autorisé sans l’autorisation des gestionnaires.
+* Toute personne non liée à la réservation qui veut entrer dans la maison doit en informer les gestionnaires et ne sera pas couverte par l’assurance.
+* Il est nécessaire de respecter la maison, la ville, l’environnement naturel et ses voisins, ainsi que leur repos.
+* La casse de tout élément de la maison qui provient d’une négligence ou d’une mauvaise utilisation sera facturée à la personne responsable de la réservation. Aussi il sera en cas de vol.
+* Des feuilles de réclamation sont à la disposition des clients.
+* Le déplacement des meubles (à l’exception des chaises) ne peut se faire qu’avec l’autorisation et la présence des gestionnaires.  
+* Seules les personnes majeures pourront faire du feu.
+* Si à l’entrée, plus de personnes viennent que celles notifiées à la réservation, et sous réserve que l’espace dans la maison soit suffisant, le coût leur sera facturé.
 
-### Informació complementària
+Le non-respect des réglementations suivantes donne le droit à Núria et à Jaume, les gestionnaires de Casa Bernat, de résilier le contrat avec les clients et donc supposer la fin immédiate de leur séjour dans la maison, sans aucune compensation économique.
 
-L'habitatge de la Núria i en Jaume dóna al pati i a la llúpia (galeria coberta). Es comprometen a no fer ús d'aquests espais durant l'estada dels hostes.
+**Informations complémentaires**
+
+La maison de Núria et Jaume donne sur la cour et la galerie couverte. Ils s’engagent à ne pas utiliser ces espaces pendant le séjour des clients et à fermer leurs vues.

@@ -1,22 +1,22 @@
 ---
-templateKey: zones-page
+templateKey: exteriors-page
 title: Maison Bernat d'Isil
 description: Tourisme rural et durable à Pallars Sobirà
 hero:
   image: /images/DSC01567.jpg
 section:
-  title: Espaces Communs
+  title: Dehors
   description: |-
-    Salle à manger-Cuisine entièrement équipée et avec cheminée.
+    Cour privée avec barbecue intégré.
 
-    Salon avec canapés et TV.
+    Llúpia (galerie couverte).
 
-    Toilettes de courtoisie au premier étage.
+    Ascenseur entre le rez-de-chaussée et le premier étage.
 
-    Salle de four traditionnelle avec bibliothèque
-
-    Consigne à bagages et équipements de nettoyage.
+    De la place pour ranger les skis et autres.
   details: >-
+    
+
     **Services Inclus**
 
 

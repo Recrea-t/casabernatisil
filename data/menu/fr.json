@@ -1,7 +1,7 @@
 {
   "menuItems": [
     {
-      "name": "Qui sommes nous",
+      "name": "Qui sommes-nous",
       "link": "/casa-bernat#qui-sommes-nous",
       "variant": "nav-sublink"
     },
@@ -11,13 +11,13 @@
       "variant": "nav-sublink"
     },
     {
-      "name": "Les espaces",
+      "name": "Les Espaces",
       "link": "/casa-bernat#espaces",
       "variant": "nav-sublink"
     },
     {
-      "name": "Réservations",
-      "link": "/reservations",
+      "name": "Réservation",
+      "link": "/reservation",
       "variant": "nav-link"
     },
     {
@@ -26,8 +26,8 @@
       "variant": "nav-link"
     },
     {
-      "name": "El Rebost",
-      "link": "/rebost",
+      "name": "Le Garde-manger",
+      "link": "/garde-manger",
       "variant": "nav-link"
     },
     {

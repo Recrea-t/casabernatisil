@@ -1,35 +1,35 @@
 ---
 templateKey: activities-page
-title: Casa Bernat
-description: Turisme rural i sostenible al Pallars Sobirà
+title: Bernat d'Isil House
+description: |
+  Rural and sustainable tourism in Pallars Sobirà
 hero:
   image: /images/DSC01567.jpg
 section:
   title: Activities
   description: >-
-    Els hostes gaudiran d'un 20% de descompte en les activitats que ofereixen la
-    Núria i en Jaume en la seva empresa d'activitats fisicoesportives
-    SnowCanyonPallars (enllaç) com són classes d'esquí, rutes en raquetes,
-    descens de barrancs, excursions, vies ferrades, acompanyaments i sortides
-    interpretatives de les Valls d'Àneu.
+    Guests will enjoy a 20% discount on activities offered by
+    [SnowCanyonPallars](http://www.snowcanyonpallars.com/), Núria’s and Jaume’s
+    venture of sports activities. They offer ski lessons, snowshoeing routes,
+    canyoning, trekking, via ferrata and guide services at Valls d’Àneu.
 
 
-    Isil i el Pallars Sobirà ofereixen una immensitat d'activitats per a tots els públics, des d'esportives a lúdiques, culturals i gastronòmiques.
+    Isil and Pallars Sobirà offer a wealth of activities for all audiences, from sports to leisure, culture and gastronomy.
 
 
-    A l'hivern la protagonista és la neu. Si us agrada esquiar a pistes tenim Baqueira-Beret (17min fins el pàrquing de La Peülla), Espot-Esquí, Port-Ainé i Tavascan. Si el que busqueu és esquí de fons tenim Tavascan, Virós-Vall Ferrera i Pla de Beret. El territori també ensofereix l'oportunitat de fer diferents rutes amb raquetes. I les opcions de rutes d'esquí de muntanya són inesgotables.
+    In winter, snow is king. If you like skiing, there are slopes in Baqueira-Beret (17min to the car park of La Peülla), Espot-Esquí, Port-Ainé and Tavascan. If you are looking for cross-country skiing, there is Tavascan, Virós-Vall Ferrera and Pla de Beret. The region also offers the opportunity to do different routes with snow rackets. And the options for ski mountaineering routes are endless.
 
 
-    A la primavera ja comença el bon temps per agafar la bicicleta, ja sigui la de carretera o la de muntanya. Per ambdues les Valls d'Àneu i el Pallars ofereixen uns itineraris espectaculars. També comencen les activitats d'aigua tan emocionants com els barrancs o el ràfting.
+    In spring, more moderate weather suggests taking the bike, whether it is the road or the mountain bike. Àneu and Pallars Valleys offer spectacular itineraries. This is also a great moment in the year to start engaging in water activities as exciting as canyoning or rafting.
 
 
-    A l'estiu podem seguir amb les activitats de primavera, i alhora, a Valls d'Àneu s'hi sumen els festivals culturals Esbaiola't, Dansàneu, Fira de la Cervesa d'Esterri d'Àneu, Festival de Música Antiga dels Pirineus, baixades de falles a Isil, València d'Àneu i Alós, festes majors cada cap de setmana i varies fires entre altres.
+    In summer, besides the spring activities, Valls d'Àneu hosts cultural festivals Esbaiola't, Dansàneu, Esterri d'Àneu Beer Fair, Festival of Ancient Music of the Pyrenees, descents of fallas in Isil, Valencia d'Àneu and Alós, festivals every weekend and several fairs among others.
 
 
-    I a la tardor és un moment increible per fer excursions, anar a buscar bolets o escoltar la brama del cérvol i contemplar el preciós espectacle dels colors dels boscos.
+    And in autumn, it is an incredible time to go hiking, go gathering mushrooms or listen to the deer’s roar and contemplate the beautiful natural spectacle of the forest and its colors.
 
 
-    Per més activitats i esdeveniments a la comarca, la Núria i en Jaume estem a la vostra disposició per informar-vos. També podeu estar informats de tot consultant el web de [Turisme de les Valls d'Aneu](https://www.turismevallsdaneu.com).
+    For more activities and events in the region, Núria and Jaume are at your disposal to inform you about the latest. You can also stay up to date by browsing the [Tourism of the Valls d'Àneu](https://www.turismevallsdaneu.com) website.
   images:
     - /images/DSC01333.jpg
     - /images/DSC01384.jpg

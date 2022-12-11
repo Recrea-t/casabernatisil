@@ -1,50 +1,52 @@
 ---
 templateKey: zones-page
-title: Casa Bernat
-description: Turisme rural i sostenible al Pallars Sobirà
+title: Casa Bernat d'Isil
+description: Turismo rural y sostenible en el Pallars Sobirà
 hero:
   image: /images/DSC01567.jpg
 section:
   title: Zonas Comunes
   description: |-
-    Menjador-Cuina completament equipada i amb llar de foc.
-    Sala d'estar amb sofàs i televisor.
-    Lavabo de cortesia a la primera planta.
-    Sala forn tradicional amb biblioteca
-    Sala guarda-maletes i estris de neteja
+    Comedor-Cocina completamente equipada y con hogar de fuego.
+
+    Sala de estar con sofás y televisor.
+
+    Lavabo de cortesía en la primera planta.
+
+    Sala del horno tradicional con biblioteca
+
+    Sala guarda-maletas y útiles de limpieza.
   details: >-
-    **Serveis inclosos**
+    **Servicios incluidos**
 
 
-    * Calefacció a totes les estances.
+    1. Calefacción en todas las estancias.
 
-    * Màquines de rentar i eixugar roba.
+    2. Lavadora y secadora de ropa.
 
-    * Wifi a tota la casa.
+    3. Wifi en toda la casa.
 
-    * Smart TV.
+    4. Smart TV.
 
-    * Endoll carregador per a vehicles elèctrics, amb facturació a banda.
+    5. Enchufe cargador para vehículos eléctricos, con facturación aparte.
 
-    * Eixugador de cabells a cada habitació.
+    6. Secador de cabello en cada habitación.
 
-    * Paelles i paeller de butà, per a l’exterior.
+    7. Paellas y paellero de butano, para el exterior.
 
-    * Electrodomèstics de la cuina: forn, microones, nevera americana, placa d’inducció,
+    8. Electrodomésticos de la cocina: horno, microondas, nevera americana, placa de inducción, tostadora, minipimer, cafetera italiana.
 
-    * torradora, minipimer, cafetera italiana.
+    9. Cubos de recogida selectiva.
 
-    * Cubells de recollida selectiva.
+    10. Leña para el hogar y la barbacoa.
 
-    * Llenya per a la llar de foc i la barbacoa.
-
-    * La casa disposa d’un llit bressol per un infant de menys de 3 anys.
+    11. La casa dispone de una cuna para un menor de 3 años.
 
 
-    **Serveis amb cost addicional**
+    **Servicios con coste adicional**
 
 
-    * El Rebost. Oferim esmorzars de dos tipus, el dolç i el salat. A més busquem oferir productes fets per nosaltres o pels artesans i productors del Pallars Sobirà.
+    1. La Despensa. Ofrecemos desayunos de dos tipos, el dulce y el salado. Además buscamos ofrecer productos hechos por nosotros o por los artesanos y productores de la comarca. 
 
-    * Neteja de la casa i canvis de llençols i tovalloles: Es poden demanar aquests serveis, amb facturació a banda.
+    2. Limpieza de la casa y cambios de sábanas y toallas: Se pueden pedir estos servicios, con facturación aparte.
 ---
