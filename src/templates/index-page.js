@@ -86,6 +86,7 @@ const IndexPage = props => {
         </Container>
       </Box>
 
+			{frontmatter.testimonials &&
       <Box bg="lightGrey.500" color="white">
         <Container mb={4} variant="is-section">
           <Heading as="h2" variant="in-section">
@@ -100,6 +101,7 @@ const IndexPage = props => {
           </HStack>
         </Container>
       </Box>
+			}
     </>
   )
 }
