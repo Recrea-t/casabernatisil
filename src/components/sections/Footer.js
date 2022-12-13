@@ -35,7 +35,9 @@ const Footer = props => {
       w="full"
       p={4}
       bg="white"
-      color="staleGrey.500"
+			color="staleGrey.500"
+			borderTopWidth="1px"
+			borderTopColor="sickGreen.500"
       {...props}
     >
       <Flex

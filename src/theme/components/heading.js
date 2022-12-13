@@ -9,7 +9,7 @@ export default {
     "in-hero": {
       fontSize: "2.4rem",
       fontWeight: "semibold",
-      color: "whiteBernat.500",
+      color: "white",
       textAlign: "right",
       mb: "0",
       textShadow: "0 0 2.4rem #696A6F",

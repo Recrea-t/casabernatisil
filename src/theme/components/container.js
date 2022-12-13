@@ -6,6 +6,7 @@ export default {
     "is-section": {
       textAlign: "center",
       mt: "8",
+			mb: "8"
     },
   },
 }

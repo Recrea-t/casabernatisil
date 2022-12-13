@@ -5,6 +5,7 @@ import {
   Box,
   Image,
   Modal,
+	IconButton,
   ModalOverlay,
   ModalContent,
   ModalCloseButton,
@@ -48,8 +49,10 @@ const Gallery = props => {
       slidesToScroll: 1,
       variableWidth: true,
       rows: 1,
-      prevArrow: <ChevronLeftIcon boxSize={8} h={8} w={8} color="white" />,
-      nextArrow: <ChevronRightIcon boxSize={8} h={8} w={8} color="white" />,
+      prevArrow:
+        <IconButton zIndex="2" size="sm" colorScheme="sickGreen" aria-label="Previous Picture"><ChevronLeftIcon boxSize={8}/></IconButton>,
+      nextArrow:
+        <IconButton zIndex="2" size="sm" colorScheme="sickGreen" aria-label="Next Picture"><ChevronRightIcon boxSize={8}/></IconButton>,
     },
   ])
 

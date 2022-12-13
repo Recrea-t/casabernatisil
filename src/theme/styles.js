@@ -15,8 +15,17 @@ const styles = {
         textDecoration: "underline",
         color: "sickGreen.500",
       },
-      li: {
+			li: {
+				listStyle: "none",
         margin: "0 !important",
+
+				"::before": {
+					content: '"\\2022"',
+					color: "sickGreen.500",
+					fontWeight: "bold",
+					display: "inline-block",
+					width: "1em",
+				},
       },
     },
     ".is-active": {
@@ -90,14 +99,21 @@ const styles = {
           },
         },
       },
+			".slick-arrow": {
+				position: "absolute",
+				bg: "sickGreen.500",
+				color: "white",
+
+				"::before": {
+					content: "none",
+				},
+			},
       ".slick-prev": {
         left: "0px",
-        "z-index": 100,
-        color: "white !important",
+
       },
       ".slick-next": {
         right: "2rem",
-        color: "white !important",
       },
     },
     [`@media screen and (min-width: ${props.theme.breakpoints.md})`]: {

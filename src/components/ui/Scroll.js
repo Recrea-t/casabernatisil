@@ -34,10 +34,11 @@ const Scroll = ({ showBelow }) => {
     <Box>
       {breakpoint && show && (
         <IconButton
-          zIndex="2"
+					size="sm"
+					zIndex="3"
           pos="fixed"
           bottom="2vh"
-          colorScheme="staleGrey"
+          colorScheme="sickGreen"
           right={["5%", "5%", "6.5%"]}
           onClick={handleClick}
           aria-label="to top"
