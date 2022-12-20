@@ -36,7 +36,5 @@ section:
     - /images/DSC01506.jpg
     - /images/DSC01530.jpg
     - /images/DSC01565.jpg
-    - /images/DSC01574.jpg
     - /images/DSC01454.jpg
-    - /images/preview-page0.jpeg
 ---
