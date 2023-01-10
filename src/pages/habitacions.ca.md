@@ -79,10 +79,18 @@ section:
 
     * Neteja de la casa i canvis de llençols i tovalloles: Es poden demanar aquests serveis, amb facturació a banda.
   images:
-    - /images/DSC01333.jpg
-    - /images/DSC01384.jpg
-    - /images/DSC01506.jpg
-    - /images/DSC01530.jpg
-    - /images/DSC01565.jpg
-    - /images/DSC01574.jpg
+    - /images/hab.a.jpg
+    - /images/lsv.a.jpg
+    - /images/hab.b.jpg
+    - /images/lav.b.jpg
+    - /images/hab.c.jpg
+    - /images/lab.c.jpg
+    - /images/hab.d.jpg
+    - /images/lav.d.jpg
+    - /images/hab.e.jpg
+    - /images/lab.e.jpg
+    - /images/hab.f.jpg
+    - /images/lav.f.jpg
+    - /images/hab.g.jpg
+    - /images/dsc01544.jpg
 ---
