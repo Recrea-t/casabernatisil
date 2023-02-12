@@ -4,11 +4,15 @@ import PropTypes from "prop-types"
 
 import { Container, Box, Heading } from "@chakra-ui/react"
 
+import ImportScript from "../hooks/misterplan"
+
 import SEO from "../components/SEO/seo"
 import Hero from "../components/sections/Hero"
 
 const ConfirmPage = props => {
   const { frontmatter } = props.data.default
+
+	ImportScript("https://www.mrplan.es/scr/modulos/budget/lib/TBudgetV2Inc.php?activehead=1")
 
   return (
     <>
@@ -21,9 +25,6 @@ const ConfirmPage = props => {
           </Heading>
 
 					<Box className="elp_Contenido TBudgetV2Inc_Confirmacion_evnt">
-						<script
-							src="https://www.mrplan.es/scr/modulos/budget/lib/TBudgetV2Inc.php?activehead=1">
-						</script>
 					</Box>
         </Container>
       </Box>

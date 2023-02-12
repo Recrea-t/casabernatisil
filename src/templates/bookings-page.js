@@ -4,6 +4,7 @@ import PropTypes from "prop-types"
 
 import { Container, Box, Heading } from "@chakra-ui/react"
 import { useLocale } from "../hooks/locale"
+import ImportScript from "../hooks/misterplan"
 
 import SEO from "../components/SEO/seo"
 import Hero from "../components/sections/Hero"
@@ -19,6 +20,8 @@ const BookingsPage = props => {
 		"fr": "3"
 	})
 
+	ImportScript("https://www.mrplan.es/experiencias/modulos/TWidget/lib/TWidgetInc.php")
+
   return (
     <>
       <SEO title={frontmatter.title} description={frontmatter.description} />
@@ -28,6 +31,7 @@ const BookingsPage = props => {
           <Heading as="h2" variant="in-section">
             {frontmatter.title}
           </Heading>
+
 
 					<Box
 						id="TEwsBuscadorB-1-1-582353-"
