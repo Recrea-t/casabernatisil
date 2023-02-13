@@ -12,6 +12,7 @@ export default {
       borderWidth: "none",
     },
     item: {
+        bg: "sickGreen.500",
       _focus: {
         bg: "sickGreen.500",
       },
