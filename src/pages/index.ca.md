@@ -49,4 +49,15 @@ services:
     description: Teniu a la vostra disposició el servei de trobar-vos al rebost i a
       la nevera els àpats que vulgueu fer al llarg de la vostra estada, a més,
       d’un seguit de productes artesans de la comarca.
+testimonials:
+  - name: David
+    place: Barcelona, CAT
+    Summary: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenen  elementum
+      ipsum nulla, nec iaculis purus consequat et. Donec nunc
+    image: /images/captura-de-pantalla-de-2021-04-26-17-56-12.png
+  - name: Prova
+    place: Lleida, CAT
+    Summary: Opiniooooooooooooooooooooooo
+    image: /images/docker.png
 ---

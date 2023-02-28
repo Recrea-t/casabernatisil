@@ -39,6 +39,7 @@ const query = graphql`
             rooms
             areas
             exteriors
+            testimonials
 
             whoId
             historyId

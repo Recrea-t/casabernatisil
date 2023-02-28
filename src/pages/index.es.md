@@ -43,4 +43,9 @@ services:
     description: Ofrecemos el servicio de disponer en la despensa y en la nevera las
       comidas que queráis hacer a lo largo de vuestra estancia, además, de una
       serie de productos artesanos de la comarca.
+testimonials:
+  - name: Joseba
+    place: Bilbo, EH
+    Summary: Jaia bai, borroka era bai
+    image: /images/preview-page0.jpeg
 ---

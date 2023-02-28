@@ -97,6 +97,24 @@ collections:
                   name: image
                   widget: image
                   allow_multiple: false
+            - label: Testimonis
+              name: testimonials
+              widget: list
+              fields:
+                - label: Nom
+                  name: name
+                  widget: string
+                - label: Lloc
+                  name: place
+                  widget: string
+                - label: Opinió
+                  name: Summary
+                  widget: text
+                - label: Imatge
+                  name: image
+                  widget: image
+                  required: false
+                  allow_multiple: false
         - name: 'casa-ca'
           label: Casa Bernat
           file: 'src/pages/casa-bernat.ca.md'
@@ -532,6 +550,24 @@ collections:
                   name: image
                   widget: image
                   allow_multiple: false
+            - label: Testimonis
+              name: testimonials
+              widget: list
+              fields:
+                - label: Nom
+                  name: name
+                  widget: string
+                - label: Lloc
+                  name: place
+                  widget: string
+                - label: Opinió
+                  name: Summary
+                  widget: text
+                - label: Imatge
+                  name: image
+                  widget: image
+                  required: false
+                  allow_multiple: false
         - name: 'casa-es'
           label: Casa Bernat
           file: 'src/pages/casa-bernat.es.md'
@@ -844,6 +880,24 @@ collections:
                   name: image
                   widget: image
                   allow_multiple: false
+            - label: Testimonis
+              name: testimonials
+              widget: list
+              fields:
+                - label: Nom
+                  name: name
+                  widget: string
+                - label: Lloc
+                  name: place
+                  widget: string
+                - label: Opinió
+                  name: Summary
+                  widget: text
+                - label: Imatge
+                  name: image
+                  widget: image
+                  required: false
+                  allow_multiple: false
         - name: 'casa-en'
           label: Casa Bernat
           file: 'src/pages/casa-bernat.en.md'
@@ -1155,6 +1209,24 @@ collections:
                 - label: Imatge
                   name: image
                   widget: image
+                  allow_multiple: false
+            - label: Testimonis
+              name: testimonials
+              widget: list
+              fields:
+                - label: Nom
+                  name: name
+                  widget: string
+                - label: Lloc
+                  name: place
+                  widget: string
+                - label: Opinió
+                  name: Summary
+                  widget: text
+                - label: Imatge
+                  name: image
+                  widget: image
+                  required: false
                   allow_multiple: false
         - name: 'casa-fr'
           label: Casa Bernat

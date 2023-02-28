@@ -18,7 +18,7 @@ const ContactPage = props => {
       <SEO title={frontmatter.title} description={frontmatter.description} />
       <Hero {...props} />
       <Box>
-        <Container variant="is-section">
+        <Container variant="is-section" mb={4}>
           <Heading as="h2" variant="in-section">
             {frontmatter.title}
           </Heading>

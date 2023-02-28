@@ -6,7 +6,6 @@ import { TriangleDownIcon } from "@chakra-ui/icons"
 
 const Testimonial = props => {
   const { testimonial } = props
-  const { hero } = props.data.images.frontmatter
 
   return (
     <VStack
@@ -15,18 +14,19 @@ const Testimonial = props => {
       spacing={1}
       justifyContent="space-between"
       textAlign="left"
+      alignItems="left"
       color="staleGrey.500"
+      w="418px"
+      minW={["75%", "50%"]}
     >
       <Text
         bg="white"
         borderRadius="2xl"
         p={4}
-        minH="310px"
-        minW="310px"
         pos="relative"
+        minH={["250px", "310px"]}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-        elementum ipsum nulla, nec iaculis purus consequat et. Donec nunc
+        {testimonial.Summary}
         <TriangleDownIcon
           w={8}
           h={8}
@@ -37,19 +37,21 @@ const Testimonial = props => {
         />
       </Text>
       <HStack w="full" pt={6} ps={2} spacing={2}>
-        <Image
-          borderRadius="full"
-          boxSize="150px"
-          alignSelf="baseline"
-          as={GatsbyImage}
-          image={getImage(hero)}
-          //alt={frontmatter.description}
-        />
+        {testimonial.image && (
+          <Image
+            borderRadius="full"
+            boxSize="150px"
+            alignSelf="baseline"
+            as={GatsbyImage}
+            image={getImage(testimonial.image)}
+            alt={testimonial.name}
+          />
+        )}
         <VStack spacing={1} textAlign="left">
           <Text w="full" textTransform="uppercase">
-            Nom
+            {testimonial.name}
           </Text>
-          <Text w="full">Ciutat, CAT</Text>
+          <Text w="full">{testimonial.place}</Text>
         </VStack>
       </HStack>
     </VStack>

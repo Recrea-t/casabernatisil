@@ -25,7 +25,7 @@ import Gallery from "../components/ui/Gallery"
 
 const IndexPage = props => {
   const { frontmatter } = props.data.default
-  const { spaces } = useTranslations()
+  const { spaces, testimonials } = useTranslations()
 
   return (
     <>
@@ -86,22 +86,20 @@ const IndexPage = props => {
         </Container>
       </Box>
 
-			{frontmatter.testimonials &&
-      <Box bg="lightGrey.500" color="white">
-        <Container mb={4} variant="is-section">
-          <Heading as="h2" variant="in-section">
-            Lorem ipsum dolor sit amet
-          </Heading>
-          <HStack spacing={16} className="scrollable">
-            <Testimonial {...props} />
-            <Testimonial {...props} />
-            <Testimonial {...props} />
-            <Testimonial {...props} />
-            <Testimonial {...props} />
-          </HStack>
-        </Container>
-      </Box>
-			}
+      {frontmatter.testimonials && (
+        <Box bg="lightGrey.500" color="white">
+          <Container mb={4} variant="is-section">
+            <Heading as="h2" variant="in-section">
+              {testimonials}
+            </Heading>
+            <HStack spacing={4} className="scrollable">
+              {frontmatter.testimonials.map((item, index) => (
+                <Testimonial testimonial={item} key={index} />
+              ))}
+            </HStack>
+          </Container>
+        </Box>
+      )}
     </>
   )
 }
@@ -159,6 +157,21 @@ export const query = graphql`
             }
           }
           description
+        }
+        testimonials {
+          name
+          place
+          Summary
+          image {
+            childImageSharp {
+              gatsbyImageData(
+                layout: CONSTRAINED
+                height: 78
+                placeholder: TRACED_SVG
+                formats: [AVIF, WEBP, AUTO]
+              )
+            }
+          }
         }
       }
     }
