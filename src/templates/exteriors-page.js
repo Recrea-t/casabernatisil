@@ -5,15 +5,26 @@ import PropTypes from "prop-types"
 import SEO from "../components/SEO/seo"
 import Hero from "../components/sections/Hero"
 import Section from "../components/sections/Section"
+import useTranslations from "../components/useTranslations"
 
 const ExteriorsPage = props => {
   const { frontmatter } = props.data.default
+  const { areas, rooms } = useTranslations()
+
+	const links = [{
+		to: "/habitacions",
+		textButton: rooms
+	}, {
+		to: "/zones-comuns",
+		textButton: areas
+	}
+	]
 
   return (
     <>
       <SEO title={frontmatter.title} description={frontmatter.description} />
       <Hero {...props} />
-      <Section {...props} />
+      <Section {...props} links={links} />
     </>
   )
 }
