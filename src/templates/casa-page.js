@@ -65,7 +65,7 @@ const CasaPage = props => {
             children={frontmatter.history.description}
           />
           <MotionText display="block" whileTap={{ scale: 0.95 }}>
-            <LocalizedLink to="/espais" variant="button" colorScheme="white">
+            <LocalizedLink to="/reserves" variant="button" colorScheme="white">
               {bookButton}
             </LocalizedLink>
           </MotionText>
@@ -104,7 +104,7 @@ const CasaPage = props => {
           </Heading>
           <Text mb={4}>{frontmatter.spaces.description}</Text>
           <MotionText display="block" whileTap={{ scale: 0.95 }}>
-            <LocalizedLink to="/espais" variant="button" colorScheme="white">
+            <LocalizedLink to="/reserves" variant="button" colorScheme="white">
               {bookButton}
             </LocalizedLink>
           </MotionText>
