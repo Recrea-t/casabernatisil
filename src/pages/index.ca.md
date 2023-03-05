@@ -55,7 +55,6 @@ testimonials:
     Summary: >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenen  elementum
       ipsum nulla, nec iaculis purus consequat et. Donec nunc
-    image: /images/captura-de-pantalla-de-2021-04-26-17-56-12.png
   - name: Prova
     place: Lleida, CAT
     Summary: Opiniooooooooooooooooooooooo

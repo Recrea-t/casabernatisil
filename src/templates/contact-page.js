@@ -23,6 +23,7 @@ const ContactPage = props => {
             {frontmatter.title}
           </Heading>
           <ReactMarkdown
+            linkTarget="_blank"
             components={ChakraUIRenderer()}
             children={frontmatter.summary}
           />

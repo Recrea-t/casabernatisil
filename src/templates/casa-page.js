@@ -35,7 +35,8 @@ const CasaPage = props => {
           <Stack direction={["column", "row"]} spacing={4} justify="center">
             <Box h="full" align="left" className="markdown">
               <ReactMarkdown
-                components={ChakraUIRenderer()}
+                linkTarget="_blank"
+								components={ChakraUIRenderer()}
                 children={frontmatter.who.description}
               />
             </Box>
@@ -61,6 +62,7 @@ const CasaPage = props => {
             {frontmatter.history.title}
           </Heading>
           <ReactMarkdown
+            linkTarget="_blank"
             components={ChakraUIRenderer()}
             children={frontmatter.history.description}
           />
@@ -84,6 +86,7 @@ const CasaPage = props => {
           className="markdown"
         >
           <ReactMarkdown
+            linkTarget="_blank"
             components={ChakraUIRenderer()}
             children={frontmatter.project.description}
           />

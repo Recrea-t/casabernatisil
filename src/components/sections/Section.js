@@ -31,6 +31,7 @@ const Section = props => {
 				)}
         <Box textAlign="left" className="markdown">
           <ReactMarkdown
+            linkTarget="_blank"
             components={ChakraUIRenderer()}
             children={frontmatter.section.description}
           />
@@ -41,6 +42,7 @@ const Section = props => {
         <Container variant="is-section">
           <Box textAlign="left" className="markdown">
             <ReactMarkdown
+							linkTarget="_blank"
               components={ChakraUIRenderer()}
               children={frontmatter.section.details}
             />

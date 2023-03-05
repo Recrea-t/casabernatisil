@@ -17,6 +17,7 @@ const GeneralPage = ({ data }) => {
       <SEO title={frontmatter.title} description={frontmatter.description} />
       <Container className="markdown" variant="with-top-padding" mb={8}>
         <ReactMarkdown
+          linkTarget="_blank"
           components={ChakraUIRenderer()}
           children={rawMarkdownBody}
         />

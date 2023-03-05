@@ -1,7 +1,7 @@
 import React from "react"
 
 import { VStack, HStack, Text, Image } from "@chakra-ui/react"
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import { GatsbyImage, getImage, StaticImage } from "gatsby-plugin-image"
 import { TriangleDownIcon } from "@chakra-ui/icons"
 
 const Testimonial = props => {
@@ -37,14 +37,24 @@ const Testimonial = props => {
         />
       </Text>
       <HStack w="full" pt={6} ps={2} spacing={2}>
-        {testimonial.image && (
+				{testimonial.image? (
           <Image
             borderRadius="full"
-            boxSize="150px"
+            boxSize="78px"
             alignSelf="baseline"
             as={GatsbyImage}
             image={getImage(testimonial.image)}
             alt={testimonial.name}
+          />
+				) : (
+          <StaticImage
+            borderRadius="full"
+            boxSize="150px"
+            alignSelf="baseline"
+            src="../../images/testimonial.png"
+            alt={testimonial.name}
+            layout="fixed"
+            placeholder="tracedSVG"
           />
         )}
         <VStack spacing={1} textAlign="left">
