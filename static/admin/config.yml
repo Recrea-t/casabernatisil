@@ -8,9 +8,9 @@ local_backend: true
 media_folder: static/images
 public_folder: /images
 
-site_url: https://casabernatisil.netlify.app
-display_url: https://casabernatisil.netlify.app
-logo_url: https://casabernatisil.netlify.app/images/Logo.png
+site_url: https://casabernatisil.com
+display_url: https://casabernatisil.com
+logo_url: https://casabernatisil.com/images/Logo.png
 
 show_preview_links: false
 
