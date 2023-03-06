@@ -41,4 +41,8 @@ services:
     image: /images/Rebost.png
     description: We can fill in your pantry for your entire stay if you wish to.
       Besides, we can offer a wide selection of local artisan products.
+testimonials:
+  - name: Test
+    place: Test, UK
+    Summary: Testing...
 ---
