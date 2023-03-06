@@ -45,4 +45,5 @@ testimonials:
   - name: Test
     place: Test, UK
     Summary: Testing...
+    image: /images/preview-page0.jpeg
 ---
