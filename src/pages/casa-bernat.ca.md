@@ -47,11 +47,11 @@ who:
     amb raquetes, descens de barrancs, excursions, vies ferrades, acompanyaments i sortides\
 
     interpretatives.
-  image: /images/DSC01333.jpg
+  image: /images/0ed53dcb-d4e7-4c27-9edf-388220bdea92.jpg
 history:
   title: Una mica d'història de la casa
-  description: Casa Bernat és una ‘casa gran’ al poble dIsil. Una casa amb molts
-    segles d'història. No en coneixem lorigen. Ja en el segle XVI hi ha
+  description: Casa Bernat és una ‘casa gran’ al poble d'Isil. Una casa amb molts
+    segles d'història. No en coneixem l'origen. Ja en el segle XVI hi ha
     documents referents a una compra de bestiar per part de Jaume Barado de Casa
     Bernat dIsil.
   images:
@@ -107,8 +107,8 @@ spaces:
       image: /images/DSC01530.jpg
     - title: Zones Comuns
       link: /zones-comuns
-      image: /images/DSC01352.jpg
+      image: /images/dsc01371.jpg
     - title: Exteriors
       link: /exteriors
-      image: /images/DSC01565.jpg
+      image: /images/dsc01687.jpg
 ---
