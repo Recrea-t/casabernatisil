@@ -40,7 +40,7 @@ who:
     nostre projecte de vida al Pallars.
 
 
-    A més de Casa Bernat, gestionem SnowCanyonPallars, la nostra petita empresa d’esports\
+    A més de Casa Bernat, gestionem **SnowCanyonPallars**, la nostra petita empresa d’esports\
 
     d’aventura i activitats a la natura. Per a totes les edats i nivells, fem classes d’esquí, sortides\
 
