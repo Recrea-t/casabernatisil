@@ -58,9 +58,9 @@ history:
     - /images/DSC01333.jpg
     - /images/DSC01384.jpg
     - /images/DSC01506.jpg
-    - /images/DSC01530.jpg
-    - /images/DSC01565.jpg
-    - /images/DSC01574.jpg
+    - /images/img_3803.jpg
+    - /images/img_3563.jpg
+    - /images/21152844-6d34-480b-b9be-5e58bc0b7b3e.jpg
 project:
   description: >-
     Té la façana principal arrebossada, indicatiu que va ser una casa pròspera.
@@ -68,7 +68,7 @@ project:
     paller.
 
 
-    Lany 2018 vam comprar la casa als hereus del matrimoni Busquet i Duran, que la van gaudir més de 50 anys com a casa destiueig.
+    L'any 2018 vam comprar la casa als hereus del matrimoni Busquet i Duran, que la van gaudir més de 50 anys com a casa destiueig.
 
 
     Vàrem fer el projecte i les reformes per transformar-la en la casa de turisme rural que és ara.
