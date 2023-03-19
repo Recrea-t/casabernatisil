@@ -321,11 +321,19 @@ collections:
                   name: description
                   widget: markdown
                 - label: Imatges
-                  name: images
+                  name: rooms
                   widget: list
                   minimize_collapsed: true
-                  label_singular: imatge
-                  field: { label: Imatge, name: image, widget: image}
+                  summary: '{{fields.alt}}'
+                  fields:
+                    - label: Imatge
+                      name: image
+                      widget: image
+                      allow_multiple: false
+                    - label: Nom Habitació
+                      name: alt
+                      widget: string
+                      required: false
                 - label: Detalls
                   name: details
                   widget: markdown

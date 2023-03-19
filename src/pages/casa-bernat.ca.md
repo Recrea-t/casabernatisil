@@ -94,7 +94,7 @@ project:
 
     Vàrem fer el projecte i les reformes per transformar-la en la casa de turisme rural que és ara.
   title: Projecte Casa Bernat
-  image: /images/DSC01352.jpg
+  image: /images/dsc01352.jpg
 spaces:
   title: Els Espais
   description: Casa Bernat és una casa típica del Pirineu de Lleida i funciona en

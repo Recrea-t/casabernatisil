@@ -31,11 +31,4 @@ section:
 
 
     Pour plus d’activités et d’événements dans la région, Núria et Jaume sont à votre disposition pour vous informer.  Vous pouvez également être informé de tout en consultant le site du [Tourisme des Vallées d’Àneu](https://www.turismevallsdaneu.com).
-  images:
-    - /images/DSC01333.jpg
-    - /images/DSC01384.jpg
-    - /images/DSC01506.jpg
-    - /images/DSC01530.jpg
-    - /images/DSC01565.jpg
-    - /images/DSC01574.jpg
 ---

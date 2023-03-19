@@ -78,7 +78,6 @@ project:
 
     Customer electric vehicles can be charged on site.
   title: Projecte Casa Bernat
-  image: /images/DSC01352.jpg
 spaces:
   title: Our Spaces
   description: Casa Bernat is a typical house of the Pyrenees and is rented as a

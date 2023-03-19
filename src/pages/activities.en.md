@@ -30,11 +30,4 @@ section:
 
 
     For more activities and events in the region, Núria and Jaume are at your disposal to inform you about the latest. You can also stay up to date by browsing the [Tourism of the Valls d'Àneu](https://www.turismevallsdaneu.com) website.
-  images:
-    - /images/DSC01333.jpg
-    - /images/DSC01384.jpg
-    - /images/DSC01506.jpg
-    - /images/DSC01530.jpg
-    - /images/DSC01565.jpg
-    - /images/DSC01574.jpg
 ---

@@ -49,7 +49,7 @@ section:
 
     * Calefacció a totes les estances.
 
-    * Wifi a tota la casa. 
+    * Wifi a tota la casa.
 
     * Smart TV.
 
@@ -59,7 +59,7 @@ section:
 
     * La casa disposa d’un llit bressol per un infant de menys de 3 anys.
 
-    * Electrodomèstics de la cuina: forn, microones, nevera americana, placa d’inducció, torradora, minipimer i cafetera italiana. 
+    * Electrodomèstics de la cuina: forn, microones, nevera americana, placa d’inducció, torradora, minipimer i cafetera italiana.
 
     * Cubells de recollida selectiva.
 
@@ -78,19 +78,33 @@ section:
     * **El Rebost**. Oferim esmorzars de dos tipus, el dolç i el salat. A més busquem oferir productes fets per nosaltres o pels artesans i productors del Pallars Sobirà.
 
     * Neteja de la casa i canvis de llençols i tovalloles: Es poden demanar aquests serveis, amb facturació a banda.
-  images:
-    - /images/hab.a.jpg
-    - /images/lsv.a.jpg
-    - /images/hab.b.jpg
-    - /images/lav.b.jpg
-    - /images/hab.c.jpg
-    - /images/lab.c.jpg
-    - /images/hab.d.jpg
-    - /images/lav.d.jpg
-    - /images/hab.e.jpg
-    - /images/lab.e.jpg
-    - /images/hab.f.jpg
-    - /images/lav.f.jpg
-    - /images/hab.g.jpg
-    - /images/dsc01544.jpg
+  rooms:
+    - image: /images/hab.a.jpg
+      alt: Prova 1
+    - image: /images/lsv.a.jpg
+      alt: ""
+    - image: /images/hab.b.jpg
+      alt: Prova 3
+    - image: /images/lav.b.jpg
+      alt: null
+    - image: /images/hab.c.jpg
+      alt: null
+    - image: /images/lab.c.jpg
+      alt: null
+    - image: /images/hab.d.jpg
+      alt: null
+    - image: /images/lav.d.jpg
+      alt: null
+    - image: /images/hab.e.jpg
+      alt: null
+    - image: /images/lab.e.jpg
+      alt: null
+    - image: /images/hab.f.jpg
+      alt: null
+    - image: /images/lav.f.jpg
+      alt: null
+    - image: /images/hab.g.jpg
+      alt: null
+    - image: /images/dsc01544.jpg
+      alt: null
 ---
