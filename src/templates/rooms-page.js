@@ -11,20 +11,22 @@ const RoomsPage = props => {
   const { frontmatter } = props.data.default
   const { areas, exteriors } = useTranslations()
 
-	const links = [{
-		to: "/zones-comuns",
-		textButton: areas
-	}, {
-		to: "/exteriors",
-		textButton: exteriors
-	}
-	]
+  const links = [
+    {
+      to: "/zones-comuns",
+      textButton: areas,
+    },
+    {
+      to: "/exteriors",
+      textButton: exteriors,
+    },
+  ]
 
   return (
     <>
       <SEO title={frontmatter.title} description={frontmatter.description} />
       <Hero {...props} />
-      <Section {...props} links={links} />
+      <Section {...props} section="rooms" links={links} />
     </>
   )
 }
@@ -72,24 +74,29 @@ export const query = graphql`
           }
         }
         section {
-          gallery: images {
-            childImageSharp {
-              gatsbyImageData(
-                layout: CONSTRAINED
-                height: 700
-                aspectRatio: 0.667
-                placeholder: BLURRED
-                formats: [AVIF, WEBP, AUTO]
-              )
+          gallery: rooms {
+            alt
+            image {
+              childImageSharp {
+                gatsbyImageData(
+                  layout: CONSTRAINED
+                  height: 700
+                  aspectRatio: 0.667
+                  placeholder: BLURRED
+                  formats: [AVIF, WEBP, AUTO]
+                )
+              }
             }
           }
-          images {
-            childImageSharp {
-              gatsbyImageData(
-                layout: FULL_WIDTH
-                placeholder: BLURRED
-                formats: [AVIF, WEBP, AUTO]
-              )
+          images: rooms {
+            image {
+              childImageSharp {
+                gatsbyImageData(
+                  layout: FULL_WIDTH
+                  placeholder: BLURRED
+                  formats: [AVIF, WEBP, AUTO]
+                )
+              }
             }
           }
         }

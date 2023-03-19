@@ -30,11 +30,4 @@ section:
 
 
     Para más actividades y eventos en la comarca, Núria y Jaume estamos a vuestra disposición para informaros.  También podéis informaros de todo consultando la web de [Turismo de Les Valls d'Àneu](https://www.turismevallsdaneu.com).
-  images:
-    - /images/DSC01333.jpg
-    - /images/DSC01384.jpg
-    - /images/DSC01506.jpg
-    - /images/DSC01530.jpg
-    - /images/DSC01565.jpg
-    - /images/DSC01574.jpg
 ---

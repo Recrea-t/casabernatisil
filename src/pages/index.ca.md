@@ -15,7 +15,7 @@ hero:
 mainTitle: Casa Bernat d'Isil
 images:
   - /images/DSC01333.jpg
-  - /images/DSC01352.jpg
+  - /images/dsc01352.jpg
   - /images/DSC01384.jpg
   - /images/DSC01454.jpg
   - /images/DSC01506.jpg
