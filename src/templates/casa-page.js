@@ -36,11 +36,12 @@ const CasaPage = props => {
             <Box h="full" align="left" className="markdown">
               <ReactMarkdown
                 linkTarget="_blank"
-								components={ChakraUIRenderer()}
+                components={ChakraUIRenderer()}
                 children={frontmatter.who.description}
               />
             </Box>
             <Image
+              minW="320px"
               as={GatsbyImage}
               image={getImage(props.data.images.frontmatter.who.image)}
               alt={frontmatter.who.title}
