@@ -1,10 +1,9 @@
+import React from "react"
 import CustomLayout from "./wrapPageElement"
 
 export const wrapPageElement = CustomLayout
 
-const React = require("react");
-
-exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
+export const onRenderBody = ({ setHeadComponents }, pluginOptions) => {
   if (process.env.NODE_ENV === "production" && process.env.METRICOOL_ID) {
     return setHeadComponents([
       <script
