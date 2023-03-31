@@ -58,9 +58,9 @@ history:
     - /images/img_3563.jpg
     - /images/img_3803.jpg
     - /images/21152844-6d34-480b-b9be-5e58bc0b7b3e.jpg
-    - /images/img_3803.jpg
-    - /images/img_3563.jpg
-    - /images/21152844-6d34-480b-b9be-5e58bc0b7b3e.jpg
+    - /images/dsc01357.jpg
+    - /images/dsc01577.jpg
+    - /images/dsc01384.jpg
 project:
   description: >-
     Té la façana principal arrebossada, indicatiu que va ser una casa pròspera.
