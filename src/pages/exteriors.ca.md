@@ -51,6 +51,6 @@ section:
     - /images/dsc01686.jpg
     - /images/dsc01687.jpg
     - /images/dsc01752.jpg
-    - /images/DSC01565.jpg
-    - /images/DSC01574.jpg
+    - /images/dsc02109.jpg
+    - /images/dji_0588.jpg
 ---
