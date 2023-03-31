@@ -1,7 +1,4 @@
 ---
-mainDescription: Vine a gaudir d'una casa amb encant, confortable i sostenible
-  al bell mig d’un poble de les Valls d'Àneu, al nord del Pallars Sobirà.
-templateKey: index-page
 title: Inici
 description: Turisme rural i sostenible al Pallars Sobirà
 hero:
@@ -13,9 +10,12 @@ hero:
     al Pallars Sobirà
   image: /images/DSC01567.jpg
 mainTitle: Casa Bernat d'Isil
+mainDescription: Vine a gaudir d'una casa amb encant, confortable i sostenible
+  al bell mig d’un poble de les Valls d'Àneu, al nord del Pallars Sobirà.
+templateKey: index-page
 images:
   - /images/DSC01333.jpg
-  - /images/dsc01352.jpg
+  - /images/dsc01318.jpg
   - /images/DSC01384.jpg
   - /images/DSC01454.jpg
   - /images/DSC01506.jpg
