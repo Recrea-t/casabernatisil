@@ -49,7 +49,7 @@ section:
     - /images/dsc01318.jpg
     - /images/dsc01346.jpg
     - /images/dsc01337.jpg
-    - /images/dsc01352.jpg
+    - /images/dsc01357.jpg
     - /images/dsc01395.jpg
     - /images/dsc01423.jpg
     - /images/dsc01885.jpg
