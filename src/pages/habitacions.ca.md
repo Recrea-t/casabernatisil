@@ -80,31 +80,31 @@ section:
     * Neteja de la casa i canvis de llençols i tovalloles: Es poden demanar aquests serveis, amb facturació a banda.
   rooms:
     - image: /images/hab.a.jpg
-      alt: Prova 1
+      alt: Vall del Rosari
     - image: /images/lsv.a.jpg
-      alt: ""
+      alt: Lavabo Vall del Rosari
     - image: /images/hab.b.jpg
-      alt: Prova 3
+      alt: Vall de Bonabé
     - image: /images/lav.b.jpg
-      alt: null
+      alt: Lavabo Vall de Bonabé
     - image: /images/hab.c.jpg
-      alt: null
+      alt: Estany d'Airoto
     - image: /images/lab.c.jpg
-      alt: null
+      alt: Lavabo Estany d'Airoto
     - image: /images/hab.d.jpg
-      alt: null
+      alt: Port de Salau
     - image: /images/lav.d.jpg
-      alt: null
+      alt: Lavabo Port de Salau
     - image: /images/hab.e.jpg
-      alt: null
+      alt: Port d'Aulà
     - image: /images/lab.e.jpg
-      alt: null
+      alt: Lavabo Port d'Aulà
     - image: /images/hab.f.jpg
-      alt: null
+      alt: Port de Calvera
     - image: /images/lav.f.jpg
-      alt: null
+      alt: Lavabo Port de Calvera
     - image: /images/hab.g.jpg
-      alt: null
+      alt: El Faro
     - image: /images/dsc01544.jpg
-      alt: null
+      alt: Lavabo el Faro
 ---
