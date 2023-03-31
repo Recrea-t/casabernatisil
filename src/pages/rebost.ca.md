@@ -17,9 +17,9 @@ section:
     Oferim dos tipus d'esmorzars, el dolç i el salat.
 
 
-    * Esmorzar dolç: pa de pagès, melmelada casolana, pastís o magdalenes casolanes, iogurt casolà, granola casolana, fruita del temps, sucs ecològics, llet, cafè i tes.
+    * **Esmorzar dolç:** pa de pagès, melmelada casolana, pastís o magdalenes casolanes, iogurt casolà, granola casolana, fruita del temps, sucs ecològics, llet, cafè i tes.
 
-    * Salat: pa de pagès, tomàquets, sucs ecològics, ous de les nostres gallines, xolís (embotit tradicional pallarès), bull, formatges artesanals del Pallars, cafè i tes.
+    * **Salat:** pa de pagès, tomàquets, sucs ecològics, ous de les nostres gallines, xolís (embotit tradicional pallarès), bull, formatges artesanals del Pallars, cafè i tes.
 
 
     Busquem en els esmorzars oferir productes fets per nosaltres o pels artesans i productors de la comarca.
@@ -32,7 +32,6 @@ section:
 
 
     Un cop feta la reserva de la casa, s'enviarà un formulari a través del qual podràs sol·licitar els serveis del Rebost.
-
 
 
     *\*En cas d'estades d'una setmana o més, es reposicionen els esmorzars cada tres dies.*
