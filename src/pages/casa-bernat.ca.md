@@ -40,7 +40,7 @@ who:
     nostre projecte de vida al Pallars.
 
 
-    A més de Casa Bernat, gestionem **SnowCanyonPallars**, la nostra petita empresa d’esports\
+    A més de Casa Bernat, gestionem **[SnowCanyonPallars](http://www.snowcanyonpallars.com/ca/)**, la nostra petita empresa d’esports\
 
     d’aventura i activitats a la natura. Per a totes les edats i nivells, fem classes d’esquí, sortides\
 
@@ -53,11 +53,11 @@ history:
   description: Casa Bernat és una ‘casa gran’ al poble d'Isil. Una casa amb molts
     segles d'història. No en coneixem l'origen. Ja en el segle XVI hi ha
     documents referents a una compra de bestiar per part de Jaume Barado de Casa
-    Bernat dIsil.
+    Bernat d'Isil.
   images:
-    - /images/DSC01333.jpg
-    - /images/DSC01384.jpg
-    - /images/DSC01506.jpg
+    - /images/img_3563.jpg
+    - /images/img_3803.jpg
+    - /images/21152844-6d34-480b-b9be-5e58bc0b7b3e.jpg
     - /images/img_3803.jpg
     - /images/img_3563.jpg
     - /images/21152844-6d34-480b-b9be-5e58bc0b7b3e.jpg
