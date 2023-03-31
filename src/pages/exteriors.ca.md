@@ -17,33 +17,31 @@ section:
 
     * Calefacció a totes les estances.
 
-    * Màquines de rentar i eixugar roba.
-
     * Wifi a tota la casa.
 
     * Smart TV.
 
-    * Endoll carregador per a vehicles elèctrics, amb facturació a banda.
+    * Màquines de rentar i eixugar roba.
 
     * Eixugador de cabells a cada habitació.
 
-    * Paelles i paeller de butà, per a l’exterior.
+    * La casa disposa d’un llit bressol per un infant de menys de 3 anys.
 
-    * Electrodomèstics de la cuina: forn, microones, nevera americana, placa d’inducció,
-
-    * torradora, minipimer, cafetera italiana.
+    * Electrodomèstics de la cuina: forn, microones, nevera americana, placa d’inducció, torradora, minipimer i cafetera italiana.
 
     * Cubells de recollida selectiva.
 
+    * Paelles i paeller de butà, per a l’exterior.
+
     * Llenya per a la llar de foc i la barbacoa.
 
-    * La casa disposa d’un llit bressol per un infant de menys de 3 anys.
+    * Endoll carregador per a vehicles elèctrics, amb facturació a banda.
 
 
     **Serveis amb cost addicional**
 
 
-    * El Rebost. Oferim esmorzars de dos tipus, el dolç i el salat. A més busquem oferir productes fets per nosaltres o pels artesans i productors del Pallars Sobirà.
+    * **El Rebost**. Oferim esmorzars de dos tipus, el dolç i el salat. A més busquem oferir productes fets per nosaltres o pels artesans i productors del Pallars Sobirà.
 
     * Neteja de la casa i canvis de llençols i tovalloles: Es poden demanar aquests serveis, amb facturació a banda.
   images:
