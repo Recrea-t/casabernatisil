@@ -30,9 +30,7 @@ section:
 
     * Paelles i paeller de butà, per a l’exterior.
 
-    * Electrodomèstics de la cuina: forn, microones, nevera americana, placa d’inducció,
-
-    * torradora, minipimer, cafetera italiana.
+    * Electrodomèstics de la cuina: forn, microones, nevera americana, placa d’inducció, torradora, minipimer, cafetera italiana.
 
     * Cubells de recollida selectiva.
 
