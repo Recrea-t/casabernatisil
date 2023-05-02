@@ -15,33 +15,39 @@ section:
     **Servicios incluidos**
 
 
-    1. Calefacción en todas las estancias.
+    * Calefacción en todas las estancias.
 
-    2. Lavadora y secadora de ropa.
+    * Wifi en toda la casa.
 
-    3. Wifi en toda la casa.
+    * Smart TV de 55''.
 
-    4. Smart TV.
+    * Máquinas de lavar y secar ropa.
 
-    5. Enchufe cargador para vehículos eléctricos, con facturación aparte.
+    * Secador de cabello en cada habitación.
 
-    6. Secador de cabello en cada habitación.
+    * La casa dispone de una cama cuna para un niño menor de 3 años.
 
-    7. Paellas y paellero de butano, para el exterior.
+    * Trona para niños.
 
-    8. Electrodomésticos de la cocina: horno, microondas, nevera americana, placa de inducción, tostadora, minipimer, cafetera italiana.
+    * Electrodomésticos de la cocina: horno, microondas, nevera americana, placa de inducción, torradora, minipimer y cafetera italiana.
 
-    9. Cubos de recogida selectiva.
+    * Trapos de cocina.
 
-    10. Leña para el hogar y la barbacoa.
+    * Cubos de recogida selectiva.
 
-    11. La casa dispone de una cuna para un menor de 3 años.
+    * Paellas y paellero de butano, por el exterior.
+
+    * Leña para la chimenea y la barbacoa.
+
+    * Enchufe cargador para vehículos eléctricos, con facturación aparte.
+
+    * Espacio para guardar maletas y utensilios de limpieza.
 
 
-    **Servicios con coste adicional**
+    **Servicios con precio adicional**
 
 
-    1. La Despensa. Ofrecemos desayunos de dos tipos, el dulce y el salado. Además buscamos ofrecer productos hechos por nosotros o por los artesanos y productores de la comarca. 
+    * **La Despensa**. Ofrecemos desayunos de dos tipos, el dulce y el salado. Además, buscamos ofrecer productos hechos por nosotros o por los artesanos y productores del Pallars Sobirà.
 
-    2. Limpieza de la casa y cambios de sábanas y toallas: Se pueden pedir estos servicios, con facturación aparte.
+    * Limpieza de la casa y cambios de sábanas y toallas durante la estancia: Se pueden pedir estos servicios, con facturación aparte.
 ---
