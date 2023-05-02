@@ -39,12 +39,12 @@ section:
     * Endoll carregador per a vehicles elèctrics, amb facturació a banda.
 
 
-    **Serveis amb cost addicional**
+    **Serveis amb preu addicional**
 
 
     * **El Rebost**. Oferim esmorzars de dos tipus, el dolç i el salat. A més busquem oferir productes fets per nosaltres o pels artesans i productors del Pallars Sobirà.
 
-    * Neteja de la casa i canvis de llençols i tovalloles: Es poden demanar aquests serveis, amb facturació a banda.
+    * Neteja de la casa i canvis de llençols i tovalloles durant l'estada: Es poden demanar aquests serveis, amb facturació a banda.
   images:
     - /images/dsc01318.jpg
     - /images/dsc01346.jpg
