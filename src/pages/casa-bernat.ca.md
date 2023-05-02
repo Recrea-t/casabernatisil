@@ -68,9 +68,6 @@ project:
     paller.
 
 
-    L'any 2018 vam comprar la casa als hereus del matrimoni Busquet i Duran, que la van gaudir més de 50 anys com a casa destiueig.
-
-
     Vàrem fer el projecte i les reformes per transformar-la en la casa de turisme rural que és ara.
 
 
@@ -84,15 +81,6 @@ project:
 
 
     **Casa Sostenible**
-
-
-    Té la façana principal arrebossada, indicatiu que va ser una casa pròspera. A finals del segle XVIII la casa ja comptava amb forn de pedra, estable i paller.
-
-
-    L'any 2018 vam comprar la casa als hereus del matrimoni Busquet i Duran, que la van gaudir més de 50 anys com a casa destiueig.
-
-
-    Vàrem fer el projecte i les reformes per transformar-la en la casa de turisme rural que és ara.
   title: Projecte Casa Bernat
   image: /images/dsc01352.jpg
 spaces:
