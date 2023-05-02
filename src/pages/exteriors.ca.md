@@ -19,7 +19,7 @@ section:
 
     * Wifi a tota la casa.
 
-    * Smart TV 55''.
+    * Smart TV de 55''.
 
     * Màquines de rentar i eixugar roba.
 
@@ -27,7 +27,11 @@ section:
 
     * La casa disposa d’un llit bressol per un infant de menys de 3 anys.
 
+    * Trona per infants. 
+
     * Electrodomèstics de la cuina: forn, microones, nevera americana, placa d’inducció, torradora, minipimer i cafetera italiana.
+
+    * Draps de cuina. 
 
     * Cubells de recollida selectiva.
 
@@ -36,6 +40,8 @@ section:
     * Llenya per a la llar de foc i la barbacoa.
 
     * Endoll carregador per a vehicles elèctrics, amb facturació a banda.
+
+    * Espai per guardar maletes i estris de neteja. 
 
 
     **Serveis amb preu addicional**
