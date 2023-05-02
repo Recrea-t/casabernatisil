@@ -81,6 +81,18 @@ project:
 
 
     **Casa Sostenible**
+
+
+    Hem aïllat tèrmicament totes les parets exteriors de la casa amb llana de roca, evitant els derivats del petroli.
+
+
+    A tota la casa predomina la fusta i la pedra.
+
+
+    La calefacció i laigua calenta sanitària salimenten denergia renovable, amb estella procedent del Pallars.
+
+
+    Disposem d'un endoll per a recàrrega de vehicle elèctric per als clients.
   title: Projecte Casa Bernat
   image: /images/dsc01352.jpg
 spaces:
