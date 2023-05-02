@@ -47,9 +47,6 @@ project:
     establo y pajar. 
 
 
-    En el año 2018 compramos la casa a los herederos del matrimonio Busquet i Duran, que la disfrutaron más de 50 años como casa de veraneo.
-
-
     Hicimos el proyecto y las reformas para transformarla en la casa de turismo rural que es ahora.
 
 
