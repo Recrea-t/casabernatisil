@@ -32,7 +32,7 @@ who:
 
     voluntari.\
 
-    La Núria és geòloga, professora d'esquí i guia de la Casa de l’Os Bru del Pirineu.¸
+    La Núria és geòloga i professora. 
 
 
     Ambdós som nascuts al Vallès Occidental i vam decidir deixar la ciutat per començar el\
@@ -52,15 +52,14 @@ history:
   title: Una mica d'història de la casa
   description: Casa Bernat és una ‘casa gran’ al poble d'Isil. Una casa amb molts
     segles d'història. No en coneixem l'origen. Ja en el segle XVI hi ha
-    documents referents a una compra de bestiar per part de Jaume Barado de Casa
-    Bernat d'Isil.
+    documents referents a Casa Bernat.
   images:
-    - /images/img_3563.jpg
-    - /images/img_3803.jpg
-    - /images/21152844-6d34-480b-b9be-5e58bc0b7b3e.jpg
-    - /images/dsc01357.jpg
-    - /images/dsc01577.jpg
-    - /images/dsc01384.jpg
+    - /images/whatsapp-image-2023-05-14-at-00.28.32.jpeg
+    - /images/whatsapp-image-2023-05-14-at-00.29.10.jpeg
+    - /images/whatsapp-image-2023-04-22-at-12.40.48.jpeg
+    - /images/whatsapp-image-2023-04-22-at-12.41.47.jpeg
+    - /images/whatsapp-image-2023-04-22-at-12.48.14.jpeg
+    - /images/whatsapp-image-2023-04-22-at-12.54.14.jpeg
 project:
   description: >-
     Té la façana principal arrebossada, indicatiu que va ser una casa pròspera.
