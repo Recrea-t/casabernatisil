@@ -38,7 +38,7 @@ section:
     *\*In case of stays of one week or more, breakfasts are re-stocked every three days.*
   images:
     - /images/DSC01333.jpg
-    - /images/DSC01384.jpg
+    - /images/dsc01384.jpg
     - /images/DSC01506.jpg
     - /images/DSC01530.jpg
     - /images/DSC01565.jpg

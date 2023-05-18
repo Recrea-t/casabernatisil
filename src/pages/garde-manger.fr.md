@@ -42,7 +42,7 @@ section:
     *\*En cas de séjours d’une semaine ou plus, les petits déjeuners sont repositionnés tous les trois jours.*
   images:
     - /images/DSC01333.jpg
-    - /images/DSC01384.jpg
+    - /images/dsc01384.jpg
     - /images/DSC01506.jpg
     - /images/DSC01530.jpg
     - /images/DSC01565.jpg

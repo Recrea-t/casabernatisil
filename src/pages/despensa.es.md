@@ -15,7 +15,7 @@ section:
     En caso de estancias largas, se proveerá atendiendo a la duración de conservación de los productos.
 
 
-    Ofrecemos dos tipos de desayunos, el dulce y el salado. 
+    Ofrecemos dos tipos de desayunos, el dulce y el salado.
 
 
     * Desayuno dulce: pan de payés, mermelada casera, pastel o magdalenas caseras, yogur casero, mezcla casera de frutos secos y cereales, fruta del tiempo, jugos ecológicos, leche, café y tes.
@@ -37,7 +37,7 @@ section:
     *\*En caso de estancias de una semana o más, se reposicionan los desayunos cada tres días.*
   images:
     - /images/DSC01333.jpg
-    - /images/DSC01384.jpg
+    - /images/dsc01384.jpg
     - /images/DSC01506.jpg
     - /images/DSC01530.jpg
     - /images/DSC01565.jpg

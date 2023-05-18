@@ -11,7 +11,7 @@ section:
     els públics, des d'esportives a lúdiques, culturals i gastronòmiques.
 
 
-    * A l'**hivern** la protagonista és la neu. Tenim [Baqueira-Beret](https://www.baqueira.es) (17min fins el pàrquing de La Peülla), [Espot-Esquí](https://www.espotesqui.cat), [Port-Ainé](https://www.portaine.cat/hivern/) i [Tavascan](https://tavascan.net/es/).  El territori també ensofereix l'oportunitat de fer diferents rutes amb raquetes i esquí de muntanya. 
+    * A l'**hivern** la protagonista és la neu. Tenim [Baqueira-Beret](https://www.baqueira.es) (17min fins el pàrquing de La Peülla), [Espot-Esquí](https://www.espotesqui.cat), [Port-Ainé](https://www.portaine.cat/hivern/) i [Tavascan](https://tavascan.net/es/).  El territori també ensofereix l'oportunitat de fer diferents rutes amb raquetes i esquí de muntanya.
 
     * A la **primavera** les Valls d'Àneu i el Pallars ofereixen uns itineraris per poder gaudir de la bicicleta espectaculars. També comencen les activitats d'aigua tan emocionants com els barrancs o el ràfting.
 
@@ -26,7 +26,7 @@ section:
     Els hostes gaudiran d'un **20% de descompte** en les activitats que ofereixen la Núria i en Jaume en la seva empresa d'activitats fisicoesportives [SnowCanyonPallars](http://www.snowcanyonpallars.com/ca/) com són classes d'esquí, rutes en raquetes, descens de barrancs, excursions, vies ferrades, acompanyaments i sortides interpretatives de les Valls d'Àneu.
   images:
     - /images/DSC01333.jpg
-    - /images/DSC01384.jpg
+    - /images/dsc01384.jpg
     - /images/DSC01506.jpg
     - /images/DSC01530.jpg
     - /images/DSC01565.jpg

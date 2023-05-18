@@ -16,7 +16,7 @@ templateKey: index-page
 images:
   - /images/DSC01333.jpg
   - /images/dsc01318.jpg
-  - /images/DSC01384.jpg
+  - /images/dsc01384.jpg
   - /images/DSC01454.jpg
   - /images/DSC01506.jpg
   - /images/DSC01530.jpg
