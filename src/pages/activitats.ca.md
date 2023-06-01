@@ -25,9 +25,9 @@ section:
 
     Els hostes gaudiran d'un **20% de descompte** en les activitats que ofereixen la Núria i en Jaume en la seva empresa d'activitats fisicoesportives [SnowCanyonPallars](http://www.snowcanyonpallars.com/ca/) com són classes d'esquí, rutes en raquetes, descens de barrancs, excursions, vies ferrades, acompanyaments i sortides interpretatives de les Valls d'Àneu.
   images:
-    - /images/DSC01333.jpg
-    - /images/dsc01384.jpg
-    - /images/DSC01506.jpg
-    - /images/DSC01530.jpg
-    - /images/DSC01565.jpg
+    - /images/4f690168-f145-4ac3-b080-6659b2a7736c.jpg
+    - /images/a4e32aab-5a0e-4bb8-b9b4-c719a3b874e4.jpg
+    - /images/dsc09197.jpg
+    - /images/dsc09187.jpg
+    - /images/a3f4e95d-679a-4507-9016-d192c4c41cb1.jpg
 ---
