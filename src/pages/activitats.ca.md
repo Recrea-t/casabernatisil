@@ -13,11 +13,19 @@ section:
 
     * A l'**hivern** la protagonista és la neu. Tenim [Baqueira-Beret](https://www.baqueira.es) (17min fins el pàrquing de La Peülla), [Espot-Esquí](https://www.espotesqui.cat), [Port-Ainé](https://www.portaine.cat/hivern/) i [Tavascan](https://tavascan.net/es/).  El territori també ensofereix l'oportunitat de fer diferents rutes amb raquetes i esquí de muntanya.
 
+
+
     * A la **primavera** les Valls d'Àneu i el Pallars ofereixen uns itineraris per poder gaudir de la bicicleta espectaculars. També comencen les activitats d'aigua tan emocionants com els barrancs o el ràfting.
+
+
 
     * A l'**estiu** podem seguir amb les activitats de primavera, i alhora, a les Valls d'Àneu s'hi sumen els festivals culturals [Esbaiola't](https://festivalesbaiolat.cat/), [Dansàneu](https://www.dansaneu.cat/), Fira de la Cervesa d'Esterri d'Àneu, Festival de Música Antiga dels Pirineus, baixades de [falles a Isil](http://www.fallesisil.cat/), València d'Àneu i Alós, festes majors cada cap de setmana i varies fires entre altres.
 
+
+
     * I a la **tardor** és un moment increible per fer excursions, anar a buscar bolets o escoltar la brama del cérvol i contemplar el preciós espectacle dels colors dels boscos.
+
+
 
 
     Per més activitats i esdeveniments a la comarca, la Núria i en Jaume estem a la vostra disposició per informar-vos. També podeu estar informats de tot consultant el web de [Turisme de les Valls d'Aneu](https://www.turismevallsdaneu.com).
