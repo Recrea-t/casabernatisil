@@ -1,8 +1,4 @@
 ---
-mainDescription: Ven a disfrutar de una casa con encanto, confortable y
-  sostenible en medio de un pueblo de Les Valls d'Àneu, al norte del Pallars
-  Sobirà.
-templateKey: index-page
 title: Inicio
 description: Turismo rural y sostenible en el Pallars Sobirà
 hero:
@@ -14,6 +10,10 @@ hero:
     en el Pallars Sobirà
   image: /images/DSC01567.jpg
 mainTitle: Casa Bernat d'Isil
+mainDescription: Ven a disfrutar de una casa con encanto, confortable y
+  sostenible en medio de un pueblo de Les Valls d'Àneu, al norte del Pallars
+  Sobirà.
+templateKey: index-page
 whyTitle: POR QUÉ ESCOGER CASA BERNAT
 why:
   - name: Capacidad para quince personas
@@ -33,10 +33,11 @@ services:
   - name: Actividades
     link: activitats
     image: /images/Activities.png
-    description: Con el alojamiento en Casa Bernat, dispondréis de un 20% de
-      descuento en SnowCanyonPallars, nuestra sección de actividades deportivas.
-      Ofrecemos clases de esquí, salidas con raquetas, descenso de barrancos,
-      excursiones, vías ferratas, acompañamientos y salidas interpretativas.
+    description: "Con el alojamiento en Casa Bernat, dispondréis de descuento en las
+      actividades deportivas que ofrecemos: un 15% en clases de esquí, y un 10%
+      en salidas con esquís de travesía, salidas con raquetas, descenso de
+      barrancos, excursiones, vías ferratas, acompañamientos y salidas
+      interpretativas."
   - name: La Despensa
     link: rebost
     image: /images/Rebost.png
