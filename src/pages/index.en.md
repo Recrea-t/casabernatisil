@@ -1,7 +1,4 @@
 ---
-mainDescription: Come and enjoy a charming, comfortable and sustainable house in
-  the middle of a village in the Valls d'Àneu, north of Pallars Sobirà.
-templateKey: index-page
 title: Home
 description: Rural and sustainable tourism in Pallars Sobirà
 hero:
@@ -13,6 +10,9 @@ hero:
     in Pallars Sobirà
   image: /images/DSC01567.jpg
 mainTitle: Bernat d'Isil House
+mainDescription: Come and enjoy a charming, comfortable and sustainable house in
+  the middle of a village in the Valls d'Àneu, north of Pallars Sobirà.
+templateKey: index-page
 whyTitle: WHY TO CHOOSE CASA BERNAT
 why:
   - name: Capacity for fifteen guests
@@ -32,8 +32,8 @@ services:
   - name: Activities
     link: activitats
     image: /images/Activities.png
-    description: Enjoy a 20% discount on our sports activities venture
-      (SnowCanyonPallars) while staying at Casa Bernat. We offer ski lessons,
+    description: Enjoy a discount on our sports activities venture while staying at
+      Casa Bernat. We offer 15%  on ski lessons, and 10% on ski-touring trips,
       snowshoeing trips, canyoning, trekking, via ferrata, and guide services,
       and interpretative outings.
   - name: Pantry
