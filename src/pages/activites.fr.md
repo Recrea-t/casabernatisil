@@ -7,12 +7,11 @@ hero:
 section:
   title: Activités
   description: >-
-    Les clients bénéficieront d’une réduction de 20% sur les activités proposées
-    par Núria et Jaume dans sa section d’activités physiques et sportives
-    [SnowCanyonPallars](http://www.snowcanyonpallars.com/) telles que des cours
-    de ski, des itinéraires de raquette, du canyoning, des excursions, de
-    l’alpinisme, des accompagnements et des sorties d’interprétation des Vallées
-    d’Àneu.
+    Les clients bénéficieront d’une réduction sur les activités proposées par
+    Núria et Jaume dans sa section d’activités physiques et sportives telles que
+    15% sur cours de ski, et 10% en tours du ski-randonnée, des itinéraires de
+    raquette, du canyoning, des excursions, de l’alpinisme, des accompagnements
+    et des sorties d’interprétation des Vallées d’Àneu.
 
 
     Isil et Pallars Sobirà offrent une immensité d’activités pour tous les publics, du sport aux loisirs, la culture et la gastronomie.
