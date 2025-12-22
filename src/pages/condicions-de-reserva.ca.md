@@ -16,16 +16,15 @@ En aquest apartat sespecifiquen les condicions i normatives de Casa Bernat.
 
 **Polítiques de cancel·lació**
 
-* Si es cancel·la la reserva més de 30 dies abans de la data d'arribada, es retorna el 100% del pagament.
-* Si es cancel·la fins 15 dies abans, es retorna el 75% del pagament.
-* Si es cancel·la amb menys de 15 dies d'antelació, es retorna el 50% del pagament.
-* Si es cancel·la amb menys de 7 dies, no es retorna cap import.
+* Si es cancel·la la reserva més de 30 dies abans de la data d'arribada, es retorna la bestreta.
+* Si es cancel·la fins 15 dies abans, es guarda el 50% de la bestreta per una nova reserva.
 
 **Normativa de Casa Bernat**
 
 La Núria i en Jaume, gestors de Casa Bernat, es reserven el dret d'admissió.
 
 * Els horaris del primer i últim dia:
+
   * Entrada a partir de les 5 de la tarda.
   * Sortida a les 11 del matí.
 * Prèvia consulta, Casa Bernat podrà custodiar l'equipatge abans de l'entrada o després de la sortida.
@@ -42,9 +41,8 @@ La Núria i en Jaume, gestors de Casa Bernat, es reserven el dret d'admissió.
 * Només podran fer foc els majors de d'edat.
 * Si a l'entrada, venen més persones més de les notificades a l'entrada, en cas de cabre-hi a la casa, se'ls cobrarà.
 
-
 El no compliment de la següent normativa dóna dret a la Núria i en Jaume, gestors de Casa Bernat, de rescindir el contracte amb els hostes i suposar, per tant, la fi immediata de la seva estada a la casa, sense cap retorn econòmic.
 
 **Informació complementària**
 
-L'habitatge de la Núria i en Jaume dóna al pati i a la llúpia (galeria coberta). Es comprometen a no fer ús d'aquests espais durant l'estada dels hostes.
+L'habitatge de la Núria i en Jaume dóna al pati i a la llúpia (terrassa coberta). Es comprometen a no fer ús d'aquests espais durant l'estada dels hostes.
