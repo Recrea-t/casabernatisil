@@ -7,11 +7,10 @@ hero:
 section:
   title: Actividades
   description: >-
-    Los huéspedes disfrutarán de un 20% de descuento en las actividades que
-    ofrecen Núria y Jaume en su empresa de actividades físico-deportivas
-    [SnowCanyonPallars](http://www.snowcanyonpallars.com/) tales como clases de
-    esquí, rutas en raquetas, descenso de barrancos, excursiones, vías ferratas,
-    acompañamientos y salidas interpretativas de Les Valls d'Àneu.
+    Los huéspedes disfrutarán de descuento en las actividades que ofrecen Núria
+    y Jaume de un 15% en clases de esquí y un 10% en salidas con esquís de
+    travesía, rutas en raquetas, descenso de barrancos, excursiones, vías
+    ferratas, acompañamientos y salidas interpretativas de Les Valls d'Àneu.
 
 
     Isil y el Pallars Sobirà ofrecen una inmensidad de actividades para todos los públicos, desde deportivas a lúdicas, culturales y gastronómicas.
