@@ -19,16 +19,15 @@ Cette section précise les conditions et règlements de Casa Bernat.
 
 **Conditions d’annulation**
 
-1. En cas d’annulation plus de 30 jours avant la date d’arrivée, 100% du paiement est remboursé.
-2. En cas d’annulation jusqu’à 15 jours avant, 75% du paiement sera remboursé.
-3. En cas d’annulation moins de 15 jours à l’avance, 50% du paiement sera remboursé.
-4. En cas d’annulation avec moins de 7 jours, aucun montant n’est remboursé.
+1. En cas d’annulation plus de 30 jours avant la date d’arrivée, le paiement est remboursé.
+2. En cas d’annulation jusqu’à 15 jours avant, 50% du paiement est conservé pour une nouvelle réservation.
 
 **Normativa de Casa Bernat**
 
 Núria et Jaume, gérants de Casa Bernat, se réservent le droit d’admission.
 
 * Les horaires du premier et du dernier jour :
+
   * Check-in à partir de 17h. 
   * Départ à 11 heures du matin.
 * Après consultation, Casa Bernat peut garder vos bagages avant l’enregistrement ou après le départ.
