@@ -20,16 +20,15 @@ This section specifies the conditions and regulations of Casa Bernat.
 
 **Cancellation policies**
 
-* If cancelled more than 30 days before date of arrival, 100% of the payment will be refunded.
-* If cancelled up to 15 days before, 75% of the payment will be refunded.
-* If cancelled less than 15 days in advance, 50% of the payment will be refunded.
-* If cancelled with less than 7 days, no amount is refunded.
+* If cancelled more than 30 days before date of arrival, the payment will be refunded.
+* If cancelled up to 15 days before, 50% of the payment is kept for a new reservation.
 
 **Rules and regulations at Casa Bernat**
 
 Núria and Jaume, managers of Casa Bernat, reserve the right to refuse admission.
 
 * Check-in and check-out time:
+
   * Check-in from 5 pm.
   * Check-out before 11 am.
 * At your request, Casa Bernat may store your luggage before check-in or after check-out. 
