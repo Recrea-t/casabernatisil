@@ -19,16 +19,15 @@ En este apartado se especifican las condiciones y normativas de Casa Bernat.
 
 **Políticas de cancelación**
 
-* Si se cancela la reserva más de 30 días antes de la fecha de llegada, se devuelve el 100% del pago.
-* Si se cancela hasta 15 días antes, se devuelve el 75% del pago.
-* Si se cancela con menos de 15 días de antelación, se devolverá el 50% del pago.
-* Si se cancela con menos de 7 días, no se devuelve ningún importe.
+* Si se cancela la reserva más de 30 días antes de la fecha de llegada, se devuelve el anticipo.
+* Si se cancela hasta 15 días antes, se guarda el 5o% del anticipo a favor de una nueva reserva.
 
 **Normativa de Casa Bernat**
 
 Núria y Jaume, gestores de Casa Bernat, se reservan el derecho de admisión.
 
 * Los horarios del primer y último día: 
+
   * Entrada a partir de las 5 de la tarde. 
   * Salida a las 11 de la mañana.  
 * Previa consulta, Casa Bernat podrá custodiar el equipaje antes de la entrada o después de la salida.
