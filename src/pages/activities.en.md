@@ -8,9 +8,8 @@ hero:
 section:
   title: Activities
   description: >-
-    Guests will enjoy a 20% discount on activities offered by
-    [SnowCanyonPallars](http://www.snowcanyonpallars.com/), Núria’s and Jaume’s
-    venture of sports activities. They offer ski lessons, snowshoeing routes,
+    Guests will enjoy a discount on activities offered by Núria and Jaume. They
+    offer 15% on ski lessons, and 10% on ski-touring trips, snowshoeing routes,
     canyoning, trekking, via ferrata and guide services at Valls d’Àneu.
 
 
